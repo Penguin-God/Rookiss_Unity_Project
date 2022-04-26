@@ -5,7 +5,7 @@ using UnityEngine;
 public class Managers : MonoBehaviour
 {
     private static Managers instance;
-    public static Managers Instance
+    private static Managers Instance
     {
         get
         {
@@ -21,5 +21,13 @@ public class Managers : MonoBehaviour
 
             return instance;
         }
+    }
+
+    InputManager _input = new InputManager();
+    public static InputManager Input { get { return Instance._input; } }
+
+    void Update()
+    {
+        _input.OnUpdate();
     }
 }
