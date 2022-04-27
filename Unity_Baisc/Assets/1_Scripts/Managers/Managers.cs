@@ -24,7 +24,10 @@ public class Managers : MonoBehaviour
     }
 
     InputManager _input = new InputManager();
-    public static InputManager Input { get { return Instance._input; } }
+    ResourcesManager _resources = new ResourcesManager();
+
+    public static InputManager Input => Instance._input;
+    public static ResourcesManager Resources => Instance._resources;
 
     void Update()
     {
