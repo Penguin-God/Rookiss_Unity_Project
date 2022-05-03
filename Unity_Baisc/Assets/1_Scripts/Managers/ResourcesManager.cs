@@ -14,10 +14,10 @@ public class ResourcesManager
         GameObject prefab = Load<GameObject>($"Prefabs/{path}");
         if(prefab == null)
         {
-            Debug.LogError($"Ã£À» ¼ö ¾ø´Â Resources °æ·Î {path}");
+            Debug.LogError($"ì°¾ì„ ìˆ˜ ì—†ëŠ” Resources ê²½ë¡œ {path}");
             return null;
         }
 
-        return Object.Instantiate(prefab, parent); // Instantiate Àç±ÍÈ£Ãâ ¹æÁö·Î Object. ºÙÀÓ
+        return Object.Instantiate(prefab, parent); // Instantiate ì¬ê·€í˜¸ì¶œ ë°©ì§€ë¡œ Object. ë¶™ì„
     }
 }

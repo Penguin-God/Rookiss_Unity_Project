@@ -16,8 +16,8 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.W))
         {
-            // Quaternion.LookRotation(Vector3) : ÀÎÀÚ°ª¿¡ µé¾î°£ Vector3ÁÂÇ¥¸¦ ¹Ù¶óº¸´Â ÄõÅÍ´Ï¾ğ return
-            // transform.Translate()´Â ÀÌµ¿ ¹æÇâÀÌ ÀÚ±â ±âÁØÀÌ¶ó ÀÌ·¸°Ô ¹æÇâÀ» ¹Ù²ãÁÙ °Å¸é ±×³É transform.position¿¡ Á÷»§À¸·Î ´õÇÏ´Â°Ô ³ªÀ½
+            // Quaternion.LookRotation(Vector3) : ì¸ìê°’ì— ë“¤ì–´ê°„ Vector3ì¢Œí‘œë¥¼ ë°”ë¼ë³´ëŠ” ì¿¼í„°ë‹ˆì–¸ return
+            // transform.Translate()ëŠ” ì´ë™ ë°©í–¥ì´ ìê¸° ê¸°ì¤€ì´ë¼ ì´ë ‡ê²Œ ë°©í–¥ì„ ë°”ê¿”ì¤„ ê±°ë©´ ê·¸ëƒ¥ transform.positionì— ì§ë¹µìœ¼ë¡œ ë”í•˜ëŠ”ê²Œ ë‚˜ìŒ
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(Vector3.forward), 0.2f);
             transform.position += Vector3.forward * Time.deltaTime * speed;
         }
