@@ -39,20 +39,14 @@ public class PlayerController : MonoBehaviour
 
     private void UpdateIdle()
     {
-        wait_run_ratio = Mathf.Lerp(wait_run_ratio, 0, 10.0f * Time.deltaTime);
-        _anim.SetFloat("wait_run_ratio", wait_run_ratio);
-        _anim.Play("WAIT_RUN");
+        _anim.SetBool("IsRun", false);
     }
 
     private void UpdateMove()
     {
+        _anim.SetBool("IsRun", true);
         MoveToDestination();
-        wait_run_ratio = Mathf.Lerp(wait_run_ratio, 1, 10.0f * Time.deltaTime);
-        _anim.SetFloat("wait_run_ratio", wait_run_ratio);
-        _anim.Play("WAIT_RUN");
     }
-
-
 
     void MouseDownAction(Define.MouseEvent mouseEvent)
     {
