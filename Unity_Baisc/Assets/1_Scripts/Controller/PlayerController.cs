@@ -13,7 +13,6 @@ enum PlayerState
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] float speed;
-    //[SerializeField] bool _isMoveToDestination;
 
     PlayerState _state = PlayerState.Idle;
     Animator _anim;
@@ -24,9 +23,9 @@ public class PlayerController : MonoBehaviour
         _anim = GetComponent<Animator>();
         Managers.Input.OnMouseInput -= MouseDownAction;
         Managers.Input.OnMouseInput += MouseDownAction;
+        Managers.Resources.Instantiate("UI/UI_Button");
     }
 
-    [SerializeField] float wait_run_ratio;
     void Update()
     {
         switch (_state)

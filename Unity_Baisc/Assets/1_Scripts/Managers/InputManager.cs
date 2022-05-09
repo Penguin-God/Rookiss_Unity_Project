@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using UnityEngine.EventSystems;
 
 public class InputManager
 {
@@ -11,6 +12,9 @@ public class InputManager
 
     public void OnUpdate()
     {
+        // UI 버튼이 클릭된 상태면 return
+        if (EventSystem.current.IsPointerOverGameObject()) return;
+
         if (Input.anyKey) OnKeyInput?.Invoke();
 
         if(OnMouseInput != null)
