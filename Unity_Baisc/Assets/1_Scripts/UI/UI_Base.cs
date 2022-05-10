@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 using System;
 using Object = UnityEngine.Object;
 
@@ -36,4 +37,19 @@ public class UI_Base : MonoBehaviour
     protected Text GetText(int index) => Get<Text>(index);
     protected Button GetButton(int index) => Get<Button>(index);
     protected Image GetImage(int index) => Get<Image>(index);
+
+    public static void Add_UIEvnet(GameObject go, Action<PointerEventData> action, Define.UI_Event type = Define.UI_Event.Click)
+    {
+        UI_EventHandler handler = Util.GetOrAddComponent<UI_EventHandler>(go);
+        Add_UIEvnet(handler, action, type);
+    }
+
+    public static void Add_UIEvnet(UI_EventHandler handler, Action<PointerEventData> action, Define.UI_Event type = Define.UI_Event.Click)
+    {
+        switch (type)
+        {
+            case Define.UI_Event.Click: handler.OnClickHandler += action; break;
+            case Define.UI_Event.Drag: handler.OnDragHandler += action; break;
+        }
+    }
 }

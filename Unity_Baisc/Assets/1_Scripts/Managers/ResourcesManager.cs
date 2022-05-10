@@ -20,4 +20,9 @@ public class ResourcesManager
 
         return Object.Instantiate(prefab, parent); // Instantiate 재귀호출 방지로 Object. 붙임
     }
+
+    public void Destroy(GameObject go)
+    {
+        Object.Destroy(go);
+    }
 }

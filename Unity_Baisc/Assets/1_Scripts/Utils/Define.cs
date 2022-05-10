@@ -15,4 +15,10 @@ public class Define
         Press,
         Up,
     }
+
+    public enum UI_Event
+    {
+        Click,
+        Drag,
+    }
 }
