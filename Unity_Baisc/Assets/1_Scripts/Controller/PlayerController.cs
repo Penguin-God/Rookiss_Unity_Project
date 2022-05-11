@@ -23,8 +23,6 @@ public class PlayerController : MonoBehaviour
         _anim = GetComponent<Animator>();
         Managers.Input.OnMouseInput -= MouseDownAction;
         Managers.Input.OnMouseInput += MouseDownAction;
-        UI_Button ui = Managers.UI.ShowPopupUI<UI_Button>();
-        Managers.UI.ClosePopupUI(ui);
     }
 
     void Update()

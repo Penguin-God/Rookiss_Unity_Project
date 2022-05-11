@@ -29,13 +29,19 @@ public class UI_Button : UI_Popup
 
     void Start()
     {
+        Init();
+    }
+
+    public override void Init()
+    {
+        base.Init();
         Bind<Button>(typeof(Buttons));
         Bind<Text>(typeof(Texts));
         Bind<GameObject>(typeof(GameObjects));
         Bind<Image>(typeof(Images));
 
         GetButton((int)Buttons.PointButton).gameObject.Add_UIEvnet(OnButtonClicked);
-        
+
         GameObject go = GetImage((int)Images.ItemIcon).gameObject;
         Add_UIEvnet(go, data => go.transform.position = data.position, Define.UI_Event.Drag);
     }

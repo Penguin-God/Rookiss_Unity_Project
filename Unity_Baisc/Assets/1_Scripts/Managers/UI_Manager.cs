@@ -4,9 +4,48 @@ using UnityEngine;
 
 public class UI_Manager
 {
-    int _order = 0;
+    int _order = 10; // 기본 UI랑 팝업 UI 오더 다르게 하기 위해 초기값 10으로 세팅
 
     Stack<UI_Popup> _popupStack = new Stack<UI_Popup>();
+    UI_Scene _sceneUI = null;
+
+    Transform _root;
+    public Transform Root
+    {
+        get
+        {
+            if(_root == null) _root = new GameObject("@UI_Root").transform;
+            return _root;
+        }
+    }
+
+    public void SetCanvas(GameObject go, bool sort)
+    {
+        Canvas canvas = Util.GetOrAddComponent<Canvas>(go);
+        canvas.renderMode = RenderMode.ScreenSpaceOverlay;
+        canvas.overrideSorting = true; // canvas안의 canvas가 부모 관계없이 독립적인 sort값을 가지게 하는 옵션
+
+        if (sort)
+        {
+            canvas.sortingOrder = _order;
+            _order++;
+        }
+        else
+        {
+            canvas.sortingOrder = 0;
+        }
+    }
+
+    public T ShowSceneUI<T>(string name = null) where T : UI_Scene
+    {
+        if (string.IsNullOrEmpty(name)) name = typeof(T).Name;
+
+        GameObject go = Managers.Resources.Instantiate($"UI/Popup/{name}");
+        T sceneUI = Util.GetOrAddComponent<T>(go);
+        _sceneUI = sceneUI;
+        go.transform.SetParent(Root);
+        return sceneUI;
+    }
 
     public T ShowPopupUI<T>(string name = null) where T : UI_Popup
     {
@@ -15,6 +54,7 @@ public class UI_Manager
         GameObject go = Managers.Resources.Instantiate($"UI/Popup/{name}");
         T popup = Util.GetOrAddComponent<T>(go);
         _popupStack.Push(popup);
+        go.transform.SetParent(Root);
         return popup;
     }
 
