@@ -40,10 +40,10 @@ public class UI_Button : UI_Popup
         Bind<GameObject>(typeof(GameObjects));
         Bind<Image>(typeof(Images));
 
-        GetButton((int)Buttons.PointButton).gameObject.Add_UIEvnet(OnButtonClicked);
+        GetButton((int)Buttons.PointButton).gameObject.BindEvnet(OnButtonClicked);
 
         GameObject go = GetImage((int)Images.ItemIcon).gameObject;
-        Add_UIEvnet(go, data => go.transform.position = data.position, Define.UI_Event.Drag);
+        BindEvnet(go, data => go.transform.position = data.position, Define.UI_Event.Drag);
     }
 
 

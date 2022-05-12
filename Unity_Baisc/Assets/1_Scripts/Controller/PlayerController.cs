@@ -23,6 +23,8 @@ public class PlayerController : MonoBehaviour
         _anim = GetComponent<Animator>();
         Managers.Input.OnMouseInput -= MouseDownAction;
         Managers.Input.OnMouseInput += MouseDownAction;
+
+        Managers.UI.ShowSceneUI<UI_Inventory>();
     }
 
     void Update()

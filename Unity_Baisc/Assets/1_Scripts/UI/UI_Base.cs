@@ -6,9 +6,11 @@ using UnityEngine.EventSystems;
 using System;
 using Object = UnityEngine.Object;
 
-public class UI_Base : MonoBehaviour
+public abstract class UI_Base : MonoBehaviour
 {
-    Dictionary<Type, Object[]> _objectsByType = new Dictionary<Type, Object[]>();
+    protected Dictionary<Type, Object[]> _objectsByType = new Dictionary<Type, Object[]>();
+
+    public abstract void Init();
 
     protected void Bind<T>(Type type) where T : Object
     {
@@ -23,7 +25,7 @@ public class UI_Base : MonoBehaviour
             else
                 objects[i] = Util.FindChild<T>(gameObject, true, names[i]);
 
-            if (objects[i] == null) print("실패!!");
+            if (objects[i] == null) print($"실패!!!   실패한 이름 {names[i]}");
         }
     }
 
@@ -34,17 +36,19 @@ public class UI_Base : MonoBehaviour
         return objects[index] as T;
     }
 
+    protected GameObject GetObject(int index) => Get<GameObject>(index);
     protected Text GetText(int index) => Get<Text>(index);
     protected Button GetButton(int index) => Get<Button>(index);
     protected Image GetImage(int index) => Get<Image>(index);
 
-    public static void Add_UIEvnet(GameObject go, Action<PointerEventData> action, Define.UI_Event type = Define.UI_Event.Click)
+    // ctrl + shift + f 하면 모든 파일에서 동일한 이름 찾아서 바꿀 수 있음
+    public static void BindEvnet(GameObject go, Action<PointerEventData> action, Define.UI_Event type = Define.UI_Event.Click)
     {
-        UI_EventHandler handler = Util.GetOrAddComponent<UI_EventHandler>(go);
-        Add_UIEvnet(handler, action, type);
+        UI_EventHandler handler = go.GetOrAddComponent<UI_EventHandler>();
+        BindEvnet(handler, action, type);
     }
 
-    public static void Add_UIEvnet(UI_EventHandler handler, Action<PointerEventData> action, Define.UI_Event type = Define.UI_Event.Click)
+    public static void BindEvnet(UI_EventHandler handler, Action<PointerEventData> action, Define.UI_Event type = Define.UI_Event.Click)
     {
         switch (type)
         {

@@ -21,7 +21,7 @@ public class UI_Manager
 
     public void SetCanvas(GameObject go, bool sort)
     {
-        Canvas canvas = Util.GetOrAddComponent<Canvas>(go);
+        Canvas canvas = go.GetOrAddComponent<Canvas>();
         canvas.renderMode = RenderMode.ScreenSpaceOverlay;
         canvas.overrideSorting = true; // canvas안의 canvas가 부모 관계없이 독립적인 sort값을 가지게 하는 옵션
 
@@ -36,12 +36,21 @@ public class UI_Manager
         }
     }
 
+    public T MakeSubItem<T>(Transform parent = null, string name = null) where T : UI_Base 
+    {
+        if (string.IsNullOrEmpty(name)) name = typeof(T).Name;
+
+        GameObject go = Managers.Resources.Instantiate($"UI/SubItem/{name}");
+        if (parent != null) go.transform.SetParent(parent);
+        return go.GetOrAddComponent<T>();
+    }
+
     public T ShowSceneUI<T>(string name = null) where T : UI_Scene
     {
         if (string.IsNullOrEmpty(name)) name = typeof(T).Name;
 
-        GameObject go = Managers.Resources.Instantiate($"UI/Popup/{name}");
-        T sceneUI = Util.GetOrAddComponent<T>(go);
+        GameObject go = Managers.Resources.Instantiate($"UI/Scene/{name}");
+        T sceneUI = go.GetOrAddComponent<T>();
         _sceneUI = sceneUI;
         go.transform.SetParent(Root);
         return sceneUI;
@@ -52,7 +61,7 @@ public class UI_Manager
         if (string.IsNullOrEmpty(name)) name = typeof(T).Name;
 
         GameObject go = Managers.Resources.Instantiate($"UI/Popup/{name}");
-        T popup = Util.GetOrAddComponent<T>(go);
+        T popup = go.GetOrAddComponent<T>();
         _popupStack.Push(popup);
         go.transform.SetParent(Root);
         return popup;
