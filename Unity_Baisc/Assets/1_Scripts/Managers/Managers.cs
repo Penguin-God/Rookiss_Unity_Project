@@ -26,10 +26,12 @@ public class Managers : MonoBehaviour
     InputManager _input = new InputManager();
     ResourcesManager _resources = new ResourcesManager();
     UI_Manager _ui = new UI_Manager();
+    SceneManagerEx _scene = new SceneManagerEx();
 
     public static InputManager Input => Instance._input;
     public static ResourcesManager Resources => Instance._resources;
     public static UI_Manager UI => Instance._ui;
+    public static SceneManagerEx Scene => Instance._scene;
 
     void Update()
     {
