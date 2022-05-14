@@ -96,4 +96,10 @@ public class UI_Manager
             ClosePopupUI();
         }
     }
+
+    public void Clear()
+    {
+        _popupStack.Clear();
+        _sceneUI = null;
+    }
 }

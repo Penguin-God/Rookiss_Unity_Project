@@ -24,4 +24,10 @@ public class InputManager
             if (Input.GetMouseButtonUp(0)) OnMouseInput(Define.MouseEvent.Up);
         }
     }
+
+    public void Clear()
+    {
+        OnKeyInput = null;
+        OnMouseInput = null;
+    }
 }
