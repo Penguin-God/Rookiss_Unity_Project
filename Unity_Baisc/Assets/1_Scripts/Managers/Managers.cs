@@ -29,16 +29,19 @@ public class Managers : MonoBehaviour
     UI_Manager _ui = new UI_Manager();
     SceneManagerEx _scene = new SceneManagerEx();
     SoundManager _sound = new SoundManager();
+    PoolManager _pool = new PoolManager();
 
     public static InputManager Input => Instance._input;
     public static ResourcesManager Resources => Instance._resources;
     public static UI_Manager UI => Instance._ui;
     public static SceneManagerEx Scene => Instance._scene;
     public static SoundManager Sound => Instance._sound;
+    public static PoolManager Pool => Instance._pool;
 
     void Init()
     {
         Sound.Init();
+        Pool.Init();
     }
 
     public static void Clear()
@@ -47,6 +50,7 @@ public class Managers : MonoBehaviour
         Sound.Clear();
         UI.Clear();
         Scene.Clear();
+        Pool.Clear();
     }
 
     void Update()
