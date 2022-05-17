@@ -13,10 +13,9 @@ public class Managers : MonoBehaviour
             {
                 instance = FindObjectOfType<Managers>();
                 if(instance == null)
-                {
                     instance = new GameObject("Managers").AddComponent<Managers>();
-                    DontDestroyOnLoad(instance.gameObject);
-                }
+
+                DontDestroyOnLoad(instance.gameObject);
                 instance.Init();
             }
 
@@ -24,6 +23,7 @@ public class Managers : MonoBehaviour
         }
     }
 
+    DataManger _data = new DataManger();
     InputManager _input = new InputManager();
     ResourcesManager _resources = new ResourcesManager();
     UI_Manager _ui = new UI_Manager();
@@ -31,6 +31,7 @@ public class Managers : MonoBehaviour
     SoundManager _sound = new SoundManager();
     PoolManager _pool = new PoolManager();
 
+    public static DataManger Data => Instance._data;
     public static InputManager Input => Instance._input;
     public static ResourcesManager Resources => Instance._resources;
     public static UI_Manager UI => Instance._ui;
@@ -38,8 +39,10 @@ public class Managers : MonoBehaviour
     public static SoundManager Sound => Instance._sound;
     public static PoolManager Pool => Instance._pool;
 
+    [ContextMenu("Test Init")]
     void Init()
     {
+        Data.Init();
         Sound.Init();
         Pool.Init();
     }
