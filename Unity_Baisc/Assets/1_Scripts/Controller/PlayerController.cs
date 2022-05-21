@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 
 enum PlayerState
 {
@@ -16,11 +17,13 @@ public class PlayerController : MonoBehaviour
 
     PlayerState _state = PlayerState.Idle;
     Animator _anim;
+    NavMeshAgent _nav;
     Vector3 _destination;
 
     void Start()
     {
         _anim = GetComponent<Animator>();
+        _nav = GetComponent<NavMeshAgent>();
         Managers.Input.OnMouseInput -= MouseDownAction;
         Managers.Input.OnMouseInput += MouseDownAction;
     }
@@ -58,18 +61,24 @@ public class PlayerController : MonoBehaviour
 
     void MoveToDestination()
     {
-        if (_state == PlayerState.Moveing)
-        {
-            Vector3 dir = _destination - transform.position;
+        Vector3 dir = _destination - transform.position;
 
-            if (dir.magnitude < 0.001f) 
-                _state = PlayerState.Idle;
-            else
+        //_nav.CalculatePath
+        
+        if (dir.magnitude < 0.1f)
+            _state = PlayerState.Idle;
+        else
+        {
+            float moveDistance = Mathf.Clamp(speed * Time.deltaTime, 0, dir.magnitude);
+            _nav.Move(dir.normalized * moveDistance);
+
+            Debug.DrawRay(transform.position + Vector3.up, dir.normalized, Color.green);
+            if(Physics.Raycast(transform.position + Vector3.up, dir, 1, LayerMask.GetMask("Block")))
             {
-                float moveDistance = Mathf.Clamp(speed * Time.deltaTime, 0, dir.magnitude);
-                transform.position += dir.normalized * moveDistance;
-                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(dir), 10 * Time.deltaTime);
+                _state = PlayerState.Idle;
+                return;
             }
+            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(dir), 10 * Time.deltaTime);
         }
     }
 
