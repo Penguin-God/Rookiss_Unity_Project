@@ -9,12 +9,12 @@ public interface ILoader<Key, Value>
 
 public class DataManger
 {
-    Dictionary<int, Stat> _statByLevel = new Dictionary<int, Stat>();
-    IReadOnlyDictionary<int, Stat> StatByLevel => _statByLevel;
+    Dictionary<int, Data.Stat> _statByLevel = new Dictionary<int, Data.Stat>();
+    IReadOnlyDictionary<int, Data.Stat> StatByLevel => _statByLevel;
 
     public void Init()
     {
-        _statByLevel = LoadJson<StatData, int, Stat>("PlayerStats").MakeDic();
+        _statByLevel = LoadJson<Data.StatData, int, Data.Stat>("PlayerStats").MakeDic();
     }
 
     Loader LoadJson<Loader, Key, Value>(string path) where Loader : ILoader<Key, Value>
