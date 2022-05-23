@@ -36,6 +36,7 @@ public class Define
         Down,
         Press,
         Up,
+        Click,
     }
 
     public enum UI_Event

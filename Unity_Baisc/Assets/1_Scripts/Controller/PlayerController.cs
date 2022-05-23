@@ -34,8 +34,8 @@ public class PlayerController : MonoBehaviour
         _anim = GetComponent<Animator>();
         _nav = GetComponent<NavMeshAgent>();
         _stat = GetComponent<PlayerStat>();
-        Managers.Input.OnMouseInput -= MouseDownAction;
-        Managers.Input.OnMouseInput += MouseDownAction;
+        Managers.Input.OnMouseInput -= OnMouseEvent;
+        Managers.Input.OnMouseInput += OnMouseEvent;
         _handCursor = Managers.Resources.Load<Texture2D>("Textures/Curosr/Hand");
         _attackCursor = Managers.Resources.Load<Texture2D>("Textures/Curosr/Attack");
     }
@@ -54,6 +54,8 @@ public class PlayerController : MonoBehaviour
 
     void UpdateMouseCursor()
     {
+        if (Input.GetMouseButton(0)) return;
+
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         if (Physics.Raycast(ray, out RaycastHit hitInfo, 100, _targetMask))
         {
@@ -88,14 +90,43 @@ public class PlayerController : MonoBehaviour
     }
 
     int _targetMask = 1 << (int)Define.Layer.Plane | 1 << (int)Define.Layer.Monster;
-    void MouseDownAction(Define.MouseEvent mouseEvent)
+    GameObject _lockTarget = null;
+    void OnMouseEvent(Define.MouseEvent mouseEvent)
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        if(Physics.Raycast(ray, out RaycastHit hitInfo, 100, _targetMask))
+        bool isRayHit = Physics.Raycast(ray, out RaycastHit hitInfo, 100, _targetMask);
+        switch (mouseEvent)
         {
-            _destination = hitInfo.point;
-            _state = PlayerState.Moveing;
+            case Define.MouseEvent.Down:
+                {
+                    if (isRayHit)
+                    {
+                        _destination = hitInfo.point;
+                        _state = PlayerState.Moveing;
+                    }
+
+                    if (hitInfo.collider.gameObject.layer == (int)Define.Layer.Monster)
+                        _lockTarget = hitInfo.collider.gameObject;
+                    else
+                        _lockTarget = null;
+                }
+                break;
+            case Define.MouseEvent.Press:
+                {
+                    if (_lockTarget != null)
+                        _destination = _lockTarget.transform.position;
+                    else if (isRayHit)
+                        _destination = hitInfo.point;
+                }
+                break;
+            case Define.MouseEvent.Up: _lockTarget = null; break;
+            case Define.MouseEvent.Click:
+                break;
+            default:
+                break;
         }
+
+
     }
 
     void MoveToDestination()
@@ -114,7 +145,8 @@ public class PlayerController : MonoBehaviour
             Debug.DrawRay(transform.position + Vector3.up, dir.normalized, Color.green);
             if(Physics.Raycast(transform.position + Vector3.up, dir, 1, LayerMask.GetMask("Block")))
             {
-                _state = PlayerState.Idle;
+                if(Input.GetMouseButton(0) == false)
+                    _state = PlayerState.Idle;
                 return;
             }
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(dir), 10 * Time.deltaTime);
