@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
+using System;
 
 enum PlayerState
 {
@@ -14,7 +15,7 @@ enum PlayerState
 public class PlayerController : MonoBehaviour
 {
     PlayerStat _stat;
-    PlayerState _state = PlayerState.Idle;
+    [SerializeField] PlayerState _state = PlayerState.Idle;
     Animator _anim;
     NavMeshAgent _nav;
     Vector3 _destination;
@@ -25,18 +26,18 @@ public class PlayerController : MonoBehaviour
         set
         {
             _state = value;
-
+            //print($"Chaged : {Enum.GetName(typeof(PlayerState), _state)}");
             switch (_state)
             {
-                case PlayerState.Idle: 
-                    _anim.SetBool("IsRun", false);
-                    _anim.SetBool("IsAttack", false);
+                case PlayerState.Idle:
+                    _anim.CrossFade("WAIT", 0.2f);
                     break;
-                case PlayerState.Moveing: 
-                    _anim.SetBool("IsRun", true);
-                    _anim.SetBool("IsAttack", false);
+                case PlayerState.Moveing:
+                    _anim.CrossFade("RUN", 0.1f);
                     break;
-                case PlayerState.Battle: _anim.SetBool("IsAttack", true); break;
+                case PlayerState.Battle:
+                    _anim.CrossFade("Attack", 0.1f);
+                    break;
             }
         }
     }
@@ -56,16 +57,17 @@ public class PlayerController : MonoBehaviour
         {
             case PlayerState.Idle: break;
             case PlayerState.Moveing: UpdateMove(); break;
-            case PlayerState.Battle: StartCoroutine(Co_OnHitEvent()); ; break;
+            case PlayerState.Battle: UpdateBattle(); break;
             default: break;
         }
     }
 
+    [SerializeField] GameObject _lockTarget = null;
     private void UpdateMove()
     {
-        //_anim.SetBool("IsRun", true);
         if(_lockTarget != null)
         {
+            _destination = _lockTarget.transform.position;
             float distance = (_destination - transform.position).magnitude;
             if (distance < 1)
             {
@@ -80,8 +82,6 @@ public class PlayerController : MonoBehaviour
     {
         Vector3 dir = _destination - transform.position;
 
-        //_nav.CalculatePath
-        
         if (dir.magnitude < 0.1f)
             State = PlayerState.Idle;
         else
@@ -100,47 +100,65 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    IEnumerator Co_OnHitEvent()
+    void UpdateBattle()
     {
-        State = PlayerState.Battle;
-        yield return new WaitForSeconds(0.2f);
-        print("안녕");
-        State = PlayerState.Idle;
-        StopAllCoroutines();
+        if(_lockTarget != null)
+        {
+            Vector3 dir = _lockTarget.transform.position - transform.position;
+            Quaternion rot = Quaternion.LookRotation(dir);
+            transform.rotation = Quaternion.Lerp(transform.rotation, rot, 0.3f);
+        }
+    }
+
+    void OnHitEvent()
+    {
+        if (_stopSkill)
+            State = PlayerState.Idle;
+        else
+            State = PlayerState.Battle;
     }
 
     int _targetMask = 1 << (int)Define.Layer.Plane | 1 << (int)Define.Layer.Monster;
-    GameObject _lockTarget = null;
+    bool _stopSkill = false;
     void OnMouseEvent(Define.MouseEvent mouseEvent)
+    {
+        switch (_state)
+        {
+            case PlayerState.Idle: OnMouseEvent_IdleRun(mouseEvent); break;
+            case PlayerState.Moveing: OnMouseEvent_IdleRun(mouseEvent); break;
+            case PlayerState.Battle: if (mouseEvent == Define.MouseEvent.Up) _stopSkill = true; break;
+        }
+    }
+
+    void OnMouseEvent_IdleRun(Define.MouseEvent mouseEvent)
     {
         Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
         bool isRayHit = Physics.Raycast(ray, out RaycastHit hitInfo, 100, _targetMask);
+
         switch (mouseEvent)
         {
             case Define.MouseEvent.Down:
                 {
                     if (isRayHit)
                     {
+                        _stopSkill = false;
                         _destination = hitInfo.point;
                         State = PlayerState.Moveing;
-                    }
 
-                    if (hitInfo.collider.gameObject.layer == (int)Define.Layer.Monster)
-                        _lockTarget = hitInfo.collider.gameObject;
-                    else
-                        _lockTarget = null;
+                        if (hitInfo.collider.gameObject.layer == (int)Define.Layer.Monster)
+                            _lockTarget = hitInfo.collider.gameObject;
+                        else
+                            _lockTarget = null;
+                    }
                 }
                 break;
             case Define.MouseEvent.Press:
                 {
-                    if (_lockTarget != null)
-                        _destination = _lockTarget.transform.position;
-                    else if (isRayHit)
+                    if (isRayHit)
                         _destination = hitInfo.point;
                 }
                 break;
-            case Define.MouseEvent.Up: break;
-            case Define.MouseEvent.Click: print("Click!!"); break;
+            case Define.MouseEvent.Up: _stopSkill = true; break;
         }
     }
 
