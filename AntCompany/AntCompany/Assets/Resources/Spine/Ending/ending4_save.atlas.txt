@@ -1,0 +1,90 @@
+
+ending4_save.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 52
+  rotate: false
+  xy: 2, 909
+  size: 798, 1133
+  orig: 800, 1135
+  offset: 1, 1
+  index: -1
+ant1
+  rotate: false
+  xy: 330, 411
+  size: 438, 496
+  orig: 440, 498
+  offset: 1, 1
+  index: -1
+ant2
+  rotate: false
+  xy: 287, 34
+  size: 139, 89
+  orig: 141, 91
+  offset: 1, 1
+  index: -1
+ant3
+  rotate: true
+  xy: 330, 194
+  size: 77, 54
+  orig: 79, 56
+  offset: 1, 1
+  index: -1
+ant4
+  rotate: true
+  xy: 2, 26
+  size: 97, 249
+  orig: 99, 251
+  offset: 1, 1
+  index: -1
+effect1
+  rotate: false
+  xy: 378, 145
+  size: 47, 47
+  orig: 49, 49
+  offset: 1, 1
+  index: -1
+effect2
+  rotate: false
+  xy: 377, 362
+  size: 47, 47
+  orig: 49, 49
+  offset: 1, 1
+  index: -1
+effect3
+  rotate: true
+  xy: 2, 2
+  size: 22, 20
+  orig: 24, 22
+  offset: 1, 1
+  index: -1
+effect4
+  rotate: false
+  xy: 330, 273
+  size: 45, 136
+  orig: 47, 138
+  offset: 1, 1
+  index: -1
+light
+  rotate: true
+  xy: 2, 125
+  size: 782, 326
+  orig: 784, 328
+  offset: 1, 1
+  index: -1
+light2
+  rotate: true
+  xy: 253, 27
+  size: 96, 32
+  orig: 98, 34
+  offset: 1, 1
+  index: -1
+light3
+  rotate: false
+  xy: 330, 137
+  size: 46, 55
+  orig: 48, 57
+  offset: 1, 1
+  index: -1

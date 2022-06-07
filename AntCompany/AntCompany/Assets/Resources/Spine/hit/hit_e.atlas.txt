@@ -1,0 +1,76 @@
+
+hit_e.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+brick1
+  rotate: false
+  xy: 853, 714
+  size: 26, 41
+  orig: 28, 43
+  offset: 1, 1
+  index: -1
+brick2
+  rotate: false
+  xy: 808, 720
+  size: 43, 35
+  orig: 45, 37
+  offset: 1, 1
+  index: -1
+brick3
+  rotate: false
+  xy: 808, 757
+  size: 38, 44
+  orig: 40, 46
+  offset: 1, 1
+  index: -1
+brick4
+  rotate: false
+  xy: 853, 757
+  size: 35, 41
+  orig: 37, 43
+  offset: 1, 1
+  index: -1
+brick5
+  rotate: false
+  xy: 808, 683
+  size: 39, 35
+  orig: 41, 37
+  offset: 1, 1
+  index: -1
+dust1
+  rotate: true
+  xy: 808, 803
+  size: 87, 82
+  orig: 89, 84
+  offset: 1, 1
+  index: -1
+dust2
+  rotate: true
+  xy: 645, 713
+  size: 167, 161
+  orig: 169, 163
+  offset: 1, 1
+  index: -1
+dust3
+  rotate: true
+  xy: 452, 680
+  size: 200, 191
+  orig: 202, 193
+  offset: 1, 1
+  index: -1
+dust4
+  rotate: true
+  xy: 239, 680
+  size: 210, 211
+  orig: 212, 213
+  offset: 1, 1
+  index: -1
+dust5
+  rotate: false
+  xy: 2, 682
+  size: 235, 208
+  orig: 237, 210
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfDialogueEventData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DialogueEventData questionID="10000" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11010" resultID="12010" difWorkAbility="0" difLikeability="11" difLuck="0" difStress="0" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11011" resultID="12011" difWorkAbility="4" difLikeability="6" difLuck="0" difStress="0" difMoney="0" difBlock="0" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10001" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11020" resultID="12020" difWorkAbility="21" difLikeability="-11" difLuck="0" difStress="0" difMoney="0" difBlock="1" />
+      <DialogueAnsData answerID="11021" resultID="12021" difWorkAbility="11" difLikeability="0" difLuck="0" difStress="0" difMoney="0" difBlock="0" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10002" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11030" resultID="12030" difWorkAbility="0" difLikeability="-21" difLuck="1" difStress="15" difMoney="0" difBlock="1" />
+      <DialogueAnsData answerID="11031" resultID="12031" difWorkAbility="0" difLikeability="21" difLuck="0" difStress="0" difMoney="0" difBlock="0" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10003" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11040" resultID="12040" difWorkAbility="21" difLikeability="21" difLuck="0" difStress="5" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11041" resultID="12041" difWorkAbility="-11" difLikeability="-21" difLuck="1" difStress="15" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10004" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11050" resultID="12050" difWorkAbility="21" difLikeability="21" difLuck="0" difStress="5" difMoney="0" difBlock="1" />
+      <DialogueAnsData answerID="11051" resultID="12051" difWorkAbility="11" difLikeability="0" difLuck="1" difStress="15" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10005" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11060" resultID="12060" difWorkAbility="0" difLikeability="11" difLuck="1" difStress="0" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11061" resultID="12061" difWorkAbility="17" difLikeability="0" difLuck="1" difStress="15" difMoney="0" difBlock="0" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10006" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11070" resultID="12070" difWorkAbility="32" difLikeability="32" difLuck="0" difStress="15" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11071" resultID="12071" difWorkAbility="-11" difLikeability="-21" difLuck="1" difStress="-20" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10007" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11080" resultID="12080" difWorkAbility="32" difLikeability="-11" difLuck="0" difStress="15" difMoney="0" difBlock="1" />
+      <DialogueAnsData answerID="11081" resultID="12081" difWorkAbility="-21" difLikeability="-11" difLuck="0" difStress="15" difMoney="0" difBlock="0" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10008" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11090" resultID="12090" difWorkAbility="21" difLikeability="21" difLuck="0" difStress="15" difMoney="0" difBlock="1" />
+      <DialogueAnsData answerID="11091" resultID="12091" difWorkAbility="-21" difLikeability="-21" difLuck="0" difStress="15" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10009" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11100" resultID="12100" difWorkAbility="21" difLikeability="21" difLuck="1" difStress="0" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11101" resultID="12101" difWorkAbility="0" difLikeability="-42" difLuck="1" difStress="-15" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10010" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11110" resultID="12110" difWorkAbility="21" difLikeability="21" difLuck="0" difStress="15" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11111" resultID="12111" difWorkAbility="11" difLikeability="-21" difLuck="1" difStress="-5" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10011" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11120" resultID="12120" difWorkAbility="17" difLikeability="17" difLuck="0" difStress="15" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11121" resultID="12121" difWorkAbility="-21" difLikeability="-21" difLuck="1" difStress="-15" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10012" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11130" resultID="12130" difWorkAbility="11" difLikeability="11" difLuck="1" difStress="15" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11131" resultID="12131" difWorkAbility="0" difLikeability="-11" difLuck="0" difStress="-15" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10013" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11140" resultID="12140" difWorkAbility="21" difLikeability="21" difLuck="1" difStress="0" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11141" resultID="12141" difWorkAbility="-11" difLikeability="0" difLuck="0" difStress="15" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10014" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11150" resultID="12150" difWorkAbility="-11" difLikeability="0" difLuck="1" difStress="20" difMoney="0" difBlock="1" />
+      <DialogueAnsData answerID="11151" resultID="12151" difWorkAbility="0" difLikeability="-17" difLuck="1" difStress="-15" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10015" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11160" resultID="12160" difWorkAbility="11" difLikeability="11" difLuck="0" difStress="15" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11161" resultID="12161" difWorkAbility="0" difLikeability="-11" difLuck="1" difStress="0" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10016" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11170" resultID="12170" difWorkAbility="21" difLikeability="11" difLuck="1" difStress="10" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11171" resultID="12171" difWorkAbility="0" difLikeability="-21" difLuck="0" difStress="-10" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10017" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11180" resultID="12180" difWorkAbility="11" difLikeability="0" difLuck="1" difStress="10" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11181" resultID="12181" difWorkAbility="0" difLikeability="-11" difLuck="-1" difStress="-10" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10018" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11190" resultID="12190" difWorkAbility="21" difLikeability="21" difLuck="0" difStress="15" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11191" resultID="12191" difWorkAbility="-21" difLikeability="-21" difLuck="1" difStress="-20" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10019" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11200" resultID="12200" difWorkAbility="21" difLikeability="21" difLuck="1" difStress="15" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11201" resultID="12201" difWorkAbility="-21" difLikeability="-21" difLuck="0" difStress="0" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10020" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11210" resultID="12210" difWorkAbility="0" difLikeability="42" difLuck="1" difStress="15" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11211" resultID="12211" difWorkAbility="0" difLikeability="-42" difLuck="0" difStress="-15" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10021" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11220" resultID="12220" difWorkAbility="0" difLikeability="0" difLuck="1" difStress="20" difMoney="0" difBlock="1" />
+      <DialogueAnsData answerID="11221" resultID="12221" difWorkAbility="0" difLikeability="0" difLuck="1" difStress="20" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10022" enemyType="0">
+    <answers>
+      <DialogueAnsData answerID="11230" resultID="12230" difWorkAbility="21" difLikeability="21" difLuck="1" difStress="10" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11231" resultID="12231" difWorkAbility="-21" difLikeability="-21" difLuck="1" difStress="10" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10023" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11240" resultID="12240" difWorkAbility="11" difLikeability="21" difLuck="1" difStress="10" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11241" resultID="12241" difWorkAbility="21" difLikeability="-21" difLuck="0" difStress="-10" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10024" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11250" resultID="12250" difWorkAbility="-21" difLikeability="21" difLuck="1" difStress="10" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11251" resultID="12251" difWorkAbility="21" difLikeability="-21" difLuck="0" difStress="10" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10025" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11260" resultID="12260" difWorkAbility="21" difLikeability="11" difLuck="0" difStress="10" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11261" resultID="12261" difWorkAbility="-21" difLikeability="-21" difLuck="-1" difStress="10" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10026" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11270" resultID="12270" difWorkAbility="21" difLikeability="21" difLuck="1" difStress="10" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11271" resultID="12271" difWorkAbility="21" difLikeability="21" difLuck="1" difStress="10" difMoney="0" difBlock="0" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10027" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11280" resultID="12280" difWorkAbility="11" difLikeability="11" difLuck="0" difStress="10" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11281" resultID="12281" difWorkAbility="-11" difLikeability="-11" difLuck="1" difStress="0" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10028" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11290" resultID="12290" difWorkAbility="21" difLikeability="21" difLuck="1" difStress="10" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11291" resultID="12291" difWorkAbility="0" difLikeability="-42" difLuck="0" difStress="-20" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10029" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11300" resultID="12300" difWorkAbility="21" difLikeability="21" difLuck="1" difStress="10" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11301" resultID="12301" difWorkAbility="21" difLikeability="21" difLuck="1" difStress="10" difMoney="0" difBlock="0" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10030" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11310" resultID="12310" difWorkAbility="21" difLikeability="21" difLuck="0" difStress="5" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11311" resultID="12311" difWorkAbility="11" difLikeability="32" difLuck="1" difStress="15" difMoney="0" difBlock="0" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10031" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11320" resultID="12320" difWorkAbility="21" difLikeability="21" difLuck="1" difStress="10" difMoney="0" difBlock="1" />
+      <DialogueAnsData answerID="11321" resultID="12321" difWorkAbility="21" difLikeability="32" difLuck="1" difStress="10" difMoney="0" difBlock="0" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10032" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11330" resultID="12330" difWorkAbility="11" difLikeability="21" difLuck="1" difStress="15" difMoney="0" difBlock="1" />
+      <DialogueAnsData answerID="11331" resultID="12331" difWorkAbility="21" difLikeability="11" difLuck="1" difStress="15" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10033" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11340" resultID="12340" difWorkAbility="21" difLikeability="21" difLuck="1" difStress="10" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11341" resultID="12341" difWorkAbility="21" difLikeability="21" difLuck="1" difStress="10" difMoney="0" difBlock="0" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10034" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11350" resultID="12350" difWorkAbility="21" difLikeability="21" difLuck="0" difStress="15" difMoney="0" difBlock="1" />
+      <DialogueAnsData answerID="11351" resultID="12351" difWorkAbility="-42" difLikeability="-42" difLuck="1" difStress="-20" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10035" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11360" resultID="12360" difWorkAbility="-21" difLikeability="42" difLuck="1" difStress="20" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11361" resultID="12361" difWorkAbility="21" difLikeability="-21" difLuck="0" difStress="10" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10036" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11370" resultID="12370" difWorkAbility="0" difLikeability="21" difLuck="1" difStress="0" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11371" resultID="12371" difWorkAbility="0" difLikeability="-21" difLuck="1" difStress="0" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10037" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11380" resultID="12380" difWorkAbility="21" difLikeability="21" difLuck="0" difStress="10" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11381" resultID="12381" difWorkAbility="-21" difLikeability="-21" difLuck="1" difStress="10" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10038" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11390" resultID="12390" difWorkAbility="0" difLikeability="-21" difLuck="0" difStress="10" difMoney="0" difBlock="1" />
+      <DialogueAnsData answerID="11391" resultID="12391" difWorkAbility="0" difLikeability="21" difLuck="1" difStress="-10" difMoney="0" difBlock="0" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10039" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11400" resultID="12400" difWorkAbility="42" difLikeability="42" difLuck="0" difStress="10" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11401" resultID="12401" difWorkAbility="42" difLikeability="-42" difLuck="1" difStress="10" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10040" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11410" resultID="12410" difWorkAbility="-21" difLikeability="21" difLuck="1" difStress="10" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11411" resultID="12411" difWorkAbility="21" difLikeability="-21" difLuck="1" difStress="10" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10041" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11420" resultID="12420" difWorkAbility="-21" difLikeability="21" difLuck="1" difStress="15" difMoney="0" difBlock="1" />
+      <DialogueAnsData answerID="11421" resultID="12421" difWorkAbility="-21" difLikeability="-21" difLuck="-1" difStress="15" difMoney="0" difBlock="0" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10042" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11430" resultID="12430" difWorkAbility="0" difLikeability="21" difLuck="1" difStress="10" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11431" resultID="12431" difWorkAbility="21" difLikeability="-21" difLuck="0" difStress="10" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10043" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11440" resultID="12440" difWorkAbility="21" difLikeability="21" difLuck="1" difStress="15" difMoney="0" difBlock="0" />
+      <DialogueAnsData answerID="11441" resultID="12441" difWorkAbility="21" difLikeability="-21" difLuck="0" difStress="0" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+  <DialogueEventData questionID="10044" enemyType="1">
+    <answers>
+      <DialogueAnsData answerID="11450" resultID="12450" difWorkAbility="0" difLikeability="21" difLuck="1" difStress="-20" difMoney="0" difBlock="1" />
+      <DialogueAnsData answerID="11451" resultID="12451" difWorkAbility="0" difLikeability="21" difLuck="1" difStress="-20" difMoney="0" difBlock="1" />
+    </answers>
+  </DialogueEventData>
+</ArrayOfDialogueEventData>

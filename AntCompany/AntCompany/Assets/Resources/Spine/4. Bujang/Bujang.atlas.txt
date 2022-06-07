@@ -1,0 +1,195 @@
+
+Bujang.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+attack_c1
+  rotate: false
+  xy: 2, 302
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+attack_c2
+  rotate: false
+  xy: 2, 253
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+attack_c3
+  rotate: false
+  xy: 2, 204
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+attack_c4
+  rotate: false
+  xy: 2, 155
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+attack_c5
+  rotate: false
+  xy: 2, 106
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 2, 385
+  size: 91, 72
+  orig: 93, 74
+  offset: 1, 1
+  index: -1
+chair
+  rotate: false
+  xy: 2, 680
+  size: 80, 144
+  orig: 80, 144
+  offset: 0, 0
+  index: -1
+eye_c
+  rotate: true
+  xy: 76, 385
+  size: 43, 10
+  orig: 45, 12
+  offset: 1, 1
+  index: -1
+eye_c2
+  rotate: false
+  xy: 2, 351
+  size: 80, 32
+  orig: 82, 34
+  offset: 1, 1
+  index: -1
+eye_o
+  rotate: true
+  xy: 78, 271
+  size: 38, 9
+  orig: 40, 11
+  offset: 1, 1
+  index: -1
+feeler_l
+  rotate: false
+  xy: 48, 39
+  size: 39, 42
+  orig: 39, 42
+  offset: 0, 0
+  index: -1
+feeler_r
+  rotate: true
+  xy: 63, 210
+  size: 60, 22
+  orig: 60, 22
+  offset: 0, 0
+  index: -1
+foot_l
+  rotate: false
+  xy: 56, 166
+  size: 24, 41
+  orig: 26, 43
+  offset: 1, 1
+  index: -1
+foot_r
+  rotate: false
+  xy: 58, 271
+  size: 18, 40
+  orig: 20, 42
+  offset: 1, 1
+  index: -1
+hand_l
+  rotate: true
+  xy: 2, 3
+  size: 36, 49
+  orig: 37, 49
+  offset: 0, 0
+  index: -1
+hand_r
+  rotate: false
+  xy: 2, 20
+  size: 52, 43
+  orig: 52, 43
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 2, 579
+  size: 99, 86
+  orig: 101, 88
+  offset: 1, 1
+  index: -1
+head_e
+  rotate: true
+  xy: 2, 478
+  size: 99, 86
+  orig: 99, 86
+  offset: 0, 0
+  index: -1
+lip
+  rotate: false
+  xy: 53, 3
+  size: 18, 13
+  orig: 20, 15
+  offset: 1, 1
+  index: -1
+lip_c
+  rotate: false
+  xy: 56, 332
+  size: 18, 10
+  orig: 20, 12
+  offset: 1, 1
+  index: -1
+lip_e1
+  rotate: false
+  xy: 56, 313
+  size: 23, 17
+  orig: 23, 17
+  offset: 0, 0
+  index: -1
+lip_e2
+  rotate: false
+  xy: 66, 83
+  size: 21, 11
+  orig: 21, 11
+  offset: 0, 0
+  index: -1
+lip_e3
+  rotate: false
+  xy: 2, 3
+  size: 16, 9
+  orig: 16, 9
+  offset: 0, 0
+  index: -1
+lip_e4
+  rotate: false
+  xy: 56, 20
+  size: 24, 17
+  orig: 24, 17
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 2, 65
+  size: 62, 39
+  orig: 64, 41
+  offset: 1, 1
+  index: -1
+neck_c
+  rotate: false
+  xy: 66, 106
+  size: 19, 58
+  orig: 21, 60
+  offset: 1, 1
+  index: -1
+sweat
+  rotate: false
+  xy: 73, 4
+  size: 13, 14
+  orig: 15, 16
+  offset: 1, 1
+  index: -1

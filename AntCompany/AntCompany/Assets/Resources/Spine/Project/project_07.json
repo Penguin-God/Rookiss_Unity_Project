@@ -1,0 +1,99 @@
+{
+"skeleton": {
+	"hash": "hdton/Pr+Oiqwnp0ayI4lgex4Ls",
+	"spine": "3.8.99",
+	"x": -501,
+	"y": -293.12,
+	"width": 1002,
+	"height": 576.13,
+	"images": "C:/회사/개미주식회사/스파인/project_07/project_07_ima/",
+	"audio": "C:\\회사\\개미주식회사\\스파인\\project_07"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": -36.04, "y": -125.84 }
+],
+"slots": [
+	{ "name": "back", "bone": "root", "attachment": "back" },
+	{ "name": "Sinib_1", "bone": "bone", "attachment": "Sinib_1" },
+	{ "name": "Sinib_2", "bone": "bone" },
+	{ "name": "out_line", "bone": "root", "attachment": "out_line" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Sinib_1": {
+				"Sinib_1": { "x": -30.46, "y": 102.72, "width": 395, "height": 540 }
+			},
+			"Sinib_2": {
+				"Sinib_2": { "x": 57.54, "y": 115.34, "width": 571, "height": 541 }
+			},
+			"back": {
+				"back": { "x": 0.5, "y": -2, "width": 999, "height": 564 }
+			},
+			"out_line": {
+				"out_line": { "y": -0.5, "width": 1002, "height": 567 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"Sinib_1": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.5, "name": "Sinib_1" },
+					{ "time": 1, "name": null }
+				]
+			},
+			"Sinib_2": {
+				"attachment": [
+					{ "name": "Sinib_2" },
+					{ "time": 0.5, "name": null },
+					{ "time": 1, "name": "Sinib_2" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"shear": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"shear": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}

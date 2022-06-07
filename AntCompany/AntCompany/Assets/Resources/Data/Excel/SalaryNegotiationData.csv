@@ -1,0 +1,3 @@
+﻿//상사 대화,//대답1,//대답2,//결과1,//결과2,//결과3,//변화 연봉 퍼센트1,//변화 연봉 퍼센트2,//변화 연봉 퍼센트3
+questionID,yesAnswerID,noAnswerID,yesResultID,noResultGoodID,noResultBadID,yesIncreaseSalaryPercent,noIncreaseSalaryPercentGood,noIncreaseSalaryPercentBad
+4100,4110,4120,4111,4121,4122,3,6,0

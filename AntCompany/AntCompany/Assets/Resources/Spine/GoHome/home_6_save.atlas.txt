@@ -1,0 +1,76 @@
+
+home_6_save.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG1
+  rotate: false
+  xy: 490, 590
+  size: 440, 533
+  orig: 442, 535
+  offset: 1, 1
+  index: -1
+BG2
+  rotate: false
+  xy: 2, 603
+  size: 486, 520
+  orig: 488, 522
+  offset: 1, 1
+  index: -1
+bird1
+  rotate: false
+  xy: 932, 1039
+  size: 70, 84
+  orig: 72, 86
+  offset: 1, 1
+  index: -1
+bird2
+  rotate: false
+  xy: 932, 955
+  size: 70, 82
+  orig: 72, 84
+  offset: 1, 1
+  index: -1
+box_ani copy 2
+  rotate: false
+  xy: 2, 1125
+  size: 1000, 565
+  orig: 1002, 567
+  offset: 1, 1
+  index: -1
+car1
+  rotate: true
+  xy: 1004, 897
+  size: 793, 513
+  orig: 795, 515
+  offset: 1, 1
+  index: -1
+car2
+  rotate: true
+  xy: 2, 2
+  size: 599, 306
+  orig: 601, 308
+  offset: 1, 1
+  index: -1
+car3
+  rotate: true
+  xy: 932, 290
+  size: 605, 235
+  orig: 607, 237
+  offset: 1, 1
+  index: -1
+cha1
+  rotate: false
+  xy: 310, 258
+  size: 173, 343
+  orig: 175, 345
+  offset: 1, 1
+  index: -1
+cha2
+  rotate: false
+  xy: 485, 246
+  size: 171, 342
+  orig: 173, 344
+  offset: 1, 1
+  index: -1

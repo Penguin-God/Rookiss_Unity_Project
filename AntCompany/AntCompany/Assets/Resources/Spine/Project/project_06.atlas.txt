@@ -1,0 +1,83 @@
+
+project_06.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sinib_1
+  rotate: true
+  xy: 722, 9
+  size: 120, 225
+  orig: 126, 231
+  offset: 3, 3
+  index: -1
+Sinib_2
+  rotate: false
+  xy: 949, 31
+  size: 120, 225
+  orig: 126, 231
+  offset: 3, 3
+  index: -1
+back
+  rotate: false
+  xy: 2, 258
+  size: 990, 556
+  orig: 992, 558
+  offset: 1, 1
+  index: -1
+c_1
+  rotate: false
+  xy: 994, 464
+  size: 109, 195
+  orig: 111, 197
+  offset: 1, 1
+  index: -1
+desk
+  rotate: false
+  xy: 2, 29
+  size: 383, 227
+  orig: 385, 229
+  offset: 1, 1
+  index: -1
+f_1
+  rotate: true
+  xy: 387, 2
+  size: 254, 333
+  orig: 256, 335
+  offset: 1, 1
+  index: -1
+say_1
+  rotate: true
+  xy: 994, 258
+  size: 204, 121
+  orig: 206, 123
+  offset: 1, 1
+  index: -1
+say_2
+  rotate: true
+  xy: 1004, 661
+  size: 165, 98
+  orig: 167, 100
+  offset: 1, 1
+  index: -1
+say_3
+  rotate: false
+  xy: 722, 131
+  size: 220, 125
+  orig: 222, 127
+  offset: 1, 1
+  index: -1
+say_4
+  rotate: true
+  xy: 1004, 828
+  size: 134, 94
+  orig: 136, 96
+  offset: 1, 1
+  index: -1
+외각 선
+  rotate: false
+  xy: 2, 816
+  size: 1000, 565
+  orig: 1002, 567
+  offset: 1, 1
+  index: -1

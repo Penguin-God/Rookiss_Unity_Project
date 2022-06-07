@@ -1,0 +1,62 @@
+
+project_D.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sinib_1
+  rotate: false
+  xy: 2, 41
+  size: 600, 560
+  orig: 602, 562
+  offset: 1, 1
+  index: -1
+Sinib_2
+  rotate: true
+  xy: 604, 2
+  size: 599, 557
+  orig: 601, 559
+  offset: 1, 1
+  index: -1
+back
+  rotate: false
+  xy: 2, 603
+  size: 994, 559
+  orig: 996, 563
+  offset: 1, 1
+  index: -1
+d
+  rotate: false
+  xy: 1004, 1008
+  size: 94, 165
+  orig: 96, 167
+  offset: 1, 1
+  index: -1
+esa
+  rotate: false
+  xy: 998, 810
+  size: 87, 196
+  orig: 89, 198
+  offset: 1, 1
+  index: -1
+esa_c
+  rotate: false
+  xy: 1087, 810
+  size: 63, 56
+  orig: 65, 58
+  offset: 1, 1
+  index: -1
+g
+  rotate: false
+  xy: 998, 603
+  size: 102, 205
+  orig: 104, 207
+  offset: 1, 1
+  index: -1
+out_line
+  rotate: false
+  xy: 2, 1164
+  size: 1000, 565
+  orig: 1002, 567
+  offset: 1, 1
+  index: -1

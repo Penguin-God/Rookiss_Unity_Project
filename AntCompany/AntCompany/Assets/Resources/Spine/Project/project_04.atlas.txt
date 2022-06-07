@@ -1,0 +1,104 @@
+
+project_04.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Intern_b
+  rotate: false
+  xy: 543, 9
+  size: 77, 116
+  orig: 83, 122
+  offset: 3, 3
+  index: -1
+Intern_e
+  rotate: false
+  xy: 762, 29
+  size: 36, 33
+  orig: 38, 35
+  offset: 1, 1
+  index: -1
+Intern_h
+  rotate: false
+  xy: 401, 21
+  size: 140, 104
+  orig: 142, 106
+  offset: 1, 1
+  index: -1
+Sinib_a_l
+  rotate: false
+  xy: 709, 64
+  size: 62, 45
+  orig: 68, 51
+  offset: 3, 3
+  index: -1
+Sinib_a_r
+  rotate: false
+  xy: 709, 11
+  size: 51, 51
+  orig: 57, 57
+  offset: 3, 3
+  index: -1
+Sinib_b
+  rotate: false
+  xy: 706, 111
+  size: 120, 232
+  orig: 122, 234
+  offset: 1, 1
+  index: -1
+Sinib_e
+  rotate: false
+  xy: 401, 8
+  size: 34, 11
+  orig: 36, 13
+  offset: 1, 1
+  index: -1
+Sinib_m
+  rotate: false
+  xy: 800, 64
+  size: 42, 27
+  orig: 44, 29
+  offset: 1, 1
+  index: -1
+back
+  rotate: false
+  xy: 2, 834
+  size: 998, 556
+  orig: 1000, 558
+  offset: 1, 1
+  index: -1
+etc_1
+  rotate: false
+  xy: 401, 127
+  size: 303, 216
+  orig: 305, 218
+  offset: 1, 1
+  index: -1
+etc_2
+  rotate: true
+  xy: 2, 2
+  size: 341, 397
+  orig: 343, 399
+  offset: 1, 1
+  index: -1
+flash
+  rotate: false
+  xy: 622, 14
+  size: 85, 95
+  orig: 86, 100
+  offset: 0, 2
+  index: -1
+front
+  rotate: false
+  xy: 2, 345
+  size: 996, 487
+  orig: 998, 489
+  offset: 1, 1
+  index: -1
+out_line
+  rotate: false
+  xy: 2, 1392
+  size: 1000, 565
+  orig: 1002, 567
+  offset: 1, 1
+  index: -1

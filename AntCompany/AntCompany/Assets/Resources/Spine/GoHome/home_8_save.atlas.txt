@@ -1,0 +1,48 @@
+
+home_8_save.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 143
+  rotate: false
+  xy: 2, 840
+  size: 1000, 565
+  orig: 1002, 567
+  offset: 1, 1
+  index: -1
+Layer 791
+  rotate: false
+  xy: 2, 1515
+  size: 894, 285
+  orig: 896, 287
+  offset: 1, 1
+  index: -1
+cha
+  rotate: true
+  xy: 845, 1802
+  size: 115, 203
+  orig: 117, 205
+  offset: 1, 1
+  index: -1
+chair
+  rotate: false
+  xy: 1050, 1788
+  size: 867, 129
+  orig: 869, 131
+  offset: 1, 1
+  index: -1
+effect
+  rotate: false
+  xy: 2, 1811
+  size: 841, 106
+  orig: 843, 108
+  offset: 1, 1
+  index: -1
+effect2
+  rotate: false
+  xy: 898, 1407
+  size: 953, 379
+  orig: 955, 381
+  offset: 1, 1
+  index: -1

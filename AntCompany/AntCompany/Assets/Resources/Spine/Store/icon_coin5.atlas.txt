@@ -1,0 +1,20 @@
+
+icon_coin5.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: true
+  xy: 2, 2
+  size: 192, 196
+  orig: 194, 198
+  offset: 1, 1
+  index: -1
+Layer 2
+  rotate: false
+  xy: 2, 196
+  size: 215, 216
+  orig: 217, 218
+  offset: 1, 1
+  index: -1

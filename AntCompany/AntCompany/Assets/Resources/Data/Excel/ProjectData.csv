@@ -1,0 +1,12 @@
+﻿//프로젝트 데이터,//프로젝트 네임,//이미지 아이콘,//출력 애니메이션,//프로젝트 쿨타임(게임시간 일수),//필요 업무 능력치,//필요 호감도,//필요 운,//변화 업무 능력 수치,//변화 호감도 수치,//변화 운 수치,//변화 스트레스 스치,//변화 벽돌,//변화 돈
+ID,projectName,iconPath,aniPath,coolTime,reqWorkAbility,reqLikability,reqLuck,difAbility,difLikability,difLuck,difStress,difBlock,difMoney
+1,7001,Sprites/Main/Project/project_btn_cat,Spine/Project/project_01_SkeletonData,12,-999,-999,-999,0,4,1,-10,2,0
+2,7011,Sprites/Main/Project/project_btn_meeting,Spine/Project/project_02_SkeletonData,12,0,0,1,11,7,0,10,0,0
+3,7021,Sprites/Main/Project/project_btn_presentation,Spine/Project/project_03_SkeletonData,20,280,140,1,24,10,0,10,2,0
+4,7031,Sprites/Main/Project/project_btn_expo,Spine/Project/project_04_SkeletonData,30,420,280,1,0,0,3,20,4,500000
+5,7041,Sprites/Main/Project/project_btn_play,Spine/Project/project_05_SkeletonData,30,700,350,1,-21,-35,-2,-20,6,1700000
+6,7051,Sprites/Main/Project/project_btn_rnd,Spine/Project/project_06_SkeletonData,50,1400,1050,1,105,-28,0,20,8,250000
+7,7061,Sprites/Main/Project/project_btn_subcontract,Spine/Project/project_07_SkeletonData,70,2450,1400,1,63,63,-2,10,6,500000
+8,7071,Sprites/Main/Project/project_btn_develop,Spine/Project/project_08_SkeletonData,80,3500,2800,1,42,35,3,30,5,1100000
+9,7081,Sprites/Main/Project/project_btn_ad,Spine/Project/project_09_SkeletonData,100,2800,4900,50,-56,175,7,30,23,350000
+10,7091,Sprites/Main/Project/project_btn_cuttingedge,Spine/Project/project_D_SkeletonData,120,4200,4900,1,315,-98,7,30,10,0

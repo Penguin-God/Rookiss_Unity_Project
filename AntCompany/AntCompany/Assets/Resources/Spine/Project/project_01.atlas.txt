@@ -1,0 +1,48 @@
+
+project_01.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sinib
+  rotate: true
+  xy: 2, 223
+  size: 212, 311
+  orig: 216, 313
+  offset: 0, 2
+  index: -1
+back
+  rotate: false
+  xy: 2, 437
+  size: 1000, 565
+  orig: 1002, 567
+  offset: 1, 1
+  index: -1
+cat_1
+  rotate: false
+  xy: 315, 226
+  size: 147, 110
+  orig: 151, 119
+  offset: 0, 9
+  index: -1
+cat_2
+  rotate: false
+  xy: 315, 338
+  size: 220, 97
+  orig: 222, 99
+  offset: 0, 2
+  index: -1
+cat_eat
+  rotate: false
+  xy: 551, 338
+  size: 122, 44
+  orig: 124, 46
+  offset: 1, 1
+  index: -1
+flash
+  rotate: false
+  xy: 464, 241
+  size: 85, 95
+  orig: 86, 100
+  offset: 0, 2
+  index: -1

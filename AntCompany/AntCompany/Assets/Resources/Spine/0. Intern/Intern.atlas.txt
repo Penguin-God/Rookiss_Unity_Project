@@ -1,0 +1,132 @@
+
+Intern.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 94
+  size: 63, 58
+  orig: 65, 60
+  offset: 1, 1
+  index: -1
+chair
+  rotate: false
+  xy: 2, 295
+  size: 80, 144
+  orig: 80, 144
+  offset: 0, 0
+  index: -1
+eye_c
+  rotate: true
+  xy: 84, 295
+  size: 36, 8
+  orig: 38, 10
+  offset: 1, 1
+  index: -1
+eye_o
+  rotate: false
+  xy: 60, 39
+  size: 32, 12
+  orig: 34, 14
+  offset: 1, 1
+  index: -1
+eyebrow
+  rotate: true
+  xy: 36, 3
+  size: 15, 10
+  orig: 17, 12
+  offset: 1, 1
+  index: -1
+feeler_l
+  rotate: true
+  xy: 67, 96
+  size: 57, 24
+  orig: 57, 24
+  offset: 0, 0
+  index: -1
+feeler_r
+  rotate: false
+  xy: 45, 71
+  size: 45, 29
+  orig: 45, 29
+  offset: 0, 0
+  index: -1
+foot_l
+  rotate: 270
+  xy: 2, 30
+  size: 15, 54
+  orig: 15, 55
+  offset: 0, 1
+  index: -1
+foot_r
+  rotate: 270
+  xy: 31, 57
+  size: 16, 58
+  orig: 16, 58
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 2, 154
+  size: 90, 53
+  orig: 92, 55
+  offset: 1, 1
+  index: -1
+hand_l
+  rotate: true
+  xy: 39, 21
+  size: 17, 45
+  orig: 17, 45
+  offset: 0, 0
+  index: -1
+hand_r
+  rotate: 270
+  xy: 2, 40
+  size: 21, 56
+  orig: 21, 56
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 209
+  size: 83, 84
+  orig: 85, 86
+  offset: 1, 1
+  index: -1
+lip
+  rotate: false
+  xy: 64, 12
+  size: 27, 9
+  orig: 29, 11
+  offset: 1, 1
+  index: -1
+neck
+  rotate: false
+  xy: 2, 67
+  size: 28, 25
+  orig: 30, 27
+  offset: 1, 1
+  index: -1
+neck_c1
+  rotate: true
+  xy: 23, 11
+  size: 17, 11
+  orig: 19, 13
+  offset: 1, 1
+  index: -1
+neck_c2
+  rotate: true
+  xy: 2, 12
+  size: 16, 19
+  orig: 18, 21
+  offset: 1, 1
+  index: -1
+sweat
+  rotate: true
+  xy: 48, 6
+  size: 13, 14
+  orig: 15, 16
+  offset: 1, 1
+  index: -1

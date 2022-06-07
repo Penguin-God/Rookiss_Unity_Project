@@ -1,0 +1,83 @@
+
+home_5_save.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm1
+  rotate: false
+  xy: 276, 181
+  size: 71, 99
+  orig: 73, 101
+  offset: 1, 1
+  index: -1
+arm2
+  rotate: true
+  xy: 349, 240
+  size: 82, 69
+  orig: 84, 71
+  offset: 1, 1
+  index: -1
+bg2
+  rotate: true
+  xy: 1004, 559
+  size: 971, 526
+  orig: 973, 528
+  offset: 1, 1
+  index: -1
+bg3
+  rotate: false
+  xy: 278, 324
+  size: 78, 71
+  orig: 80, 73
+  offset: 1, 1
+  index: -1
+box_ani copy 2
+  rotate: false
+  xy: 2, 965
+  size: 1000, 565
+  orig: 1002, 567
+  offset: 1, 1
+  index: -1
+cha1
+  rotate: false
+  xy: 2, 102
+  size: 175, 293
+  orig: 177, 295
+  offset: 1, 1
+  index: -1
+effect1
+  rotate: false
+  xy: 179, 165
+  size: 95, 115
+  orig: 97, 117
+  offset: 1, 1
+  index: -1
+effect2
+  rotate: false
+  xy: 179, 282
+  size: 97, 113
+  orig: 99, 115
+  offset: 1, 1
+  index: -1
+effect3
+  rotate: true
+  xy: 2, 397
+  size: 566, 430
+  orig: 568, 432
+  offset: 1, 1
+  index: -1
+fire1
+  rotate: false
+  xy: 434, 607
+  size: 324, 356
+  orig: 326, 358
+  offset: 1, 1
+  index: -1
+fire2
+  rotate: false
+  xy: 434, 260
+  size: 323, 345
+  orig: 325, 347
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,69 @@
+
+home_10_save.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 1
+  rotate: true
+  xy: 1004, 1679
+  size: 361, 521
+  orig: 363, 523
+  offset: 1, 1
+  index: -1
+box_ani copy 2
+  rotate: false
+  xy: 2, 1475
+  size: 1000, 565
+  orig: 1002, 567
+  offset: 1, 1
+  index: -1
+dog
+  rotate: true
+  xy: 1527, 1733
+  size: 307, 335
+  orig: 309, 337
+  offset: 1, 1
+  index: -1
+dog_1
+  rotate: true
+  xy: 1790, 1465
+  size: 259, 191
+  orig: 261, 193
+  offset: 1, 1
+  index: -1
+dog_2
+  rotate: false
+  xy: 1527, 1540
+  size: 261, 191
+  orig: 263, 193
+  offset: 1, 1
+  index: -1
+effect1
+  rotate: true
+  xy: 1864, 1915
+  size: 125, 141
+  orig: 127, 143
+  offset: 1, 1
+  index: -1
+effect2
+  rotate: true
+  xy: 1864, 1788
+  size: 125, 141
+  orig: 127, 143
+  offset: 1, 1
+  index: -1
+effect3
+  rotate: true
+  xy: 1864, 1726
+  size: 60, 61
+  orig: 62, 63
+  offset: 1, 1
+  index: -1
+effect4
+  rotate: true
+  xy: 2007, 1981
+  size: 59, 33
+  orig: 61, 35
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,104 @@
+
+home_4_save.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+box_ani copy 3
+  rotate: false
+  xy: 2, 301
+  size: 1002, 569
+  orig: 1004, 571
+  offset: 1, 1
+  index: -1
+bubble1
+  rotate: false
+  xy: 536, 932
+  size: 75, 72
+  orig: 77, 74
+  offset: 1, 1
+  index: -1
+bubble2
+  rotate: true
+  xy: 279, 955
+  size: 49, 69
+  orig: 51, 71
+  offset: 1, 1
+  index: -1
+cha1
+  rotate: true
+  xy: 613, 872
+  size: 132, 232
+  orig: 138, 238
+  offset: 3, 3
+  index: -1
+effect1
+  rotate: true
+  xy: 58, 975
+  size: 29, 38
+  orig: 31, 40
+  offset: 1, 1
+  index: -1
+effect2
+  rotate: false
+  xy: 466, 936
+  size: 68, 68
+  orig: 68, 68
+  offset: 0, 0
+  index: -1
+effect3
+  rotate: true
+  xy: 139, 967
+  size: 37, 41
+  orig: 37, 41
+  offset: 0, 0
+  index: -1
+effect4
+  rotate: true
+  xy: 408, 954
+  size: 50, 56
+  orig: 50, 56
+  offset: 0, 0
+  index: -1
+effect5
+  rotate: true
+  xy: 232, 964
+  size: 40, 45
+  orig: 40, 45
+  offset: 0, 0
+  index: -1
+effect6
+  rotate: true
+  xy: 350, 954
+  size: 50, 56
+  orig: 50, 56
+  offset: 0, 0
+  index: -1
+head1
+  rotate: false
+  xy: 98, 968
+  size: 39, 36
+  orig: 41, 38
+  offset: 1, 1
+  index: -1
+head2
+  rotate: true
+  xy: 182, 967
+  size: 37, 48
+  orig: 39, 50
+  offset: 1, 1
+  index: -1
+mouth1
+  rotate: true
+  xy: 2, 991
+  size: 13, 16
+  orig: 15, 18
+  offset: 1, 1
+  index: -1
+mouth2
+  rotate: true
+  xy: 20, 986
+  size: 18, 36
+  orig: 20, 38
+  offset: 1, 1
+  index: -1

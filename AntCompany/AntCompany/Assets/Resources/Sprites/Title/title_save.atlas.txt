@@ -1,0 +1,139 @@
+
+title_save.png
+size: 4096,4096
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 1684, 1694
+  size: 1680, 2099
+  orig: 1682, 2101
+  offset: 1, 1
+  index: -1
+Layer 110
+  rotate: false
+  xy: 2, 913
+  size: 1680, 2880
+  orig: 1682, 2882
+  offset: 1, 1
+  index: -1
+Layer 131
+  rotate: false
+  xy: 2, 52
+  size: 1242, 859
+  orig: 1242, 859
+  offset: 0, 0
+  index: -1
+ant
+  rotate: true
+  xy: 2560, 912
+  size: 780, 414
+  orig: 782, 416
+  offset: 1, 1
+  index: -1
+ant_1
+  rotate: false
+  xy: 1370, 117
+  size: 112, 141
+  orig: 114, 143
+  offset: 1, 1
+  index: -1
+ant_2
+  rotate: true
+  xy: 1246, 113
+  size: 145, 122
+  orig: 147, 124
+  offset: 1, 1
+  index: -1
+ant_effect1
+  rotate: true
+  xy: 1941, 423
+  size: 362, 266
+  orig: 364, 268
+  offset: 1, 1
+  index: -1
+ant_effect2
+  rotate: false
+  xy: 1941, 787
+  size: 401, 441
+  orig: 403, 443
+  offset: 1, 1
+  index: -1
+ant_effect3
+  rotate: true
+  xy: 2503, 617
+  size: 293, 390
+  orig: 295, 392
+  offset: 1, 1
+  index: -1
+cloud_1
+  rotate: true
+  xy: 1484, 26
+  size: 232, 101
+  orig: 234, 103
+  offset: 1, 1
+  index: -1
+cloud_2
+  rotate: true
+  xy: 1650, 166
+  size: 379, 154
+  orig: 381, 156
+  offset: 1, 1
+  index: -1
+cloud_3
+  rotate: true
+  xy: 2344, 867
+  size: 361, 157
+  orig: 363, 159
+  offset: 1, 1
+  index: -1
+title_effect1
+  rotate: true
+  xy: 1347, 5
+  size: 106, 68
+  orig: 108, 70
+  offset: 1, 1
+  index: -1
+title_effect2
+  rotate: true
+  xy: 1417, 49
+  size: 66, 56
+  orig: 68, 58
+  offset: 1, 1
+  index: -1
+title_effect3
+  rotate: false
+  xy: 1246, 2
+  size: 99, 109
+  orig: 101, 111
+  offset: 1, 1
+  index: -1
+title_effect4
+  rotate: true
+  xy: 2503, 1100
+  size: 128, 49
+  orig: 130, 51
+  offset: 1, 1
+  index: -1
+tree1
+  rotate: true
+  xy: 1684, 1230
+  size: 462, 874
+  orig: 464, 876
+  offset: 1, 1
+  index: -1
+tree2
+  rotate: false
+  xy: 1246, 260
+  size: 402, 651
+  orig: 404, 653
+  offset: 1, 1
+  index: -1
+tree3
+  rotate: false
+  xy: 1684, 547
+  size: 255, 681
+  orig: 257, 683
+  offset: 1, 1
+  index: -1

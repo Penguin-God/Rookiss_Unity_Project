@@ -1,0 +1,97 @@
+
+ending1_save.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 1095, 834
+  size: 35, 62
+  orig: 37, 64
+  offset: 1, 1
+  index: -1
+2
+  rotate: false
+  xy: 1086, 898
+  size: 35, 64
+  orig: 37, 66
+  offset: 1, 1
+  index: -1
+Layer 17
+  rotate: false
+  xy: 1134, 488
+  size: 338, 474
+  orig: 340, 476
+  offset: 1, 1
+  index: -1
+Layer 18
+  rotate: true
+  xy: 2, 2
+  size: 810, 1130
+  orig: 812, 1132
+  offset: 1, 1
+  index: -1
+arm1
+  rotate: true
+  xy: 1016, 892
+  size: 70, 68
+  orig: 72, 70
+  offset: 1, 1
+  index: -1
+arm2
+  rotate: false
+  xy: 1016, 828
+  size: 77, 62
+  orig: 79, 64
+  offset: 1, 1
+  index: -1
+box
+  rotate: false
+  xy: 2, 814
+  size: 798, 1132
+  orig: 800, 1134
+  offset: 1, 1
+  index: -1
+effect1
+  rotate: false
+  xy: 802, 1456
+  size: 638, 490
+  orig: 640, 492
+  offset: 1, 1
+  index: -1
+effect2
+  rotate: false
+  xy: 802, 964
+  size: 638, 490
+  orig: 640, 492
+  offset: 1, 1
+  index: -1
+head1
+  rotate: false
+  xy: 1134, 396
+  size: 210, 90
+  orig: 212, 92
+  offset: 1, 1
+  index: -1
+head2
+  rotate: false
+  xy: 802, 866
+  size: 212, 96
+  orig: 214, 98
+  offset: 1, 1
+  index: -1
+star1
+  rotate: false
+  xy: 802, 834
+  size: 31, 30
+  orig: 33, 32
+  offset: 1, 1
+  index: -1
+star2
+  rotate: false
+  xy: 1095, 814
+  size: 18, 18
+  orig: 20, 20
+  offset: 1, 1
+  index: -1

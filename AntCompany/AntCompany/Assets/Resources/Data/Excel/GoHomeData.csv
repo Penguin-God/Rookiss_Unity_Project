@@ -1,0 +1,14 @@
+﻿//퇴근 데이터,//퇴근 명,//출력 애니메이션,//변화 업무 능력 수치,//변화 호감도 수치,//변화 운 수치,//변화 스트레스 수치,//변화 돈 수치,
+ID,nameID,aniPath,difWorkAbility,difLikability,difLuck,difStress,difMoney,textID
+1,8501,Spine/GoHome/home_12_save_SkeletonData,0,0,0,-12,0,8502
+2,8511,Spine/GoHome/home_3_save_SkeletonData,0,0,2,-10,-140000,8512
+3,8521,Spine/GoHome/home_1_save_SkeletonData,0,27,0,-30,-175000,8522
+4,8531,Spine/GoHome/home_10_save_SkeletonData,-90,0,4,-100,-210000,8532
+5,8541,Spine/GoHome/home_9_save_SkeletonData,72,-36,0,-45,-245000,8542
+6,8551,Spine/GoHome/home_4_save_SkeletonData,45,0,0,-45,-280000,8552
+7,8561,Spine/GoHome/home_2_save_SkeletonData,-60,90,2,-35,-315000,8562
+8,8571,Spine/GoHome/home_8_save_SkeletonData,33,33,0,-40,-350000,8572
+9,8581,Spine/GoHome/home_7_save_SkeletonData,0,54,2,-40,-420000,8582
+10,8591,Spine/GoHome/home_5_save_SkeletonData,48,18,2,-55,-490000,8592
+11,8601,Spine/GoHome/home_6_save_SkeletonData,45,45,2,-60,-560000,8602
+12,8611,Spine/GoHome/home_11_save_SkeletonData,63,63,2,-70,-700000,8612

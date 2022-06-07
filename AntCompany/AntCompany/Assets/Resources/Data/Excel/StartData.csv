@@ -1,0 +1,3 @@
+﻿//플레이어 시작 데이터,//maxHp,//maxHp아이콘,//공격력,//돈,//돈 아이콘,//벽돌 수,//벽돌 아이콘,//월급,//연봉 상승치,//전체 수입 추가 퍼센트(0%),//프로젝트 쿨타임 감소율(0%),//벽돌 공격 성공률(50%),//업무 능력,//업무 능력 아이콘,//호감도,//호감도 아이콘,//스트레스,//최대 스트레스 수치,//초당 스트레스 상승 수치,//스트레스 아이콘,//운,//운 아이콘
+ID,maxHp,maxhpIconPath,atk,money,moneyIconPath,block,blockIconPath,salary,salaryPercent,revenuePercent,cooltimePercent,successPercent,workAbility,workAbilityIconPath,likAbility,likAbilityIconPath,stress,maxStress,increaseStress,stressIconPath,luck,luckIconPath
+0,20,Sprites/Main/Ability/icon_strength,10,200000,Sprites/Main/Project/icon_coin1,1,Sprites/Main/Project/icon_coin2,2000000,3,0,0,50,0,Sprites/Main/Ability/icon_ability,0,Sprites/Main/Ability/icon_heart,0,140,3,Sprites/Main/Ability/icon_stress,0,Sprites/Main/Ability/icon_luck

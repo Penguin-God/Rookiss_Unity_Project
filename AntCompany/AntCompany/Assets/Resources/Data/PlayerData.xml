@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPlayerData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PlayerData ID="0" nameID="5000" illustPath="" battleIconPath="" spine="Spine/0. Intern/Intern_SkeletonData" aniIdle="idle" aniIdleSkin="main" aniWorking="work" aniWorkingSkin="work" aniAttack="" aniAttackSkin="" aniWalk="" aniWalkSkin="" aniSweat="sweat" aniSweatSkin="sweat" maxhp="0" atk="0" promotion="">
+    <attackTexts>
+      <int>9500</int>
+      <int>9501</int>
+      <int>9502</int>
+    </attackTexts>
+  </PlayerData>
+  <PlayerData ID="1" nameID="5010" illustPath="Sprites/Main/Battle/character_6" battleIconPath="" spine="Spine/1. Sinib/Sinib_SkeletonData" aniIdle="idle" aniIdleSkin="main" aniWorking="work" aniWorkingSkin="main_work" aniAttack="attack" aniAttackSkin="attack" aniWalk="idle" aniWalkSkin="main" aniSweat="idle_sweat" aniSweatSkin="main_sweat" maxhp="0" atk="0" promotion="">
+    <attackTexts>
+      <int>9503</int>
+      <int>9504</int>
+      <int>9505</int>
+    </attackTexts>
+  </PlayerData>
+  <PlayerData ID="2" nameID="5020" illustPath="Sprites/Main/Battle/battle_cha_1" battleIconPath="Sprites/Main/Battle/character_1" spine="Spine/2. Daeri/Deari_SkeletonData" aniIdle="idle" aniIdleSkin="main" aniWorking="work" aniWorkingSkin="work" aniAttack="attack" aniAttackSkin="attack" aniWalk="idle" aniWalkSkin="main" aniSweat="sweat" aniSweatSkin="sweat" maxhp="25000" atk="3000" promotion="Sprites/Comic4/Promotion1">
+    <attackTexts>
+      <int>9506</int>
+      <int>9507</int>
+      <int>9508</int>
+    </attackTexts>
+  </PlayerData>
+  <PlayerData ID="3" nameID="5030" illustPath="Sprites/Main/Battle/battle_cha_2" battleIconPath="Sprites/Main/Battle/character_2" spine="Spine/3. Gwajang/Gwajanb_SkeletonData" aniIdle="main" aniIdleSkin="main" aniWorking="work" aniWorkingSkin="work" aniAttack="attack" aniAttackSkin="attack" aniWalk="idle" aniWalkSkin="main" aniSweat="sweat" aniSweatSkin="sweat" maxhp="80000" atk="7500" promotion="Sprites/Comic4/Promotion2">
+    <attackTexts>
+      <int>9509</int>
+      <int>9510</int>
+      <int>9511</int>
+    </attackTexts>
+  </PlayerData>
+  <PlayerData ID="4" nameID="5040" illustPath="Sprites/Main/Battle/battle_cha_3" battleIconPath="Sprites/Main/Battle/character_3" spine="Spine/4. Bujang/Bujang_SkeletonData" aniIdle="main" aniIdleSkin="main" aniWorking="work" aniWorkingSkin="work" aniAttack="attack" aniAttackSkin="attack" aniWalk="idle" aniWalkSkin="main" aniSweat="sweat" aniSweatSkin="main" maxhp="160000" atk="14000" promotion="Sprites/Comic4/Promotion3">
+    <attackTexts>
+      <int>9512</int>
+      <int>9513</int>
+      <int>9514</int>
+    </attackTexts>
+  </PlayerData>
+  <PlayerData ID="5" nameID="5050" illustPath="Sprites/Main/Battle/battle_cha_4" battleIconPath="Sprites/Main/Battle/character_4" spine="Spine/5. Esa/Esa_SkeletonData" aniIdle="idle" aniIdleSkin="main" aniWorking="work_1" aniWorkingSkin="work_chair_1" aniAttack="attack" aniAttackSkin="attack" aniWalk="idle" aniWalkSkin="main" aniSweat="sweat" aniSweatSkin="sweat" maxhp="240000" atk="23000" promotion="Sprites/Comic4/Promotion4">
+    <attackTexts>
+      <int>9515</int>
+      <int>9516</int>
+      <int>9517</int>
+    </attackTexts>
+  </PlayerData>
+  <PlayerData ID="6" nameID="5060" illustPath="Sprites/Main/Battle/battle_cha_5" battleIconPath="Sprites/Main/Battle/character_5" spine="Spine/6. Sajang/Sajang_SkeletonData" aniIdle="idle" aniIdleSkin="main" aniWorking="work" aniWorkingSkin="work" aniAttack="attack" aniAttackSkin="attack" aniWalk="walk" aniWalkSkin="main" aniSweat="sweat" aniSweatSkin="sweat" maxhp="360000" atk="34000" promotion="Sprites/Comic4/Promotion5">
+    <attackTexts>
+      <int>9518</int>
+      <int>9519</int>
+      <int>9520</int>
+    </attackTexts>
+  </PlayerData>
+  <PlayerData ID="7" nameID="5070" illustPath="" battleIconPath="" spine="Spine/6. Sajang/cat_SkeletonData" aniIdle="animation" aniIdleSkin="default" aniWorking="animation" aniWorkingSkin="default" aniAttack="animation" aniAttackSkin="default" aniWalk="animation" aniWalkSkin="default" aniSweat="animation" aniSweatSkin="default" maxhp="0" atk="0" promotion="">
+    <attackTexts>
+      <int>9521</int>
+      <int>9522</int>
+      <int>9523</int>
+    </attackTexts>
+  </PlayerData>
+</ArrayOfPlayerData>

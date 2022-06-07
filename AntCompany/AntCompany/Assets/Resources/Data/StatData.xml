@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfStatData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <StatData ID="1" type="MaxHp" nameID="6001" price="100000" increaseStat="200" difMaxHp="0" difAtk="0" difAllAtkPercent="0" difSalaryPercent="0" difRevenuePercent="0" cooltimePercent="0" successPercent="0" />
+  <StatData ID="2" type="WorkAbility" nameID="6011" price="100000" increaseStat="10" difMaxHp="0" difAtk="2" difAllAtkPercent="0" difSalaryPercent="0.0005" difRevenuePercent="0" cooltimePercent="0.002" successPercent="0" />
+  <StatData ID="3" type="Likeability" nameID="6021" price="100000" increaseStat="10" difMaxHp="0" difAtk="0" difAllAtkPercent="0" difSalaryPercent="0" difRevenuePercent="0.003" cooltimePercent="0" successPercent="0" />
+  <StatData ID="4" type="Stress" nameID="6031" price="50000" increaseStat="-30" difMaxHp="0" difAtk="0" difAllAtkPercent="0.01" difSalaryPercent="0" difRevenuePercent="0" cooltimePercent="0" successPercent="0" />
+  <StatData ID="5" type="Luck" nameID="6041" price="0" increaseStat="0" difMaxHp="0" difAtk="0" difAllAtkPercent="0" difSalaryPercent="0" difRevenuePercent="0" cooltimePercent="0" successPercent="0.1" />
+</ArrayOfStatData>

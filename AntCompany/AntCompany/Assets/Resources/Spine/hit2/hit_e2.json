@@ -1,0 +1,120 @@
+{
+"skeleton": { "hash": "Vu0nlxlPhgMz09uaF421ojmb75o", "spine": "3.8.99", "images": "C:/회사/개미주식회사/스파인/hit_e/hit_e_ima/", "audio": "C:\\회사\\개미주식회사\\스파인\\hit_e" },
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone6", "parent": "root", "x": 5.01, "y": 8.76 }
+],
+"slots": [
+	{ "name": "dust1", "bone": "bone6", "attachment": "dust1" },
+	{ "name": "dust2", "bone": "bone6", "attachment": "dust2" },
+	{ "name": "dust3", "bone": "bone6", "attachment": "dust3" },
+	{ "name": "dust4", "bone": "bone6", "attachment": "dust4" },
+	{ "name": "dust5", "bone": "bone6", "attachment": "dust5" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"dust1": {
+				"dust1": { "x": -7.66, "y": -9.06, "width": 89, "height": 84 }
+			},
+			"dust2": {
+				"dust2": { "x": -6.98, "y": 1, "width": 169, "height": 163 }
+			},
+			"dust3": {
+				"dust3": { "x": -6.76, "y": -2.13, "width": 202, "height": 193 }
+			},
+			"dust4": {
+				"dust4": { "x": -3.01, "y": 4.97, "width": 212, "height": 213 }
+			},
+			"dust5": {
+				"dust5": { "x": -4.51, "y": 6.47, "width": 237, "height": 210 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"dust1": {
+				"attachment": [
+					{ "name": "dust1" },
+					{ "time": 0.1667, "name": null }
+				]
+			},
+			"dust2": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.1667, "name": "dust2" },
+					{ "time": 0.3333, "name": null }
+				]
+			},
+			"dust3": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.3333, "name": "dust3" },
+					{ "time": 0.4, "name": null }
+				]
+			},
+			"dust4": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.4, "name": "dust4" },
+					{ "time": 0.4667, "name": null }
+				]
+			},
+			"dust5": {
+				"color": [
+					{ "time": 0.4667, "color": "ffffffff" },
+					{ "time": 0.7333, "color": "ffffff00" }
+				],
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.4667, "name": "dust5" }
+				]
+			}
+		},
+		"bones": {
+			"bone6": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"scale": [
+					{ "x": 0.57, "y": 0.57 },
+					{ "time": 0.1333 },
+					{ "time": 0.1667, "x": 0.867, "y": 0.867 },
+					{ "time": 0.2667, "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"shear": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				]
+			},
+			"root": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"shear": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}

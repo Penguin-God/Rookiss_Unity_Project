@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBlockEventData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <BlockEventData enemyID="5020">
+    <ansData>
+      <BlockEventAnsData enemyID="0" answerID="4500" success="1" resultID="4502" isDead="0" difWorkAbility="-100" difLikability="-100" difLuck="0" difBlock="-1" />
+      <BlockEventAnsData enemyID="0" answerID="4500" success="0" resultID="4501" isDead="0" difWorkAbility="100" difLikability="100" difLuck="1" difBlock="-1" />
+    </ansData>
+  </BlockEventData>
+  <BlockEventData enemyID="5030">
+    <ansData>
+      <BlockEventAnsData enemyID="0" answerID="4500" success="1" resultID="4502" isDead="0" difWorkAbility="-100" difLikability="-100" difLuck="0" difBlock="-1" />
+      <BlockEventAnsData enemyID="0" answerID="4500" success="0" resultID="4501" isDead="0" difWorkAbility="100" difLikability="100" difLuck="1" difBlock="-1" />
+    </ansData>
+  </BlockEventData>
+  <BlockEventData enemyID="5040">
+    <ansData>
+      <BlockEventAnsData enemyID="0" answerID="4500" success="1" resultID="4502" isDead="0" difWorkAbility="-100" difLikability="-100" difLuck="0" difBlock="-1" />
+      <BlockEventAnsData enemyID="0" answerID="4500" success="0" resultID="4501" isDead="0" difWorkAbility="100" difLikability="100" difLuck="1" difBlock="-1" />
+    </ansData>
+  </BlockEventData>
+  <BlockEventData enemyID="5050">
+    <ansData>
+      <BlockEventAnsData enemyID="0" answerID="4500" success="1" resultID="4502" isDead="0" difWorkAbility="-100" difLikability="-100" difLuck="0" difBlock="-1" />
+      <BlockEventAnsData enemyID="0" answerID="4500" success="0" resultID="4501" isDead="0" difWorkAbility="100" difLikability="100" difLuck="1" difBlock="-1" />
+    </ansData>
+  </BlockEventData>
+  <BlockEventData enemyID="5060">
+    <ansData>
+      <BlockEventAnsData enemyID="0" answerID="4500" success="1" resultID="4502" isDead="0" difWorkAbility="-100" difLikability="-100" difLuck="0" difBlock="-1" />
+      <BlockEventAnsData enemyID="0" answerID="4500" success="0" resultID="4501" isDead="0" difWorkAbility="100" difLikability="100" difLuck="1" difBlock="-1" />
+    </ansData>
+  </BlockEventData>
+</ArrayOfBlockEventData>

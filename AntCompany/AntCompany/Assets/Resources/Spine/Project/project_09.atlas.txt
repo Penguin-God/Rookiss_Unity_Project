@@ -1,0 +1,69 @@
+
+project_09.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+AD
+  rotate: true
+  xy: 1682, 1015
+  size: 436, 336
+  orig: 438, 338
+  offset: 1, 1
+  index: -1
+AD_2
+  rotate: false
+  xy: 995, 921
+  size: 46, 32
+  orig: 46, 32
+  offset: 0, 0
+  index: -1
+AD_back
+  rotate: false
+  xy: 995, 1140
+  size: 685, 311
+  orig: 687, 313
+  offset: 1, 1
+  index: -1
+Intern_1
+  rotate: false
+  xy: 995, 955
+  size: 173, 183
+  orig: 179, 189
+  offset: 3, 3
+  index: -1
+Intern_2
+  rotate: false
+  xy: 1170, 958
+  size: 173, 180
+  orig: 179, 186
+  offset: 3, 3
+  index: -1
+back
+  rotate: false
+  xy: 2, 895
+  size: 991, 556
+  orig: 993, 558
+  offset: 1, 1
+  index: -1
+com
+  rotate: false
+  xy: 1004, 1453
+  size: 995, 565
+  orig: 997, 567
+  offset: 1, 1
+  index: -1
+flash
+  rotate: false
+  xy: 1345, 1043
+  size: 85, 95
+  orig: 86, 100
+  offset: 0, 2
+  index: -1
+out_line
+  rotate: false
+  xy: 2, 1453
+  size: 1000, 565
+  orig: 1002, 567
+  offset: 1, 1
+  index: -1

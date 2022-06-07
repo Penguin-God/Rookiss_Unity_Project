@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEndingData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EndingData ID="1" nameID="8001" type="Level" value="1" aniPath="Spine/Ending/ending1_save_SkeletonData" illustPath="Sprites/Popup6/ending_1" />
+  <EndingData ID="2" nameID="8011" type="Level" value="2" aniPath="Spine/Ending/ending2_save_SkeletonData" illustPath="Sprites/Popup6/ending_2" />
+  <EndingData ID="3" nameID="8021" type="Level" value="3" aniPath="Spine/Ending/ending3_save_SkeletonData" illustPath="Sprites/Popup6/ending_3" />
+  <EndingData ID="4" nameID="8031" type="Level" value="4" aniPath="Spine/Ending/ending4_save_SkeletonData" illustPath="Sprites/Popup6/ending_4" />
+  <EndingData ID="5" nameID="8041" type="Level" value="5" aniPath="Spine/Ending/ending5_save_SkeletonData" illustPath="Sprites/Popup6/ending_5" />
+  <EndingData ID="6" nameID="8051" type="Level" value="6" aniPath="Spine/Ending/ending6_save_SkeletonData" illustPath="Sprites/Popup6/ending_6" />
+  <EndingData ID="7" nameID="8061" type="Stress" value="140" aniPath="Spine/Ending/ending7_save_SkeletonData" illustPath="Sprites/Popup6/ending_7" />
+</ArrayOfEndingData>

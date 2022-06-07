@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfGoHomeData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <GoHomeData ID="1" nameID="8501" aniPath="Spine/GoHome/home_12_save_SkeletonData" difWorkAbility="0" difLikeability="0" difLuck="0" difStress="-12" difMoney="0" textID="8502" />
+  <GoHomeData ID="2" nameID="8511" aniPath="Spine/GoHome/home_3_save_SkeletonData" difWorkAbility="0" difLikeability="0" difLuck="2" difStress="-10" difMoney="-140000" textID="8512" />
+  <GoHomeData ID="3" nameID="8521" aniPath="Spine/GoHome/home_1_save_SkeletonData" difWorkAbility="0" difLikeability="27" difLuck="0" difStress="-30" difMoney="-175000" textID="8522" />
+  <GoHomeData ID="4" nameID="8531" aniPath="Spine/GoHome/home_10_save_SkeletonData" difWorkAbility="-90" difLikeability="0" difLuck="4" difStress="-100" difMoney="-210000" textID="8532" />
+  <GoHomeData ID="5" nameID="8541" aniPath="Spine/GoHome/home_9_save_SkeletonData" difWorkAbility="72" difLikeability="-36" difLuck="0" difStress="-45" difMoney="-245000" textID="8542" />
+  <GoHomeData ID="6" nameID="8551" aniPath="Spine/GoHome/home_4_save_SkeletonData" difWorkAbility="45" difLikeability="0" difLuck="0" difStress="-45" difMoney="-280000" textID="8552" />
+  <GoHomeData ID="7" nameID="8561" aniPath="Spine/GoHome/home_2_save_SkeletonData" difWorkAbility="-60" difLikeability="90" difLuck="2" difStress="-35" difMoney="-315000" textID="8562" />
+  <GoHomeData ID="8" nameID="8571" aniPath="Spine/GoHome/home_8_save_SkeletonData" difWorkAbility="33" difLikeability="33" difLuck="0" difStress="-40" difMoney="-350000" textID="8572" />
+  <GoHomeData ID="9" nameID="8581" aniPath="Spine/GoHome/home_7_save_SkeletonData" difWorkAbility="0" difLikeability="54" difLuck="2" difStress="-40" difMoney="-420000" textID="8582" />
+  <GoHomeData ID="10" nameID="8591" aniPath="Spine/GoHome/home_5_save_SkeletonData" difWorkAbility="48" difLikeability="18" difLuck="2" difStress="-55" difMoney="-490000" textID="8592" />
+  <GoHomeData ID="11" nameID="8601" aniPath="Spine/GoHome/home_6_save_SkeletonData" difWorkAbility="45" difLikeability="45" difLuck="2" difStress="-60" difMoney="-560000" textID="8602" />
+  <GoHomeData ID="12" nameID="8611" aniPath="Spine/GoHome/home_11_save_SkeletonData" difWorkAbility="63" difLikeability="63" difLuck="2" difStress="-70" difMoney="-700000" textID="8612" />
+</ArrayOfGoHomeData>

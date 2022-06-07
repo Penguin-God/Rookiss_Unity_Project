@@ -1,0 +1,195 @@
+
+Gwajanb.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+attack_c1
+  rotate: false
+  xy: 2, 249
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+attack_c2
+  rotate: false
+  xy: 2, 200
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+attack_c3
+  rotate: false
+  xy: 2, 151
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+attack_c4
+  rotate: false
+  xy: 2, 102
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+attack_c5
+  rotate: false
+  xy: 2, 53
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 2, 351
+  size: 74, 92
+  orig: 76, 94
+  offset: 1, 1
+  index: -1
+chair
+  rotate: false
+  xy: 2, 623
+  size: 80, 144
+  orig: 80, 144
+  offset: 0, 0
+  index: -1
+eye_c
+  rotate: false
+  xy: 53, 9
+  size: 40, 9
+  orig: 42, 11
+  offset: 1, 1
+  index: -1
+eye_e
+  rotate: true
+  xy: 78, 351
+  size: 39, 11
+  orig: 41, 13
+  offset: 1, 1
+  index: -1
+eye_o
+  rotate: true
+  xy: 78, 392
+  size: 39, 11
+  orig: 41, 13
+  offset: 1, 1
+  index: -1
+feeler_l
+  rotate: false
+  xy: 67, 97
+  size: 26, 57
+  orig: 26, 57
+  offset: 0, 0
+  index: -1
+feeler_r
+  rotate: false
+  xy: 76, 150
+  size: 17, 53
+  orig: 17, 53
+  offset: 0, 0
+  index: -1
+foot_l
+  rotate: 270
+  xy: 2, 25
+  size: 20, 42
+  orig: 20, 43
+  offset: 0, 0
+  index: -1
+foot_r
+  rotate: true
+  xy: 49, 21
+  size: 18, 41
+  orig: 18, 42
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 2, 298
+  size: 91, 51
+  orig: 93, 54
+  offset: 1, 2
+  index: -1
+hand_l
+  rotate: 180
+  xy: 41, 29
+  size: 50, 43
+  orig: 50, 43
+  offset: 0, 0
+  index: -1
+hand_r
+  rotate: false
+  xy: 56, 73
+  size: 38, 45
+  orig: 38, 45
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 534
+  size: 86, 87
+  orig: 88, 89
+  offset: 1, 1
+  index: -1
+head_e
+  rotate: false
+  xy: 2, 445
+  size: 86, 87
+  orig: 86, 87
+  offset: 0, 0
+  index: -1
+lip
+  rotate: true
+  xy: 56, 255
+  size: 41, 34
+  orig: 43, 36
+  offset: 1, 1
+  index: -1
+lip_e
+  rotate: true
+  xy: 56, 175
+  size: 41, 23
+  orig: 41, 23
+  offset: 0, 0
+  index: -1
+lip_e1
+  rotate: false
+  xy: 28, 3
+  size: 23, 17
+  orig: 23, 17
+  offset: 0, 0
+  index: -1
+lip_e2
+  rotate: true
+  xy: 83, 127
+  size: 21, 11
+  orig: 21, 11
+  offset: 0, 0
+  index: -1
+lip_e3
+  rotate: false
+  xy: 78, 433
+  size: 16, 9
+  orig: 16, 9
+  offset: 0, 0
+  index: -1
+lip_e4
+  rotate: false
+  xy: 2, 7
+  size: 24, 17
+  orig: 24, 17
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 56, 218
+  size: 37, 35
+  orig: 39, 37
+  offset: 1, 1
+  index: -1
+sweat
+  rotate: false
+  xy: 79, 40
+  size: 13, 14
+  orig: 15, 16
+  offset: 1, 1
+  index: -1

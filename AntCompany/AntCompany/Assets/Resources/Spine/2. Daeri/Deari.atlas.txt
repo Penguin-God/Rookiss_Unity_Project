@@ -1,0 +1,188 @@
+
+Deari.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+attack_c1
+  rotate: false
+  xy: 2, 298
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+attack_c2
+  rotate: false
+  xy: 2, 249
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+attack_c3
+  rotate: false
+  xy: 2, 200
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+attack_c4
+  rotate: false
+  xy: 2, 151
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+attack_c5
+  rotate: false
+  xy: 2, 102
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 2, 347
+  size: 60, 64
+  orig: 62, 66
+  offset: 1, 1
+  index: -1
+chair
+  rotate: false
+  xy: 2, 585
+  size: 80, 144
+  orig: 82, 146
+  offset: 1, 1
+  index: -1
+eye_c
+  rotate: true
+  xy: 56, 201
+  size: 42, 16
+  orig: 47, 34
+  offset: 2, 7
+  index: -1
+eye_e 
+  rotate: false
+  xy: 2, 67
+  size: 43, 33
+  orig: 47, 34
+  offset: 1, 1
+  index: -1
+eye_o
+  rotate: true
+  xy: 56, 102
+  size: 43, 28
+  orig: 47, 34
+  offset: 1, 1
+  index: -1
+feeler_l
+  rotate: false
+  xy: 14, 22
+  size: 43, 42
+  orig: 43, 43
+  offset: 0, 1
+  index: -1
+feeler_r
+  rotate: true
+  xy: 2, 25
+  size: 40, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+foot_l
+  rotate: false
+  xy: 59, 289
+  size: 18, 47
+  orig: 18, 47
+  offset: 0, 0
+  index: -1
+foot_r
+  rotate: false
+  xy: 65, 246
+  size: 18, 42
+  orig: 18, 43
+  offset: 0, 0
+  index: -1
+hand_l
+  rotate: false
+  xy: 40, 22
+  size: 34, 42
+  orig: 34, 42
+  offset: 0, 0
+  index: -1
+hand_r
+  rotate: 270
+  xy: 40, 7
+  size: 34, 37
+  orig: 34, 37
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 2, 497
+  size: 75, 86
+  orig: 77, 88
+  offset: 1, 1
+  index: -1
+head_e
+  rotate: false
+  xy: 2, 409
+  size: 75, 86
+  orig: 75, 86
+  offset: 0, 0
+  index: -1
+lip
+  rotate: false
+  xy: 64, 5
+  size: 20, 9
+  orig: 22, 11
+  offset: 1, 1
+  index: -1
+lip_e1
+  rotate: true
+  xy: 67, 336
+  size: 23, 17
+  orig: 23, 17
+  offset: 0, 0
+  index: -1
+lip_e2
+  rotate: true
+  xy: 74, 147
+  size: 21, 11
+  orig: 21, 11
+  offset: 0, 0
+  index: -1
+lip_e3
+  rotate: false
+  xy: 67, 361
+  size: 16, 9
+  orig: 16, 9
+  offset: 0, 0
+  index: -1
+lip_e4
+  rotate: false
+  xy: 2, 3
+  size: 24, 17
+  orig: 24, 17
+  offset: 0, 0
+  index: -1
+neck
+  rotate: true
+  xy: 47, 64
+  size: 36, 34
+  orig: 38, 36
+  offset: 1, 1
+  index: -1
+neck_c
+  rotate: false
+  xy: 56, 147
+  size: 16, 52
+  orig: 18, 54
+  offset: 1, 1
+  index: -1
+sweat
+  rotate: false
+  xy: 70, 288
+  size: 13, 14
+  orig: 15, 16
+  offset: 1, 1
+  index: -1

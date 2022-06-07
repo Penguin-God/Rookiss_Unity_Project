@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SalaryNegotiationData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" questionID="4100" yesAnswerID="4110" noAnswerID="4120" yesResultID="4111" noResultGoodID="4121" noResultBadID="4122" yesIncreaseSalaryPercent="3" noIncreaseSalaryPercentGood="6" noIncreaseSalaryPercentBad="0" />

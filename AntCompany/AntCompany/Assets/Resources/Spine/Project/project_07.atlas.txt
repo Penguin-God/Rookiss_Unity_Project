@@ -1,0 +1,34 @@
+
+project_07.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sinib_1
+  rotate: false
+  xy: 573, 16
+  size: 391, 525
+  orig: 395, 540
+  offset: 1, 14
+  index: -1
+Sinib_2
+  rotate: false
+  xy: 2, 2
+  size: 569, 539
+  orig: 571, 541
+  offset: 1, 1
+  index: -1
+back
+  rotate: false
+  xy: 2, 543
+  size: 997, 561
+  orig: 999, 564
+  offset: 1, 2
+  index: -1
+out_line
+  rotate: false
+  xy: 2, 1106
+  size: 1000, 565
+  orig: 1002, 567
+  offset: 1, 1
+  index: -1
