@@ -49,6 +49,8 @@ public class PlayerController : MonoBehaviour
         _stat = GetComponent<PlayerStat>();
         Managers.Input.OnMouseInput -= OnMouseEvent;
         Managers.Input.OnMouseInput += OnMouseEvent;
+
+        Managers.UI.MakeWorldSapce_UI<UI_HpBar>(transform);
     }
 
     void Update()
