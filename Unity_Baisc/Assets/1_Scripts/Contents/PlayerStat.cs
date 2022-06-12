@@ -15,8 +15,7 @@ public class PlayerStat : Stat
         Level = 1;
         MaxHp = 100;
         Hp = 100;
-        Attack = 100;
-        Attack = 10;
+        Attack = 20;
         Defense = 10;
         MoveSpeed = 5;
         Exp = 10;
