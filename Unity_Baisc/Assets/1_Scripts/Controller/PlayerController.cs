@@ -37,9 +37,6 @@ public class PlayerController : BaseController
             State = CreatureState.Idle;
         else
         {
-            float moveDistance = Mathf.Clamp(_stat.MoveSpeed * Time.deltaTime, 0, dir.magnitude);
-            _nav.Move(dir.normalized * moveDistance);
-
             Debug.DrawRay(transform.position + Vector3.up, dir.normalized, Color.green);
             if(Physics.Raycast(transform.position + Vector3.up, dir, 1, LayerMask.GetMask("Block")))
             {
@@ -47,6 +44,9 @@ public class PlayerController : BaseController
                     State = CreatureState.Idle;
                 return;
             }
+
+            float moveDistance = Mathf.Clamp(_stat.MoveSpeed * Time.deltaTime, 0, dir.magnitude);
+            transform.position += dir.normalized * moveDistance;
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(dir), 10 * Time.deltaTime);
         }
     }
@@ -66,7 +66,6 @@ public class PlayerController : BaseController
         if(_lockTarget != null)
         {
             _lockTarget.GetComponent<Stat>().Hp -= Math.Max(0, _stat.Attack - _lockTarget.GetComponent<Stat>().Defense);
-            print(_stat.Attack - _lockTarget.GetComponent<Stat>().Defense);
         }
 
         if (_stopBattle)
