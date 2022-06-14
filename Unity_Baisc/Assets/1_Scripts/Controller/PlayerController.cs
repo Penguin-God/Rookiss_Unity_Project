@@ -68,6 +68,37 @@ public class PlayerController : BaseController
             _lockTarget.GetComponent<Stat>().Hp -= Math.Max(0, _stat.Attack - _lockTarget.GetComponent<Stat>().Defense);
         }
 
+        DecideBattleOrNot();
+
+        void DecideBattleOrNot()
+        {
+            if (_stopBattle)
+                State = CreatureState.Idle;
+            else
+                State = CreatureState.Battle;
+        }
+    }
+
+    protected override void AttackHitEvent()
+    {
+        ToDamage(_stat.Attack);
+        DecideBattleOrNot();
+
+        void ToDamage(int damage)
+        {
+            if (_lockTarget != null)
+                _lockTarget.GetComponent<BaseController>().OnDamaged(damage);
+        }
+    }
+
+    public override void OnDamaged(int damage)
+    {
+        print("대미지 입음!!");
+        _stat.Hp -= Mathf.Max(0, damage - _stat.Defense);
+    }
+
+    protected override void DecideBattleOrNot()
+    {
         if (_stopBattle)
             State = CreatureState.Idle;
         else

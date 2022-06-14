@@ -6,9 +6,11 @@ using UnityEngine.AI;
 public class MonsterController : BaseController
 {
     [SerializeField] Stat _stat;
+    private NavMeshAgent _nav;
     protected override void Init()
     {
         _stat = GetComponent<Stat>();
+        _nav = GetComponent<NavMeshAgent>();
     }
 
 
@@ -68,19 +70,29 @@ public class MonsterController : BaseController
         }
     }
 
-    void OnHitEvent()
+    protected override void AttackHitEvent()
     {
-        print("Hit Monsetr");
-        if(_lockTarget == null)
+        print("Hit Changed");
+        if (_lockTarget == null)
         {
             State = CreatureState.Idle;
             return;
         }
 
-        _lockTarget.GetComponent<PlayerStat>().Hp -= Mathf.Max(0, _stat.Attack - _lockTarget.GetComponent<Stat>().Defense);
-        if (_lockTarget.GetComponent<PlayerStat>().Hp > 0)
+        TargetController.OnDamaged(_stat.Attack);
+        DecideBattleOrNot();
+    }
+
+    public override void OnDamaged(int damage)
+    {
+        _stat.Hp -= Mathf.Max(0, damage - _stat.Defense);
+    }
+
+    protected override void DecideBattleOrNot()
+    {
+        if (TargetController.IsDead == false)
         {
-            if((_lockTarget.transform.position - transform.position).magnitude < _attackRange)
+            if ((_lockTarget.transform.position - transform.position).magnitude < _attackRange)
             {
                 State = CreatureState.Battle;
             }

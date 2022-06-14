@@ -17,9 +17,12 @@ public abstract class BaseController : MonoBehaviour
     [SerializeField] protected Vector3 _destination;
 
     protected Animator _anim;
-    protected NavMeshAgent _nav;
+    [SerializeField] protected GameObject _lockTarget = null;
+    protected BaseController TargetController => _lockTarget.GetComponent<BaseController>();
 
-    protected virtual CreatureState State
+    public virtual bool IsDead { get; } = false;
+
+    protected CreatureState State
     {
         get { return _state; }
         set
@@ -44,7 +47,6 @@ public abstract class BaseController : MonoBehaviour
     void Start()
     {
         _anim = GetComponent<Animator>();
-        _nav = GetComponent<NavMeshAgent>();
         Init();
         if (GetComponentInChildren<UI_HpBar>() == null)
             Managers.UI.MakeWorldSapce_UI<UI_HpBar>(transform);
@@ -63,7 +65,9 @@ public abstract class BaseController : MonoBehaviour
 
     protected virtual void UpdateIdle() { }
     protected virtual void UpdateMove() { }
-
-    [SerializeField] protected GameObject _lockTarget = null;
     protected virtual void UpdateBattle() { }
+
+    protected virtual void AttackHitEvent() { }
+    public virtual void OnDamaged(int damage) { }
+    protected virtual void DecideBattleOrNot() { }
 }
