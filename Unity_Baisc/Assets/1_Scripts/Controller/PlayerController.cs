@@ -18,9 +18,8 @@ public class PlayerController : BaseController
     {
         if(_lockTarget != null)
         {
-            _destination = _lockTarget.transform.position;
-            float distance = (_destination - transform.position).magnitude;
-            if (distance < 1)
+            SetDestination(TargetPosition);
+            if ((Destination - transform.position).magnitude < 1)
             {
                 State = CreatureState.Battle;
                 return;
@@ -31,7 +30,7 @@ public class PlayerController : BaseController
 
     void MoveToDestination()
     {
-        Vector3 dir = _destination - transform.position;
+        Vector3 dir = Destination - transform.position;
 
         if (dir.magnitude < 0.1f)
             State = CreatureState.Idle;
@@ -50,6 +49,7 @@ public class PlayerController : BaseController
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(dir), 10 * Time.deltaTime);
         }
     }
+
 
     protected override void UpdateBattle()
     {
@@ -72,7 +72,7 @@ public class PlayerController : BaseController
     }
 
     bool _stopBattle = false;
-    protected override void DecideBattleOrNot()
+    protected void DecideBattleOrNot()
     {
         if (_stopBattle)
             State = CreatureState.Idle;
@@ -103,7 +103,7 @@ public class PlayerController : BaseController
                     if (isRayHit)
                     {
                         _stopBattle = false;
-                        _destination = hitInfo.point;
+                        SetDestination(hitInfo.point);
                         State = CreatureState.Moveing;
 
                         if (hitInfo.collider.gameObject.layer == (int)Define.Layer.Monster)
@@ -116,7 +116,7 @@ public class PlayerController : BaseController
             case Define.MouseEvent.Press:
                 {
                     if (isRayHit)
-                        _destination = hitInfo.point;
+                        SetDestination(hitInfo.point);
                 }
                 break;
             case Define.MouseEvent.Up: _stopBattle = true; break;

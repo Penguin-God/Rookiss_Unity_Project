@@ -14,11 +14,15 @@ public enum CreatureState
 public abstract class BaseController : MonoBehaviour
 {
     [SerializeField] private CreatureState _state = CreatureState.Idle;
-    [SerializeField] protected Vector3 _destination;
+    [SerializeField] Vector3 _destination;
+    protected Vector3 Destination => _destination;
+    protected void SetDestination(Vector3 pos) => _destination = pos;
 
     protected Animator _anim;
     [SerializeField] protected GameObject _lockTarget = null;
     protected BaseController TargetController => _lockTarget.GetComponent<BaseController>();
+    protected float TargetDistance => _lockTarget == null ? Mathf.Infinity : Vector3.Distance(transform.position, _lockTarget.transform.position);
+    protected Vector3 TargetPosition => _lockTarget == null ? Vector3.zero : _lockTarget.transform.position;
 
     public virtual bool IsDead { get; } = false;
 
@@ -78,5 +82,4 @@ public abstract class BaseController : MonoBehaviour
 
     protected virtual void AttackHitEvent() { }
     public virtual void OnDamaged(int damage) { }
-    protected virtual void DecideBattleOrNot() { }
 }

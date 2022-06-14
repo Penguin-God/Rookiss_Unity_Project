@@ -22,8 +22,7 @@ public class MonsterController : BaseController
         GameObject player = GameObject.FindGameObjectWithTag("Player");
         if (player == null) return;
 
-        float distance = Vector3.Distance(player.transform.position, transform.position);
-        if(distance < _scanRange)
+        if(Vector3.Distance(player.transform.position, transform.position) < _scanRange)
         {
             _lockTarget = player;
             State = CreatureState.Moveing;
@@ -34,9 +33,8 @@ public class MonsterController : BaseController
     {
         if (_lockTarget != null)
         {
-            _destination = _lockTarget.transform.position;
-            float distance = (_destination - transform.position).magnitude;
-            if (distance < _attackRange)
+            SetDestination(TargetPosition);
+            if (TargetDistance < _attackRange)
             {
                 _nav.SetDestination(transform.position);
                 State = CreatureState.Battle;
@@ -48,14 +46,14 @@ public class MonsterController : BaseController
 
     void MoveToDestination()
     {
-        Vector3 dir = _destination - transform.position;
+        Vector3 dir = Destination - transform.position;
 
         if (dir.magnitude < 0.1f)
             State = CreatureState.Idle;
         else
         {
             _nav.speed = _stat.MoveSpeed;
-            _nav.SetDestination(_destination);
+            _nav.SetDestination(Destination);
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(dir), 10 * Time.deltaTime);
         }
     }
@@ -78,16 +76,11 @@ public class MonsterController : BaseController
         DecideBattleOrNot();
     }
 
-    public override void OnDamaged(int damage)
-    {
-        _stat.Hp -= Mathf.Max(0, damage - _stat.Defense);
-    }
-
-    protected override void DecideBattleOrNot()
+    protected void DecideBattleOrNot()
     {
         if (TargetController.IsDead == false)
         {
-            if ((_lockTarget.transform.position - transform.position).magnitude < _attackRange)
+            if (TargetDistance < _attackRange)
             {
                 State = CreatureState.Battle;
             }
@@ -96,5 +89,10 @@ public class MonsterController : BaseController
                 State = CreatureState.Idle;
             }
         }
+    }
+
+    public override void OnDamaged(int damage)
+    {
+        _stat.Hp -= Mathf.Max(0, damage - _stat.Defense);
     }
 }
