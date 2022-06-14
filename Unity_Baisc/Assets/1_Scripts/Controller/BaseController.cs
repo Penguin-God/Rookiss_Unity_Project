@@ -65,7 +65,16 @@ public abstract class BaseController : MonoBehaviour
 
     protected virtual void UpdateIdle() { }
     protected virtual void UpdateMove() { }
-    protected virtual void UpdateBattle() { }
+    protected virtual void UpdateBattle()
+    {
+        if (_lockTarget != null)
+        {
+            Vector3 dir = _lockTarget.transform.position - transform.position;
+            Quaternion rot = Quaternion.LookRotation(dir);
+            transform.rotation = Quaternion.Lerp(transform.rotation, rot, 0.3f);
+        }
+    }
+
 
     protected virtual void AttackHitEvent() { }
     public virtual void OnDamaged(int damage) { }

@@ -60,19 +60,14 @@ public class MonsterController : BaseController
         }
     }
 
+
     protected override void UpdateBattle()
     {
-        if (_lockTarget != null)
-        {
-            Vector3 dir = _lockTarget.transform.position - transform.position;
-            Quaternion rot = Quaternion.LookRotation(dir);
-            transform.rotation = Quaternion.Lerp(transform.rotation, rot, 0.3f);
-        }
+        base.UpdateBattle();
     }
 
     protected override void AttackHitEvent()
     {
-        print("Hit Changed");
         if (_lockTarget == null)
         {
             State = CreatureState.Idle;

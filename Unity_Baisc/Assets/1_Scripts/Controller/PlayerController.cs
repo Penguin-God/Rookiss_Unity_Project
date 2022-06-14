@@ -53,32 +53,8 @@ public class PlayerController : BaseController
 
     protected override void UpdateBattle()
     {
-        if(_lockTarget != null)
-        {
-            Vector3 dir = _lockTarget.transform.position - transform.position;
-            Quaternion rot = Quaternion.LookRotation(dir);
-            transform.rotation = Quaternion.Lerp(transform.rotation, rot, 0.3f);
-        }
+        base.UpdateBattle();
     }
-
-    void OnHitEvent()
-    {
-        if(_lockTarget != null)
-        {
-            _lockTarget.GetComponent<Stat>().Hp -= Math.Max(0, _stat.Attack - _lockTarget.GetComponent<Stat>().Defense);
-        }
-
-        DecideBattleOrNot();
-
-        void DecideBattleOrNot()
-        {
-            if (_stopBattle)
-                State = CreatureState.Idle;
-            else
-                State = CreatureState.Battle;
-        }
-    }
-
     protected override void AttackHitEvent()
     {
         ToDamage(_stat.Attack);
@@ -90,13 +66,12 @@ public class PlayerController : BaseController
                 _lockTarget.GetComponent<BaseController>().OnDamaged(damage);
         }
     }
-
     public override void OnDamaged(int damage)
     {
-        print("대미지 입음!!");
         _stat.Hp -= Mathf.Max(0, damage - _stat.Defense);
     }
 
+    bool _stopBattle = false;
     protected override void DecideBattleOrNot()
     {
         if (_stopBattle)
@@ -106,7 +81,6 @@ public class PlayerController : BaseController
     }
 
     int _targetMask = 1 << (int)Define.Layer.Plane | 1 << (int)Define.Layer.Monster;
-    bool _stopBattle = false;
     void OnMouseEvent(Define.MouseEvent mouseEvent)
     {
         switch (State)
