@@ -8,11 +8,13 @@ public class CameraController : MonoBehaviour
 
     [SerializeField] Vector3 _delta;
     [SerializeField] GameObject _player;
-
+    public void SetPlayer(GameObject go) => _player = go;
     // PlayerController에서는 Update에서 이동하므로 player를 쫒아가는 카메라는 LateUpdate에서 추적 코드 실행 
     // 같이 Update에서 실행하면 중간에 카메라가 떨림
     void LateUpdate() 
     {
+        if (_player.IsValid() == false) return;
+
         if(_mode == Define.CameraMode.QuarterView)
         {
             if(Physics.Raycast(_player.transform.position, _delta, out RaycastHit hit, _delta.magnitude, LayerMask.GetMask("Wall")))
@@ -23,7 +25,6 @@ public class CameraController : MonoBehaviour
             else
             {
                 transform.position = _player.transform.position + _delta;
-                //transform.LookAt(_player.transform);
             }
         }
     }

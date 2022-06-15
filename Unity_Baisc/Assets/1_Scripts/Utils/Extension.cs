@@ -11,4 +11,6 @@ public static class Extension
 
     public static void BindEvnet(this GameObject go, Action<PointerEventData> action, Define.UI_Event type = Define.UI_Event.Click)
         => UI_Base.BindEvnet(go, action, type);
+
+    public static bool IsValid(this GameObject go) => go != null && go.activeSelf;
 }

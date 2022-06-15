@@ -23,6 +23,16 @@ public class Managers : MonoBehaviour
         }
     }
 
+    #region Contents
+
+    GameManager _game = new GameManager();
+    public static GameManager Game => Instance._game;
+
+    #endregion Contents
+
+
+    #region Core
+
     DataManger _data = new DataManger();
     InputManager _input = new InputManager();
     ResourcesManager _resources = new ResourcesManager();
@@ -30,6 +40,8 @@ public class Managers : MonoBehaviour
     SceneManagerEx _scene = new SceneManagerEx();
     SoundManager _sound = new SoundManager();
     PoolManager _pool = new PoolManager();
+
+    #endregion Core
 
     public static DataManger Data => Instance._data;
     public static InputManager Input => Instance._input;

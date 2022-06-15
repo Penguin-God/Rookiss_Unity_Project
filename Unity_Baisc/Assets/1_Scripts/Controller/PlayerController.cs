@@ -6,10 +6,12 @@ using System;
 public class PlayerController : BaseController
 {
     [SerializeField] PlayerStat _stat;
+    public override bool IsDead => _stat.Hp <= 0;
 
     protected override void Init()
     {
         _stat = GetComponent<PlayerStat>();
+        WorldObjectType = Define.WorldObject.Player;
         Managers.Input.OnMouseInput -= OnMouseEvent;
         Managers.Input.OnMouseInput += OnMouseEvent;
     }
@@ -69,6 +71,7 @@ public class PlayerController : BaseController
     public override void OnDamaged(int damage)
     {
         _stat.Hp -= Mathf.Max(0, damage - _stat.Defense);
+        if (_stat.Hp <= 0) Managers.Game.DeSpawn(gameObject);
     }
 
     bool _stopBattle = false;

@@ -9,6 +9,7 @@ public class MonsterController : BaseController
     private NavMeshAgent _nav;
     protected override void Init()
     {
+        WorldObjectType = Define.WorldObject.Monster;
         _stat = GetComponent<Stat>();
         _nav = GetComponent<NavMeshAgent>();
     }
@@ -78,17 +79,11 @@ public class MonsterController : BaseController
 
     protected void DecideBattleOrNot()
     {
-        if (TargetController.IsDead == false)
-        {
-            if (TargetDistance < _attackRange)
-            {
-                State = CreatureState.Battle;
-            }
-            else
-            {
-                State = CreatureState.Idle;
-            }
-        }
+        if (TargetController.IsDead == false && TargetDistance < _attackRange)
+            State = CreatureState.Battle;
+        
+        else
+            State = CreatureState.Idle;
     }
 
     public override void OnDamaged(int damage)

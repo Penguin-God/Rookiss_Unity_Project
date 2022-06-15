@@ -26,6 +26,8 @@ public abstract class BaseController : MonoBehaviour
 
     public virtual bool IsDead { get; } = false;
 
+    public Define.WorldObject WorldObjectType { get; protected set; } = Define.WorldObject.Unknown;
+
     protected CreatureState State
     {
         get { return _state; }

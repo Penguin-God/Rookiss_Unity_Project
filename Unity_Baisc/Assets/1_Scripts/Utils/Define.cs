@@ -4,6 +4,13 @@ using UnityEngine;
 
 public class Define
 {
+    public enum WorldObject
+    {
+        Unknown,
+        Player,
+        Monster,
+    }
+
     public enum Layer
     {
         Plane = 6,
