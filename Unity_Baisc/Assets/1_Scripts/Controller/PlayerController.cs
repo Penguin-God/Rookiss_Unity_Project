@@ -59,25 +59,19 @@ public class PlayerController : BaseController
     }
     protected override void AttackHitEvent()
     {
-        ToDamage(_stat.Attack);
-        DecideBattleOrNot();
-
-        void ToDamage(int damage)
+        if(_lockTarget == null)
         {
-            if (_lockTarget != null)
-                _lockTarget.GetComponent<BaseController>().OnDamaged(damage);
+            State = CreatureState.Idle;
+            return;
         }
-    }
-    public override void OnDamaged(int damage)
-    {
-        _stat.Hp -= Mathf.Max(0, damage - _stat.Defense);
-        if (_stat.Hp <= 0) Managers.Game.DeSpawn(gameObject);
+        AttackLockTarget(_stat);
+        DecideBattleOrNot();
     }
 
     bool _stopBattle = false;
     protected void DecideBattleOrNot()
     {
-        if (_stopBattle)
+        if (_stopBattle || _lockTarget == null)
             State = CreatureState.Idle;
         else
             State = CreatureState.Battle;

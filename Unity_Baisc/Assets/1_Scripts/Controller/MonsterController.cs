@@ -20,7 +20,7 @@ public class MonsterController : BaseController
 
     protected override void UpdateIdle()
     {
-        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        GameObject player = Managers.Game.Player;
         if (player == null) return;
 
         if(Vector3.Distance(player.transform.position, transform.position) < _scanRange)
@@ -73,7 +73,7 @@ public class MonsterController : BaseController
             return;
         }
 
-        TargetController.OnDamaged(_stat.Attack);
+        AttackLockTarget(_stat);
         DecideBattleOrNot();
     }
 
@@ -84,10 +84,5 @@ public class MonsterController : BaseController
         
         else
             State = CreatureState.Idle;
-    }
-
-    public override void OnDamaged(int damage)
-    {
-        _stat.Hp -= Mathf.Max(0, damage - _stat.Defense);
     }
 }

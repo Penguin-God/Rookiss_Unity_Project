@@ -3,17 +3,20 @@
 		{
 			"level" : "1",
 			"hp" : "100",
-			"attack" : "10"
+			"attack" : "100",
+			"exp" : "1"
 		},
 		{
 			"level" : "2",
 			"hp" : "150",
-			"attack" : "15"
+			"attack" : "150",
+			"exp" : "10"
 		},
 		{
 			"level" : "3",
 			"hp" : "200",
-			"attack" : "20"
+			"attack" : "200",
+			"exp" : "20"
 		}
 	]
 }

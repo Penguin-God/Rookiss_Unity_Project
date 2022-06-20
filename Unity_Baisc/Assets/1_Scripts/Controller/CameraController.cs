@@ -17,7 +17,7 @@ public class CameraController : MonoBehaviour
 
         if(_mode == Define.CameraMode.QuarterView)
         {
-            if(Physics.Raycast(_player.transform.position, _delta, out RaycastHit hit, _delta.magnitude, LayerMask.GetMask("Wall")))
+            if(Physics.Raycast(_player.transform.position, _delta, out RaycastHit hit, _delta.magnitude, LayerMask.GetMask("Block")))
             {
                 float distance = (hit.point - _player.transform.position).magnitude * 0.8f;
                 transform.position = _player.transform.position + _delta.normalized * distance; // 중간에 벽이 있어서 거리는 임의로 조정해야 하지만 방향은 기존에 _dalta 변수 사용

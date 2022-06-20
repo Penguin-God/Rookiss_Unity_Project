@@ -10,7 +10,7 @@ public interface ILoader<Key, Value>
 public class DataManger
 {
     Dictionary<int, Data.Stat> _statByLevel = new Dictionary<int, Data.Stat>();
-    IReadOnlyDictionary<int, Data.Stat> StatByLevel => _statByLevel;
+    public IReadOnlyDictionary<int, Data.Stat> StatByLevel => _statByLevel;
 
     public void Init()
     {

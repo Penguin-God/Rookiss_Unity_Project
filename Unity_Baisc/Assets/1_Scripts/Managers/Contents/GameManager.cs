@@ -5,6 +5,7 @@ using UnityEngine;
 public class GameManager
 {
     GameObject _player;
+    public GameObject Player => _player;
 
     HashSet<GameObject> _monsters = new HashSet<GameObject>();
 

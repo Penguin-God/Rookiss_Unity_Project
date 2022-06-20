@@ -81,7 +81,6 @@ public abstract class BaseController : MonoBehaviour
         }
     }
 
-
+    protected void AttackLockTarget(Stat stat) => _lockTarget.GetComponent<Stat>().OnAttacked(stat);
     protected virtual void AttackHitEvent() { }
-    public virtual void OnDamaged(int damage) { }
 }
