@@ -28,29 +28,32 @@ public class PlayerController : BaseController
             }
         }
         MoveToDestination();
-    }
 
-    void MoveToDestination()
-    {
-        Vector3 dir = Destination - transform.position;
-
-        if (dir.magnitude < 0.1f)
-            State = CreatureState.Idle;
-        else
+        void MoveToDestination()
         {
-            Debug.DrawRay(transform.position + Vector3.up, dir.normalized, Color.green);
-            if(Physics.Raycast(transform.position + Vector3.up, dir, 1, LayerMask.GetMask("Block")))
-            {
-                if(Input.GetMouseButton(0) == false)
-                    State = CreatureState.Idle;
-                return;
-            }
+            Vector3 dir = Destination - transform.position;
+            dir.y = 0;
 
-            float moveDistance = Mathf.Clamp(_stat.MoveSpeed * Time.deltaTime, 0, dir.magnitude);
-            transform.position += dir.normalized * moveDistance;
-            transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(dir), 10 * Time.deltaTime);
+            if (dir.magnitude < 0.1f)
+                State = CreatureState.Idle;
+            else
+            {
+                Debug.DrawRay(transform.position + Vector3.up, dir.normalized, Color.green);
+                if (Physics.Raycast(transform.position + Vector3.up, dir, 1, LayerMask.GetMask("Block")))
+                {
+                    if (Input.GetMouseButton(0) == false)
+                        State = CreatureState.Idle;
+                    return;
+                }
+
+                float moveDistance = Mathf.Clamp(_stat.MoveSpeed * Time.deltaTime, 0, dir.magnitude);
+                transform.position += dir.normalized * moveDistance;
+                transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.LookRotation(dir), 10 * Time.deltaTime);
+            }
         }
     }
+
+
 
 
     protected override void UpdateBattle()
