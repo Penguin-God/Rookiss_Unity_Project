@@ -1,0 +1,62 @@
+
+project_05.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Bu_b
+  rotate: false
+  xy: 1004, 878
+  size: 587, 562
+  orig: 589, 564
+  offset: 1, 1
+  index: -1
+Sinib_h
+  rotate: false
+  xy: 1593, 922
+  size: 380, 518
+  orig: 382, 520
+  offset: 1, 1
+  index: -1
+Sinib_h_c
+  rotate: false
+  xy: 845, 1306
+  size: 93, 125
+  orig: 95, 127
+  offset: 1, 1
+  index: -1
+bU_a
+  rotate: false
+  xy: 696, 1234
+  size: 147, 197
+  orig: 149, 199
+  offset: 1, 1
+  index: -1
+back
+  rotate: false
+  xy: 1004, 1442
+  size: 994, 556
+  orig: 996, 558
+  offset: 1, 1
+  index: -1
+com_1
+  rotate: false
+  xy: 560, 1206
+  size: 134, 225
+  orig: 136, 227
+  offset: 1, 1
+  index: -1
+com_2
+  rotate: false
+  xy: 2, 1006
+  size: 556, 425
+  orig: 558, 427
+  offset: 1, 1
+  index: -1
+out_line
+  rotate: false
+  xy: 2, 1433
+  size: 1000, 565
+  orig: 1002, 567
+  offset: 1, 1
+  index: -1

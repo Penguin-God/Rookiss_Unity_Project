@@ -1,0 +1,20 @@
+
+intro_1.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+그룹 1(병합)
+  rotate: false
+  xy: 1032, 612
+  size: 547, 1249
+  orig: 549, 1251
+  offset: 1, 1
+  index: -1
+레이어 72
+  rotate: false
+  xy: 2, 2
+  size: 1028, 1859
+  orig: 1030, 1861
+  offset: 1, 1
+  index: -1

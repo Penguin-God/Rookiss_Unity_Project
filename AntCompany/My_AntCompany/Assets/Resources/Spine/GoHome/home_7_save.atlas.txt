@@ -1,0 +1,48 @@
+
+home_7_save.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+BG
+  rotate: false
+  xy: 1004, 1694
+  size: 863, 266
+  orig: 865, 268
+  offset: 1, 1
+  index: -1
+Layer 143
+  rotate: false
+  xy: 2, 1395
+  size: 1000, 565
+  orig: 1002, 567
+  offset: 1, 1
+  index: -1
+Layer 805
+  rotate: true
+  xy: 1004, 1408
+  size: 284, 408
+  orig: 286, 410
+  offset: 1, 1
+  index: -1
+Layer 806
+  rotate: true
+  xy: 1414, 1408
+  size: 284, 408
+  orig: 286, 410
+  offset: 1, 1
+  index: -1
+heart1
+  rotate: true
+  xy: 1869, 1909
+  size: 51, 53
+  orig: 53, 55
+  offset: 1, 1
+  index: -1
+heart2
+  rotate: true
+  xy: 1924, 1930
+  size: 30, 36
+  orig: 32, 38
+  offset: 1, 1
+  index: -1

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfFormulaData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <FormulaData ID="STA01" name="staminaFornula" difHp="20" difAtk="0" difAllAtkPercent="0" difSalaryPercent="0" difRevenuePercent="0" cooltimePercent="0" successPercent="0" />
+  <FormulaData ID="STA02" name="abilityFormula" difHp="0" difAtk="3" difAllAtkPercent="0" difSalaryPercent="0.0001" difRevenuePercent="0" cooltimePercent="-0.0001" successPercent="0" />
+  <FormulaData ID="STA03" name="likabilityFormula" difHp="0" difAtk="0" difAllAtkPercent="0" difSalaryPercent="0" difRevenuePercent="0.0005" cooltimePercent="0" successPercent="0" />
+  <FormulaData ID="STA04" name="stressFormula" difHp="0" difAtk="0" difAllAtkPercent="0.5" difSalaryPercent="0" difRevenuePercent="0" cooltimePercent="0" successPercent="0" />
+  <FormulaData ID="STA05" name="luckFormula" difHp="0" difAtk="0" difAllAtkPercent="0" difSalaryPercent="0" difRevenuePercent="0" cooltimePercent="0" successPercent="0.004" />
+</ArrayOfFormulaData>

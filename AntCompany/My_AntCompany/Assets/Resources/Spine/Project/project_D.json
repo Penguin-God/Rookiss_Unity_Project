@@ -1,0 +1,186 @@
+{
+"skeleton": {
+	"hash": "slnexCZGEilemJf2F9c+fbWB76Y",
+	"spine": "3.8.99",
+	"x": -501,
+	"y": -284,
+	"width": 1002,
+	"height": 567,
+	"images": "./project_10_ima/",
+	"audio": "C:/회사/개미주식회사/스파인/project_10"
+},
+"bones": [
+	{ "name": "root" },
+	{ "name": "bone", "parent": "root", "x": 293.12, "y": -87.69 },
+	{ "name": "bone2", "parent": "root", "x": -104.82, "y": 1.8 },
+	{ "name": "bone3", "parent": "root", "x": -275.23, "y": 0.85 },
+	{ "name": "bone4", "parent": "root", "x": -369.47, "y": -2.96 }
+],
+"slots": [
+	{ "name": "back", "bone": "root", "attachment": "back" },
+	{ "name": "esa", "bone": "bone2", "attachment": "esa" },
+	{ "name": "esa_c", "bone": "root", "attachment": "esa_c" },
+	{ "name": "g", "bone": "bone3", "attachment": "g" },
+	{ "name": "d", "bone": "bone4", "attachment": "d" },
+	{ "name": "Sinib_1", "bone": "bone", "attachment": "Sinib_1" },
+	{ "name": "Sinib_2", "bone": "bone" },
+	{ "name": "out_line", "bone": "root", "attachment": "out_line" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"Sinib_1": {
+				"Sinib_1": { "x": -97.12, "y": 87.69, "width": 602, "height": 562 }
+			},
+			"Sinib_2": {
+				"Sinib_2": { "x": -95.62, "y": 86.19, "width": 601, "height": 559 }
+			},
+			"back": {
+				"back": { "x": 1, "y": 1.5, "width": 996, "height": 563 }
+			},
+			"d": {
+				"d": { "x": -8.53, "y": 18.84, "width": 96, "height": 167 }
+			},
+			"esa": {
+				"esa": { "x": 1.32, "y": 36.63, "width": 89, "height": 198 }
+			},
+			"esa_c": {
+				"esa_c": { "x": -108.5, "y": 150, "width": 65, "height": 58 }
+			},
+			"g": {
+				"g": { "x": 2.23, "y": 35.93, "width": 104, "height": 207 }
+			},
+			"out_line": {
+				"out_line": { "y": -0.5, "width": 1002, "height": 567 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"slots": {
+			"Sinib_1": {
+				"attachment": [
+					{ "name": null },
+					{ "time": 0.2667, "name": "Sinib_1" },
+					{ "time": 0.5333, "name": null },
+					{ "time": 0.8, "name": "Sinib_1" },
+					{ "time": 1, "name": null }
+				]
+			},
+			"Sinib_2": {
+				"attachment": [
+					{ "name": "Sinib_2" },
+					{ "time": 0.2667, "name": null },
+					{ "time": 0.5333, "name": "Sinib_2" },
+					{ "time": 0.8, "name": null },
+					{ "time": 1, "name": "Sinib_2" }
+				]
+			}
+		},
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"shear": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				]
+			},
+			"bone4": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.5, "y": -9.52 },
+					{ "time": 1 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.5, "y": 1.038 },
+					{ "time": 1 }
+				],
+				"shear": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				]
+			},
+			"bone3": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.2667, "y": -8.57 },
+					{ "time": 0.5 },
+					{ "time": 0.7333, "y": -8.57 },
+					{ "time": 1 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.2667, "y": 1.019 },
+					{ "time": 0.5 },
+					{ "time": 0.7333, "y": 1.019 },
+					{ "time": 1 }
+				],
+				"shear": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				]
+			},
+			"bone2": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"translate": [
+					{ "y": -13.33 },
+					{ "time": 0.5, "y": -4.76 },
+					{ "time": 1, "y": -13.33 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.5, "y": 1.038 },
+					{ "time": 1 }
+				],
+				"shear": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"shear": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}

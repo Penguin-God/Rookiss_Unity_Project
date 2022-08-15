@@ -1,0 +1,69 @@
+
+project_08.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Sinib_2
+  rotate: false
+  xy: 479, 65
+  size: 174, 232
+  orig: 180, 238
+  offset: 3, 3
+  index: -1
+back
+  rotate: false
+  xy: 2, 299
+  size: 990, 556
+  orig: 992, 558
+  offset: 1, 1
+  index: -1
+c1
+  rotate: false
+  xy: 479, 15
+  size: 20, 15
+  orig: 22, 17
+  offset: 1, 1
+  index: -1
+c2
+  rotate: false
+  xy: 479, 32
+  size: 31, 31
+  orig: 33, 33
+  offset: 1, 1
+  index: -1
+c3
+  rotate: false
+  xy: 809, 118
+  size: 60, 63
+  orig: 62, 65
+  offset: 1, 1
+  index: -1
+c4
+  rotate: false
+  xy: 809, 183
+  size: 106, 114
+  orig: 108, 116
+  offset: 1, 1
+  index: -1
+d
+  rotate: false
+  xy: 2, 2
+  size: 475, 295
+  orig: 477, 297
+  offset: 1, 1
+  index: -1
+sInib
+  rotate: false
+  xy: 655, 65
+  size: 152, 232
+  orig: 158, 238
+  offset: 3, 3
+  index: -1
+외각 선
+  rotate: false
+  xy: 2, 857
+  size: 1000, 565
+  orig: 1002, 567
+  offset: 1, 1
+  index: -1

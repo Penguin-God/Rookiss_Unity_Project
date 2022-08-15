@@ -1,0 +1,62 @@
+
+ending2_save.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 150, 10
+  size: 31, 39
+  orig: 33, 41
+  offset: 1, 1
+  index: -1
+2
+  rotate: true
+  xy: 89, 2
+  size: 47, 59
+  orig: 49, 61
+  offset: 1, 1
+  index: -1
+Layer 103
+  rotate: true
+  xy: 2, 320
+  size: 585, 383
+  orig: 587, 385
+  offset: 1, 1
+  index: -1
+Layer 105
+  rotate: true
+  xy: 2, 11
+  size: 38, 85
+  orig: 40, 87
+  offset: 1, 1
+  index: -1
+Layer 32
+  rotate: false
+  xy: 2, 907
+  size: 798, 1132
+  orig: 800, 1134
+  offset: 1, 1
+  index: -1
+Layer 35
+  rotate: false
+  xy: 172, 174
+  size: 280, 144
+  orig: 282, 146
+  offset: 1, 1
+  index: -1
+effect
+  rotate: true
+  xy: 172, 80
+  size: 92, 151
+  orig: 94, 153
+  offset: 1, 1
+  index: -1
+speech
+  rotate: true
+  xy: 2, 51
+  size: 267, 168
+  orig: 269, 170
+  offset: 1, 1
+  index: -1

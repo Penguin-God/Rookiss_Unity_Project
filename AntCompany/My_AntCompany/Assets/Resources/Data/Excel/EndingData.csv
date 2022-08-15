@@ -1,0 +1,9 @@
+﻿//엔딩 데이터,//엔딩 명,//일러스트,//필요 밸류,,
+ID,nameID,type,value,aniPath,illustPath
+1,8001,level,1,Spine/Ending/ending1_save_SkeletonData,Sprites/Popup6/ending_1
+2,8011,level,2,Spine/Ending/ending2_save_SkeletonData,Sprites/Popup6/ending_2
+3,8021,level,3,Spine/Ending/ending3_save_SkeletonData,Sprites/Popup6/ending_3
+4,8031,level,4,Spine/Ending/ending4_save_SkeletonData,Sprites/Popup6/ending_4
+5,8041,level,5,Spine/Ending/ending5_save_SkeletonData,Sprites/Popup6/ending_5
+6,8051,level,6,Spine/Ending/ending6_save_SkeletonData,Sprites/Popup6/ending_6
+7,8061,stress,140,Spine/Ending/ending7_save_SkeletonData,Sprites/Popup6/ending_7

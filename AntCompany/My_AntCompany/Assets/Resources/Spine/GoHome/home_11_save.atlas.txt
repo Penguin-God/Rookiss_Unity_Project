@@ -1,0 +1,62 @@
+
+home_11_save.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 104
+  rotate: false
+  xy: 880, 1018
+  size: 1000, 565
+  orig: 1002, 567
+  offset: 1, 1
+  index: -1
+Layer 105
+  rotate: false
+  xy: 45, 1821
+  size: 85, 59
+  orig: 87, 61
+  offset: 1, 1
+  index: -1
+Layer 106
+  rotate: true
+  xy: 2, 1853
+  size: 27, 41
+  orig: 29, 43
+  offset: 1, 1
+  index: -1
+cha
+  rotate: true
+  xy: 1163, 1585
+  size: 295, 337
+  orig: 297, 339
+  offset: 1, 1
+  index: -1
+effect1-1
+  rotate: false
+  xy: 2, 1308
+  size: 876, 328
+  orig: 878, 330
+  offset: 1, 1
+  index: -1
+effect1-2
+  rotate: false
+  xy: 340, 1638
+  size: 821, 242
+  orig: 823, 244
+  offset: 1, 1
+  index: -1
+effect2
+  rotate: false
+  xy: 132, 1795
+  size: 98, 85
+  orig: 100, 87
+  offset: 1, 1
+  index: -1
+effect3
+  rotate: false
+  xy: 232, 1779
+  size: 106, 101
+  orig: 108, 103
+  offset: 1, 1
+  index: -1

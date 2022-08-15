@@ -1,0 +1,139 @@
+
+battle2_fail2_save.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+1
+  rotate: false
+  xy: 1281, 1761
+  size: 386, 224
+  orig: 388, 226
+  offset: 1, 1
+  index: -1
+2
+  rotate: false
+  xy: 1248, 1461
+  size: 218, 128
+  orig: 220, 130
+  offset: 1, 1
+  index: -1
+3
+  rotate: false
+  xy: 1268, 1591
+  size: 274, 168
+  orig: 276, 170
+  offset: 1, 1
+  index: -1
+Layer 13
+  rotate: false
+  xy: 2, 1493
+  size: 814, 549
+  orig: 816, 551
+  offset: 1, 1
+  index: -1
+Layer 33
+  rotate: true
+  xy: 1669, 1819
+  size: 166, 52
+  orig: 168, 54
+  offset: 1, 1
+  index: -1
+ant-1
+  rotate: false
+  xy: 818, 1549
+  size: 337, 335
+  orig: 339, 337
+  offset: 1, 1
+  index: -1
+arm1
+  rotate: true
+  xy: 1544, 1687
+  size: 72, 155
+  orig: 74, 157
+  offset: 1, 1
+  index: -1
+arm2
+  rotate: true
+  xy: 1701, 1647
+  size: 67, 232
+  orig: 69, 234
+  offset: 1, 1
+  index: -1
+body
+  rotate: true
+  xy: 1727, 1716
+  size: 326, 274
+  orig: 328, 276
+  offset: 1, 1
+  index: -1
+body2
+  rotate: false
+  xy: 1544, 1554
+  size: 133, 131
+  orig: 135, 133
+  offset: 1, 1
+  index: -1
+effect1
+  rotate: true
+  xy: 1157, 1523
+  size: 74, 89
+  orig: 76, 91
+  offset: 1, 1
+  index: -1
+effect2
+  rotate: false
+  xy: 818, 1394
+  size: 269, 153
+  orig: 271, 155
+  offset: 1, 1
+  index: -1
+effect3
+  rotate: false
+  xy: 818, 1886
+  size: 461, 156
+  orig: 627, 159
+  offset: 1, 2
+  index: -1
+head1
+  rotate: false
+  xy: 1157, 1798
+  size: 122, 86
+  orig: 124, 88
+  offset: 1, 1
+  index: -1
+l_ant
+  rotate: true
+  xy: 1157, 1599
+  size: 96, 97
+  orig: 98, 99
+  offset: 1, 1
+  index: -1
+leg
+  rotate: false
+  xy: 1281, 1987
+  size: 444, 55
+  orig: 446, 57
+  offset: 1, 1
+  index: -1
+r_ant
+  rotate: false
+  xy: 1157, 1697
+  size: 109, 99
+  orig: 111, 101
+  offset: 1, 1
+  index: -1
+tear1
+  rotate: true
+  xy: 2003, 1975
+  size: 36, 37
+  orig: 38, 39
+  offset: 1, 1
+  index: -1
+tear2
+  rotate: false
+  xy: 2003, 2013
+  size: 39, 29
+  orig: 41, 31
+  offset: 1, 1
+  index: -1

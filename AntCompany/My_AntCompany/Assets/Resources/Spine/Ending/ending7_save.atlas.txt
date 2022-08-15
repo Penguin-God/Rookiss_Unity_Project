@@ -1,0 +1,90 @@
+
+ending7_save.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 122
+  rotate: false
+  xy: 2, 902
+  size: 798, 1132
+  orig: 800, 1134
+  offset: 1, 1
+  index: -1
+ant
+  rotate: true
+  xy: 2, 612
+  size: 288, 278
+  orig: 290, 280
+  offset: 1, 1
+  index: -1
+ant2
+  rotate: true
+  xy: 183, 83
+  size: 106, 54
+  orig: 108, 56
+  offset: 1, 1
+  index: -1
+ant3
+  rotate: true
+  xy: 103, 32
+  size: 48, 124
+  orig: 50, 126
+  offset: 1, 1
+  index: -1
+ant_arm1
+  rotate: true
+  xy: 282, 778
+  size: 122, 110
+  orig: 124, 112
+  offset: 1, 1
+  index: -1
+ant_arm2
+  rotate: false
+  xy: 2, 2
+  size: 99, 78
+  orig: 101, 80
+  offset: 1, 1
+  index: -1
+effect1
+  rotate: true
+  xy: 2, 82
+  size: 251, 179
+  orig: 253, 181
+  offset: 1, 1
+  index: -1
+effect2
+  rotate: true
+  xy: 239, 37
+  size: 152, 238
+  orig: 154, 240
+  offset: 1, 1
+  index: -1
+effect3
+  rotate: true
+  xy: 183, 191
+  size: 142, 260
+  orig: 144, 262
+  offset: 1, 1
+  index: -1
+speech
+  rotate: true
+  xy: 2, 335
+  size: 275, 250
+  orig: 277, 252
+  offset: 1, 1
+  index: -1
+speech1
+  rotate: true
+  xy: 254, 481
+  size: 129, 125
+  orig: 131, 127
+  offset: 1, 1
+  index: -1
+speech2
+  rotate: true
+  xy: 254, 350
+  size: 129, 125
+  orig: 131, 127
+  offset: 1, 1
+  index: -1

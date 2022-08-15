@@ -1,0 +1,78 @@
+{
+"skeleton": {
+	"hash": "uwH+pLbSfis6xRc73xGq26K486s",
+	"spine": "3.8.99",
+	"x": -515,
+	"y": -931.83,
+	"width": 1030,
+	"height": 1861,
+	"images": "./intro2_ima/",
+	"audio": "C:/회사/개미주식회사/스파인/intro_2"
+},
+"bones": [
+	{ "name": "root", "y": -70.83 },
+	{ "name": "bone", "parent": "root", "x": -130.88, "y": -240.83 }
+],
+"slots": [
+	{ "name": "레이어 87", "bone": "root", "attachment": "레이어 87" },
+	{ "name": "그룹 1 복사(병합)", "bone": "bone", "attachment": "그룹 1 복사(병합)" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"그룹 1 복사(병합)": {
+				"그룹 1 복사(병합)": { "x": 52.38, "y": 363.83, "width": 739, "height": 1224 }
+			},
+			"레이어 87": {
+				"레이어 87": { "y": 69.5, "width": 1030, "height": 1861 }
+			}
+		}
+	}
+],
+"animations": {
+	"animation": {
+		"bones": {
+			"root": {
+				"rotate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"translate": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"scale": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				],
+				"shear": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				]
+			},
+			"bone": {
+				"rotate": [
+					{ "angle": 2.97 },
+					{ "time": 0.5, "angle": 0.68 },
+					{ "time": 1, "angle": 2.97 }
+				],
+				"translate": [
+					{},
+					{ "time": 0.4667, "y": 5.74 },
+					{ "time": 1 }
+				],
+				"scale": [
+					{},
+					{ "time": 0.4667, "y": 1.019 },
+					{ "time": 1 }
+				],
+				"shear": [
+					{ "curve": "stepped" },
+					{ "time": 1 }
+				]
+			}
+		}
+	}
+}
+}

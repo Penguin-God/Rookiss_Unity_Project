@@ -1,0 +1,62 @@
+
+project_02.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Deari_a
+  rotate: false
+  xy: 1004, 986
+  size: 95, 131
+  orig: 97, 133
+  offset: 1, 1
+  index: -1
+Deari_b
+  rotate: false
+  xy: 985, 361
+  size: 177, 269
+  orig: 179, 271
+  offset: 1, 1
+  index: -1
+Intern
+  rotate: false
+  xy: 2, 353
+  size: 981, 277
+  orig: 983, 279
+  offset: 1, 1
+  index: -1
+Sinib_b
+  rotate: false
+  xy: 1004, 849
+  size: 169, 135
+  orig: 171, 137
+  offset: 1, 1
+  index: -1
+Sinib_e
+  rotate: false
+  xy: 1101, 1006
+  size: 49, 24
+  orig: 51, 26
+  offset: 1, 1
+  index: -1
+Sinib_h
+  rotate: false
+  xy: 1004, 632
+  size: 193, 215
+  orig: 195, 217
+  offset: 1, 1
+  index: -1
+Sinib_m
+  rotate: false
+  xy: 1101, 986
+  size: 66, 18
+  orig: 68, 20
+  offset: 1, 1
+  index: -1
+back
+  rotate: false
+  xy: 2, 632
+  size: 1000, 565
+  orig: 1002, 567
+  offset: 1, 1
+  index: -1

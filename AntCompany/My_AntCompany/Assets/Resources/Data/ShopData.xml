@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfShopData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ShopData ID="1" name="6502" condition="Cash" price="1100" productID="ant_block" rewardType="Block" rewardCount="25" icon="Spine/Store/icon_coin5_SkeletonData" />
+  <ShopData ID="2" name="6503" condition="Cash" price="1100" productID="ant_money" rewardType="Money" rewardCount="10000000" icon="Spine/Store/icon3_2_SkeletonData" />
+  <ShopData ID="3" name="6504" condition="Cash" price="2200" productID="ant_noads" rewardType="NoAds" rewardCount="1" icon="Spine/Store/icon_coin4_SkeletonData" />
+  <ShopData ID="4" name="6505" condition="Ads" price="0" productID="" rewardType="Block" rewardCount="3" icon="Spine/Store/icon_coin5_SkeletonData" />
+  <ShopData ID="5" name="6506" condition="Ads" price="0" productID="" rewardType="Money" rewardCount="1000000" icon="Spine/Store/icon3_2_SkeletonData" />
+  <ShopData ID="6" name="6507" condition="Ads" price="0" productID="" rewardType="Luck" rewardCount="3" icon="Spine/Store/icon6_SkeletonData" />
+</ArrayOfShopData>

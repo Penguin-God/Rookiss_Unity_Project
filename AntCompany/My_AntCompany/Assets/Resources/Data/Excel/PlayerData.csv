@@ -1,0 +1,10 @@
+﻿//적 데이터,//이름,//일러스트,//배틀 아이콘,//스파인,//대기 자세,,//일하기,,//공격,,//걷기,,//힘듦,,//hp,//공격력,//말풍선 텍스트,,,,,,,,,
+ID,nameID,illustPath,battleIconPath,spine,aniIdle,aniIdleSkin,aniworking,aniworkingSkin,aniAttack,aniAttackSkin,aniWalk,aniWalkSkin,aniSweat,aniSweatSkin,maxhp,atk,atkText1,atkText2,atkText3,promotion,,,,,,
+0,5000,,,Spine/0. Intern/Intern_SkeletonData,idle,main,work,work,,,,,sweat,sweat,0,0,9500,9501,9502,,,,,,,
+1,5010,Sprites/Main/Battle/character_6,,Spine/1. Sinib/Sinib_SkeletonData,idle,main,work,main_work,attack,attack,idle,main,idle_sweat,main_sweat,0,0,9503,9504,9505,,,,,,,
+2,5020,Sprites/Main/Battle/battle_cha_1,Sprites/Main/Battle/character_1,Spine/2. Daeri/Deari_SkeletonData,idle,main,work,work,attack,attack,idle,main,sweat,sweat,25000,3000,9506,9507,9508,Sprites/Comic4/Promotion1,,,,,15000,1100
+3,5030,Sprites/Main/Battle/battle_cha_2,Sprites/Main/Battle/character_2,Spine/3. Gwajang/Gwajanb_SkeletonData,main,main,work,work,attack,attack,idle,main,sweat,sweat,80000,7500,9509,9510,9511,Sprites/Comic4/Promotion2,,,,,43000,3500
+4,5040,Sprites/Main/Battle/battle_cha_3,Sprites/Main/Battle/character_3,Spine/4. Bujang/Bujang_SkeletonData,main,main,work,work,attack,attack,idle,main,sweat,main,160000,14000,9512,9513,9514,Sprites/Comic4/Promotion3,,,,,130000,9000
+5,5050,Sprites/Main/Battle/battle_cha_4,Sprites/Main/Battle/character_4,Spine/5. Esa/Esa_SkeletonData,idle,main,work_1,work_chair_1,attack,attack,idle,main,sweat,sweat,240000,23000,9515,9516,9517,Sprites/Comic4/Promotion4,,,,,225000,16500
+6,5060,Sprites/Main/Battle/battle_cha_5,Sprites/Main/Battle/character_5,Spine/6. Sajang/Sajang_SkeletonData,idle,main,work,work,attack,attack,walk,main,sweat,sweat,360000,34000,9518,9519,9520,Sprites/Comic4/Promotion5,,,,,350000,30000
+7,5070,,,Spine/6. Sajang/cat_SkeletonData,animation,default,animation,default,animation,default,animation,default,animation,default,0,0,9521,9522,9523,,,,,,,

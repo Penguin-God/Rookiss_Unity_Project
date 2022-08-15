@@ -1,0 +1,41 @@
+
+home_9_save.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Layer 801
+  rotate: true
+  xy: 1004, 1002
+  size: 476, 474
+  orig: 478, 476
+  offset: 1, 1
+  index: -1
+box_ani copy 2
+  rotate: false
+  xy: 2, 913
+  size: 1000, 565
+  orig: 1002, 567
+  offset: 1, 1
+  index: -1
+cha1
+  rotate: true
+  xy: 2, 357
+  size: 554, 425
+  orig: 556, 427
+  offset: 1, 1
+  index: -1
+cha2
+  rotate: false
+  xy: 1004, 515
+  size: 472, 485
+  orig: 474, 487
+  offset: 1, 1
+  index: -1
+effect1
+  rotate: true
+  xy: 429, 764
+  size: 147, 130
+  orig: 149, 132
+  offset: 1, 1
+  index: -1

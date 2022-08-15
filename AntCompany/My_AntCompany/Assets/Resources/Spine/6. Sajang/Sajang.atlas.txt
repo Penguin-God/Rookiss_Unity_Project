@@ -1,0 +1,174 @@
+
+Sajang.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 2, 122
+  size: 85, 69
+  orig: 87, 71
+  offset: 1, 1
+  index: -1
+chair_2
+  rotate: false
+  xy: 2, 351
+  size: 106, 148
+  orig: 106, 148
+  offset: 0, 0
+  index: -1
+eye_c
+  rotate: false
+  xy: 79, 15
+  size: 39, 9
+  orig: 41, 11
+  offset: 1, 1
+  index: -1
+eye_c2
+  rotate: true
+  xy: 89, 123
+  size: 68, 25
+  orig: 70, 27
+  offset: 1, 1
+  index: -1
+eye_o
+  rotate: true
+  xy: 116, 122
+  size: 39, 12
+  orig: 41, 14
+  offset: 1, 1
+  index: -1
+feeler_l
+  rotate: false
+  xy: 110, 376
+  size: 16, 55
+  orig: 16, 56
+  offset: 0, 1
+  index: -1
+feeler_r
+  rotate: false
+  xy: 110, 432
+  size: 16, 51
+  orig: 16, 51
+  offset: 0, 0
+  index: -1
+foot_l
+  rotate: false
+  xy: 100, 27
+  size: 20, 43
+  orig: 20, 43
+  offset: 0, 0
+  index: -1
+foot_r
+  rotate: true
+  xy: 59, 27
+  size: 20, 43
+  orig: 20, 43
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 2, 70
+  size: 83, 50
+  orig: 85, 52
+  offset: 1, 1
+  index: -1
+hand_c
+  rotate: true
+  xy: 86, 193
+  size: 115, 39
+  orig: 117, 41
+  offset: 1, 1
+  index: -1
+hand_l
+  rotate: 180
+  xy: 44, 37
+  size: 54, 35
+  orig: 54, 35
+  offset: 0, 0
+  index: -1
+hand_r
+  rotate: false
+  xy: 2, 27
+  size: 51, 34
+  orig: 51, 34
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 2, 272
+  size: 77, 82
+  orig: 79, 84
+  offset: 1, 1
+  index: -1
+head_e
+  rotate: true
+  xy: 2, 193
+  size: 77, 82
+  orig: 77, 82
+  offset: 0, 0
+  index: -1
+lip
+  rotate: false
+  xy: 2, 3
+  size: 28, 13
+  orig: 31, 34
+  offset: 1, 20
+  index: -1
+lip_e1
+  rotate: false
+  xy: 54, 12
+  size: 23, 17
+  orig: 23, 17
+  offset: 0, 0
+  index: -1
+lip_e2
+  rotate: true
+  xy: 32, 5
+  size: 21, 11
+  orig: 21, 11
+  offset: 0, 0
+  index: -1
+lip_e3
+  rotate: false
+  xy: 108, 4
+  size: 16, 9
+  orig: 16, 9
+  offset: 0, 0
+  index: -1
+lip_e4
+  rotate: false
+  xy: 2, 18
+  size: 24, 17
+  orig: 24, 17
+  offset: 0, 0
+  index: -1
+lip_e5
+  rotate: false
+  xy: 79, 3
+  size: 27, 10
+  orig: 31, 34
+  offset: 3, 1
+  index: -1
+neck
+  rotate: true
+  xy: 87, 73
+  size: 47, 35
+  orig: 49, 37
+  offset: 1, 1
+  index: -1
+neck_c
+  rotate: false
+  xy: 110, 310
+  size: 19, 63
+  orig: 21, 65
+  offset: 1, 1
+  index: -1
+sweat
+  rotate: false
+  xy: 115, 26
+  size: 13, 14
+  orig: 15, 16
+  offset: 1, 1
+  index: -1

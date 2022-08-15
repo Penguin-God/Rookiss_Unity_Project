@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfTextData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TextData ID="1" kor="NoName" eng="NoName" />
+  <TextData ID="10000" kor="{userName}아. 안녕 반가워. 잘 부탁해." eng="" />
+  <TextData ID="10001" kor="{userName}아. 너 프로그램은 잘 다루니?" eng="" />
+  <TextData ID="10002" kor="{userName}아. 괜찮으니까 편하게 대답해도 괜찮아." eng="" />
+  <TextData ID="10003" kor="{userName}이! 당장 여기와봐!" eng="" />
+  <TextData ID="10004" kor="{userName}아. 내가 바빠서 그런데. 이거 좀 해줄래?" eng="" />
+  <TextData ID="10005" kor="{userName}아. 오늘은 이만 퇴근해~" eng="" />
+  <TextData ID="10006" kor="{userName}이. 학교에서 대체 뭘 배운거야?" eng="" />
+  <TextData ID="10007" kor="{userName}이. 시키지도 않은 일을 왜해? 그럴거면 니가 사장해!" eng="" />
+  <TextData ID="10008" kor="{userName}이 업무 처리가 왜이래?" eng="" />
+  <TextData ID="10009" kor="{userName}이 힘든건 없어?" eng="" />
+  <TextData ID="10010" kor="{userName}이 바쁜일 없지? 나 좀 도와줘" eng="" />
+  <TextData ID="10011" kor="{userName}이 이런것도 몰라서 물어? 대체 할줄 아는게 뭐야?" eng="" />
+  <TextData ID="10012" kor="{userName}이 또 야근이야? 맨날 야근이네? 일을 잘 못하나?" eng="" />
+  <TextData ID="10013" kor="{userName}아~내가 시킨일 아직도 안됐나?" eng="" />
+  <TextData ID="10014" kor="{userName}아. 나대지말고 그냥 내가 하라는 대로 해~ 니가 되겠어?" eng="" />
+  <TextData ID="10015" kor="{userName}이. 아직도 이걸 제대로 모르면 어쩌나?" eng="" />
+  <TextData ID="10016" kor="{userName}이 이러다 후임들 한테 밀리겠는데?" eng="" />
+  <TextData ID="10017" kor="{userName}아. 니 동기는 저렇게 잘하는데 넌 뭐하냐?" eng="" />
+  <TextData ID="10018" kor="{userName}이 이것밖에 못하나?" eng="" />
+  <TextData ID="10019" kor="{userName}아. 알아서 좀 하자. 이것도 못하냐?" eng="" />
+  <TextData ID="10020" kor="{userName}이~ 커피좀 사와라~ 나는 따뜻한 복숭아 아이스티" eng="" />
+  <TextData ID="10021" kor="{userName}아. 이야기 좀 할까?" eng="" />
+  <TextData ID="10022" kor="{userName}이~ 저기 화초에 물이 마른 것 같지 않아?" eng="" />
+  <TextData ID="10023" kor="{userName}님. 맡겨 주신일 완료 했습니다. 검토 부탁 드립니다." eng="" />
+  <TextData ID="10024" kor="{userName}님. 전에 맡겨주신 일 시간을 조금만 더 주시면 안될까요?" eng="" />
+  <TextData ID="10025" kor="{userName}님. 거래처에서 연락이 왔는데 어떻게 처리 할까요" eng="" />
+  <TextData ID="10026" kor="{userName}님. 저번 회의에 나온 안건 정리하였습니다." eng="" />
+  <TextData ID="10027" kor="{userName}님. 이번 입사 지원자 리스트 입니다." eng="" />
+  <TextData ID="10028" kor="{userName}님. 오늘 회식 장소는 근처 삼겹살 집으로 정했습니다." eng="" />
+  <TextData ID="10029" kor="{userName}님. 이번 프로젝트 구성안 입니다." eng="" />
+  <TextData ID="10030" kor="{userName}님. 결재 부탁드립니다." eng="" />
+  <TextData ID="10031" kor="{userName}님. 자료 검토 부탁드려도 괜찮을까요" eng="" />
+  <TextData ID="10032" kor="{userName}님. 사장님이 부르십니다." eng="" />
+  <TextData ID="10033" kor="{userName}님. 거래처에서 손님이 오셨는데요" eng="" />
+  <TextData ID="10034" kor="{userName}님. 내일 워크숍 참가 하실건가요?" eng="" />
+  <TextData ID="10035" kor="{userName}님. 저 힘든일이 있는데... 상담 부탁드립니다." eng="" />
+  <TextData ID="10036" kor="{userName}님. 오늘 마치고 술 한잔 어떠신가요?" eng="" />
+  <TextData ID="10037" kor="{userName}님. 곧 회의 시간입니다. B-11회의실 입니다." eng="" />
+  <TextData ID="10038" kor="{userName}님. 저.. 2주 뒤 연차 사용해도 괜찮을까요?" eng="" />
+  <TextData ID="10039" kor="{userName}님. 저 오늘 몸이아파 병가를 써야할거 같습니다…" eng="" />
+  <TextData ID="10040" kor="{userName}님. 죄송합니다. 다시는 이런 일 없도록 하겠습니다." eng="" />
+  <TextData ID="10041" kor="{userName}님. 저 회사 관련하여 드릴 말씀이 있습니다." eng="" />
+  <TextData ID="10042" kor="{userName}님. 저 먼저 퇴근해도 괜찮을까요?" eng="" />
+  <TextData ID="10043" kor="{userName}님. 저 야근하고 가야할 거 같아요.." eng="" />
+  <TextData ID="10044" kor="{userName}님! 첫 월급으로 샀어요. 커피 드세요!" eng="" />
+  <TextData ID="11010" kor="{userName}입니다! 잘 부탁드립니다!" eng="" />
+  <TextData ID="11011" kor="올해로 25살 {userName} 입니다! 잘 부탁드립니다!" eng="" />
+  <TextData ID="11020" kor="네! 저 프로그램 엄청 잘 다룹니다!" eng="" />
+  <TextData ID="11021" kor="조금 다룰 수 있습니다!" eng="" />
+  <TextData ID="11030" kor="그럼 저도 말 편하게 해도 괜찮을까요? 너무 친근하게 잘 대해주셔서" eng="" />
+  <TextData ID="11031" kor="네! 알겠습니다!" eng="" />
+  <TextData ID="11040" kor="넵. 무슨 일이신가요?" eng="" />
+  <TextData ID="11041" kor="아... 저 지금 일거리 있어서 바쁜데요." eng="" />
+  <TextData ID="11050" kor="네! 어떤 거 하면 될까요?" eng="" />
+  <TextData ID="11051" kor="사장님께서 해달라고 하신 게 있어서 이것부터 하고 해드릴게요!" eng="" />
+  <TextData ID="11060" kor="넵. 수고하셨습니다." eng="" />
+  <TextData ID="11061" kor="일이 아직 조금 남아서.. 마저 하고 갈게요!" eng="" />
+  <TextData ID="11070" kor="죄송합니다.. 알려주시면 열심히 배우겠습니다." eng="" />
+  <TextData ID="11071" kor="개미님은 얼마나 좋아서 저한테 이렇게 막 대하세요?" eng="" />
+  <TextData ID="11080" kor="죄송합니다. 앞으로 그러지 않겠습니다." eng="" />
+  <TextData ID="11081" kor="그래도... 이 폼이 더 효율적일 것 같아서..." eng="" />
+  <TextData ID="11090" kor="죄송합니다. 다시 해오겠습니다." eng="" />
+  <TextData ID="11091" kor="네? 이정도면 완벽하지 않나요? 게다가 이렇게 시키신 건 개미님이신데" eng="" />
+  <TextData ID="11100" kor="아 그럼요~ 다들 워낙 잘해주셔서 회사 적응도 열심히 하고 있습니다!" eng="" />
+  <TextData ID="11101" kor="니가 제일 힘들어." eng="" />
+  <TextData ID="11110" kor="네. 혹시 어떤 부분을 도와드리면 되나요?" eng="" />
+  <TextData ID="11111" kor="또 일 그렇게 떠넘기려고 하시나요? 저 바빠요." eng="" />
+  <TextData ID="11120" kor="죄송합니다. 공부하겠습니다." eng="" />
+  <TextData ID="11121" kor="제대로 가르쳐 주는 것도 없으면서 못한다고 난리네 진짜.." eng="" />
+  <TextData ID="11130" kor="어라! 열심히 하다보니 벌써 저녁이네요." eng="" />
+  <TextData ID="11131" kor="그럼 너는 왜 여기 남아 계세요?" eng="" />
+  <TextData ID="11140" kor="넵. 지금 다했습니다!" eng="" />
+  <TextData ID="11141" kor="죄송합니다. 15분 뒤면 마무리 될 것 같습니다." eng="" />
+  <TextData ID="11150" kor="죄송합니다. 좀 더 잘 해보려고 했던 게.. " eng="" />
+  <TextData ID="11151" kor="제가 더 잘하지 않을까 싶은데요?" eng="" />
+  <TextData ID="11160" kor="죄송합니다. 다시 공부하겠습니다." eng="" />
+  <TextData ID="11161" kor="제가 어떻게 다 알고 있겠습니까." eng="" />
+  <TextData ID="11170" kor="제가 더 열심히 해야죠.." eng="" />
+  <TextData ID="11171" kor="에이 개미님도 대단하게 뭘 할줄 아시는 건 아니잖아요" eng="" />
+  <TextData ID="11180" kor="….죄송합니다." eng="" />
+  <TextData ID="11181" kor="동기랑 저랑 같은 사람 아니잖아요?" eng="" />
+  <TextData ID="11190" kor="아닙니다. 더 할 수 있습니다!" eng="" />
+  <TextData ID="11191" kor="이 정도면 충분하지 뭘 더 바라나?" eng="" />
+  <TextData ID="11200" kor="죄송합니다. 노력하겠습니다. " eng="" />
+  <TextData ID="11201" kor="이거 아까 전에 큰개미님이 알려주신 일인데요 ..." eng="" />
+  <TextData ID="11210" kor="넵. 다녀오겠습니다." eng="" />
+  <TextData ID="11211" kor="풉..아이스티가 어떻게 따뜻하게 되나요?" eng="" />
+  <TextData ID="11220" kor="네! 무슨 일이세요?" eng="" />
+  <TextData ID="11221" kor="네? 네.. 회의실로 갈까요?" eng="" />
+  <TextData ID="11230" kor="네 마침 화초에 물을 주려고 했습니다." eng="" />
+  <TextData ID="11231" kor="그건 제가 할 일이 아니에요." eng="" />
+  <TextData ID="11240" kor="고생하셨습니다~ 확인하고 알려드릴게요." eng="" />
+  <TextData ID="11241" kor="다음에는 속도 조금만 더 내주세요. " eng="" />
+  <TextData ID="11250" kor="가능하긴 한데 자꾸 늦어지면 다른 부서가 곤란해요. 내일까지는 주시면 좋겠어요." eng="" />
+  <TextData ID="11251" kor="오늘 꼭 넘겨야 하는 일이라 힘들 거 같아요.. 야근을 해서라도 맞춰주세요." eng="" />
+  <TextData ID="11260" kor="전화 이쪽으로 돌려주세요~고생했어요~" eng="" />
+  <TextData ID="11261" kor="저 지금 회사에 없다고 해주세요. 네? 들었다구요? 아..." eng="" />
+  <TextData ID="11270" kor="오! 좋아요. 다음에도 부탁할게요!" eng="" />
+  <TextData ID="11271" kor="그거 주제별로 다시 정리좀 해서 주시겠어요?" eng="" />
+  <TextData ID="11280" kor="고생했어요~ 면접 보실 각 파트장 분들께 전달 부탁드려요. " eng="" />
+  <TextData ID="11281" kor="이번 리스트는 별로 마음에 안들어요. 전부 탈락 문자 돌려주세요." eng="" />
+  <TextData ID="11290" kor="그럼 거기로 갈까요? " eng="" />
+  <TextData ID="11291" kor="회식인데 삼겹살이 뭐예요? 평소에 못 먹는 비싼 거 고르고 그래야지." eng="" />
+  <TextData ID="11300" kor="검토하고 알려드릴게요. 할 일 있죠?" eng="" />
+  <TextData ID="11301" kor="이 부분.. 내용 너무 적은데 보충해서 다시 주시겠어요?" eng="" />
+  <TextData ID="11310" kor="점심 먹고 해둘게요. 거기 놓고 가주세요." eng="" />
+  <TextData ID="11311" kor="지금 해드릴게요! 이리 주세요!" eng="" />
+  <TextData ID="11320" kor="제가 지금 바빠서 그런데 옆에 놓고 가주시겠어요?" eng="" />
+  <TextData ID="11321" kor="빨리 하셨네요. 고생하셨어요. 조금 쉬고 계실래요?" eng="" />
+  <TextData ID="11330" kor="알려주셔서 감사합니다~" eng="" />
+  <TextData ID="11331" kor="사장님 분위기 어떠셔?" eng="" />
+  <TextData ID="11340" kor="휴게실로 안내 좀 부탁드려도 될까요? 금방 갈게요." eng="" />
+  <TextData ID="11341" kor="안내 드리고 마실것도 좀 부탁해요." eng="" />
+  <TextData ID="11350" kor="아무래도 회사 분위기가 다 참여하는 분위기라 가야 할 거 같아요." eng="" />
+  <TextData ID="11351" kor="저는 일이 있어서 참여 못할 거 같아요. 저 없어도 괜찮으시죠?" eng="" />
+  <TextData ID="11360" kor="세상에! 무슨 일 있어요? " eng="" />
+  <TextData ID="11361" kor="아... 제가 지금 이 일이 정말 바빠서 이것만 해놓고 이야기 해도 괜찮을까요?" eng="" />
+  <TextData ID="11370" kor="무슨 힘든 일 있었어요? 어디로 갈까요?" eng="" />
+  <TextData ID="11371" kor="마치고 약속이 있는 날이라서 오늘은 힘들 거 같아요. 죄송해요~" eng="" />
+  <TextData ID="11380" kor="이거 회의 유인물인데 들고 가주시겠어요?" eng="" />
+  <TextData ID="11381" kor="시간이 벌써 그렇게 되었나요? 회의 준비가 아직 다 안 되었는데.." eng="" />
+  <TextData ID="11390" kor="어디 멀리 놀러가요? 좋겠다~" eng="" />
+  <TextData ID="11391" kor="최근에 정말 바빴죠. 푹 쉬고 오세요." eng="" />
+  <TextData ID="11400" kor="몸이 안좋으면 휴식해야죠. 먼저 들어가세요!" eng="" />
+  <TextData ID="11401" kor="일개미씨 이번 년도 병가를 너무 많이 쓰신 것 같은데 개인 컨디션은 잘 챙겨주세요" eng="" />
+  <TextData ID="11410" kor="지난번에 알려드렸는데... 주의해주세요" eng="" />
+  <TextData ID="11411" kor="한 번만 더 기회 드릴게요 회사일은 더 신경 써서 해주세요" eng="" />
+  <TextData ID="11420" kor="...무슨 일인가요? 회의실로 가시죠." eng="" />
+  <TextData ID="11421" kor="잠시만요. 일 끝내고 회의실로 갑시다 " eng="" />
+  <TextData ID="11430" kor="그럼요. 일 끝내시면 퇴근하셔도 됩니다" eng="" />
+  <TextData ID="11431" kor="잠깐! 가기 전에 이것 좀 처리해 줄래요?" eng="" />
+  <TextData ID="11440" kor="너무 무리하지 말고 적당히 하고 가요~" eng="" />
+  <TextData ID="11441" kor="일 많이 남았어요? " eng="" />
+  <TextData ID="11450" kor="정말요? 잘 먹을게요. 첫 월급으로 커피를 사주시다니... 보람차네요" eng="" />
+  <TextData ID="11451" kor="마침 목이 말랐는데 고마워요!" eng="" />
+  <TextData ID="12010" kor="어.그래~나도 잘 부탁해~" eng="" />
+  <TextData ID="12011" kor="어~ 나이부터 이야기 하네? 당돌한데~ 잘 부탁해~" eng="" />
+  <TextData ID="12020" kor="자신감 넘치는데? 해봐." eng="" />
+  <TextData ID="12021" kor="그래? 그럼 연습 삼아 이거 해볼래?" eng="" />
+  <TextData ID="12030" kor="잘 해주니까 아주 쉬워 보여? 어? 학교에서 배운 거 없어? 너 대졸 아냐? " eng="" />
+  <TextData ID="12031" kor="진짜 괜찮으니까 말 편하게 하고. 어려운 거 있으면 언제든 물어봐. 알겠지?" eng="" />
+  <TextData ID="12040" kor="여기 보고서 수정 좀 해야 할 거 같거든? 이 부분." eng="" />
+  <TextData ID="12041" kor="어쭈. 여기가 니 집이야? 부모님께도 그러디? " eng="" />
+  <TextData ID="12050" kor="응. 여기를 이렇게 하면 돼. 잘 봐봐" eng="" />
+  <TextData ID="12051" kor="그래 그러면 마무리하고 와~ 5분당 서류 하나씩 늘어난다?" eng="" />
+  <TextData ID="12060" kor="그래~고생했어~" eng="" />
+  <TextData ID="12061" kor="그래? 알겠어~ 조금만 더 힘내자" eng="" />
+  <TextData ID="12070" kor="그래. 하나씩 배워서 잘 해보자~" eng="" />
+  <TextData ID="12071" kor="하버드다 이 XX 야." eng="" />
+  <TextData ID="12080" kor="두고 보겠어. 어!?" eng="" />
+  <TextData ID="12081" kor="{userName}이 너가 뭔데 회사 룰을 바꾸냐고. 회사가 장난이야?" eng="" />
+  <TextData ID="12090" kor="그래. 앞으로 잘해. 지켜본다." eng="" />
+  <TextData ID="12091" kor="문제가 없긴 왜 없어? 다 문제잖아 임마!" eng="" />
+  <TextData ID="12100" kor="그래? 그럼 다행이네~ 힘들면 이야기해~" eng="" />
+  <TextData ID="12101" kor="오늘 뭐 잘못 먹었냐? 야. 따라와." eng="" />
+  <TextData ID="12110" kor="역시 너밖에 없다야. 고마워~" eng="" />
+  <TextData ID="12111" kor="뭐? 나는 노는 거 같냐? 어? 내 일이 쉬워 보여?" eng="" />
+  <TextData ID="12120" kor="쯧. 이거 봐. 이렇게 하는 거야." eng="" />
+  <TextData ID="12121" kor="돌았어? 아주 뚫린 입이라고 막 내뱉네?" eng="" />
+  <TextData ID="12130" kor="너무 무리하지 말고 적당히 하고 가~ 그래도 열심히 하는 모습 보기 좋네. " eng="" />
+  <TextData ID="12131" kor="너 같은 놈 있을까 봐 옆에서 지켜봐야지. 상사한테 너가 뭐야?" eng="" />
+  <TextData ID="12140" kor="오~ 고생했어. 줘봐." eng="" />
+  <TextData ID="12141" kor="시킨 지가 언젠데 아직도 하고 있어? 빨리해서 가져와!" eng="" />
+  <TextData ID="12150" kor="제발 시키는거나 잘 하자. 주제를 알아야지. " eng="" />
+  <TextData ID="12151" kor="그러면 네가 사장실로 가서 보고해. 안 일어나?" eng="" />
+  <TextData ID="12160" kor="내가 어떻게 하나하나 가르치면서 내일을 하나? 알잘딱깔센 몰라?" eng="" />
+  <TextData ID="12161" kor="어휴… 이런 걸 신입이라고…" eng="" />
+  <TextData ID="12170" kor="실수만 좀 줄여도 괜찮겠어. 알았지?" eng="" />
+  <TextData ID="12171" kor="어쭈. 입사한지 얼마나 됐다고 아주 기어올라? " eng="" />
+  <TextData ID="12180" kor="짤리기 싫으면 좀 열심히 하지? " eng="" />
+  <TextData ID="12181" kor="어. 그렇긴 한데 회사는 돈을 줘야하잖아? 그렇게 당당하면 부모님께 용돈이나 타서 쓰지 그래? 회사 다니지 말고" eng="" />
+  <TextData ID="12190" kor="입만 살았지. 대답만 잘 하지 말고 일을 잘 하라고!" eng="" />
+  <TextData ID="12191" kor="그리 당당하면 니가 회사 차려서 사장 해라. 사장 해! " eng="" />
+  <TextData ID="12200" kor="열심히 노력만 하지 말고 잘 하란 말이야" eng="" />
+  <TextData ID="12201" kor="뭐? 내가 언제 그렇게 알려줬어? 그리고 연장자가 충고해 주면 감사한 줄 해야지.. 나 때는 까라면 깠어" eng="" />
+  <TextData ID="12210" kor="그래그래. 컵홀더 꽂아 오라는 말을 찰떡같이 알아듣네. 우리 {userName}이 회사 적응 다했네~" eng="" />
+  <TextData ID="12211" kor="지금 토를 달아? 시키는 거나 잘 해. 그러니까 일도 못하는 거 아냐?" eng="" />
+  <TextData ID="12220" kor="네가 열심히 하는 거 아는데 입사 초반에는 퍼포먼스를 위해서 야근도 좀 하고 그래야 하거든. 일찍 오는 것보다 야.근. 하는 게 더 도움 된다고" eng="" />
+  <TextData ID="12221" kor="그래. A10번 방으로 와." eng="" />
+  <TextData ID="12230" kor="그래 행동도 빠릿빠릿해서 사람이 괜찮단 말이야" eng="" />
+  <TextData ID="12231" kor="회사에 남일이 어디있어? 눈치가 없는 것 같아서 알려줄게 화초에 물 좀 주라는 말이야." eng="" />
+  <TextData ID="12240" kor="감사합니다!" eng="" />
+  <TextData ID="12241" kor="네. 죄송합니다!" eng="" />
+  <TextData ID="12250" kor="감사합니다. 죄송해요!" eng="" />
+  <TextData ID="12251" kor="네... " eng="" />
+  <TextData ID="12260" kor="넵! 감사합니다~" eng="" />
+  <TextData ID="12261" kor="어..네..네...지금 바꿔드릴게요.." eng="" />
+  <TextData ID="12270" kor="네. 맡겨 주세요!" eng="" />
+  <TextData ID="12271" kor="오늘 안에 해서 드릴게요!" eng="" />
+  <TextData ID="12280" kor="네. 전달해 놓겠습니다." eng="" />
+  <TextData ID="12281" kor="네...알겠습니다." eng="" />
+  <TextData ID="12290" kor="일단 리뷰는 괜찮거든요~ 근데 다른 분들 입에 맞을지 모르겠어요." eng="" />
+  <TextData ID="12291" kor="뭐야?" eng="" />
+  <TextData ID="12300" kor="네. 하면서 기다리고 있을게요." eng="" />
+  <TextData ID="12301" kor="어떻게 추가하면 될까요? " eng="" />
+  <TextData ID="12310" kor="여기 두고 갈게요!" eng="" />
+  <TextData ID="12311" kor="네! " eng="" />
+  <TextData ID="12320" kor="여기 두고 갈게요!" eng="" />
+  <TextData ID="12321" kor="네~ 천천히 말씀해 주세요!" eng="" />
+  <TextData ID="12330" kor="다녀오세요." eng="" />
+  <TextData ID="12331" kor="네? 어.. 그냥 평소랑 비슷하신 거 같던데요?" eng="" />
+  <TextData ID="12340" kor="네. 알겠습니다" eng="" />
+  <TextData ID="12341" kor="커피로 괜찮을까요?" eng="" />
+  <TextData ID="12350" kor="확실히 그렇죠.. 알겠습니다." eng="" />
+  <TextData ID="12351" kor="네? 네..그럼요..!" eng="" />
+  <TextData ID="12360" kor="그게 부장님께서 계속..." eng="" />
+  <TextData ID="12361" kor="네. 네.괜찮아요." eng="" />
+  <TextData ID="12370" kor="그냥 같이 마시면 좋을 것 같아서요~" eng="" />
+  <TextData ID="12371" kor="제가 너무 갑자기 말씀 드렸으니까요. 신경쓰지 마세요~" eng="" />
+  <TextData ID="12380" kor="네. 알겠습니다~ " eng="" />
+  <TextData ID="12381" kor="복사 제가 다 해놨습니다!" eng="" />
+  <TextData ID="12390" kor="친구들이랑 정말 오랜만에 여수로 여행 가기로 했거든요~" eng="" />
+  <TextData ID="12391" kor="감사합니다!" eng="" />
+  <TextData ID="12400" kor="네. 감사합니다 먼저 들어가보겠습니다..." eng="" />
+  <TextData ID="12401" kor="죄송합니다..갑작스러운 몸살이라..." eng="" />
+  <TextData ID="12410" kor="네 죄송합니다." eng="" />
+  <TextData ID="12411" kor="기회가 끝나면 저는 어떻게 되나요...?" eng="" />
+  <TextData ID="12420" kor="그동안 너무 지쳐서... 퇴사하려고 합니다." eng="" />
+  <TextData ID="12421" kor="네. 가기 전에 먼저 간략하게 말씀드릴게요.저 퇴사하겠습니다." eng="" />
+  <TextData ID="12430" kor="네! 내일 뵙겠습니다." eng="" />
+  <TextData ID="12431" kor="아...네 알겠습니다 가방 좀 내려놓고 올게요" eng="" />
+  <TextData ID="12440" kor="네. 조심해서 들어가세요!" eng="" />
+  <TextData ID="12441" kor="조금요~.. 고생하셨습니다!" eng="" />
+  <TextData ID="12450" kor="네! 앞으로도 잘부탁드립니다." eng="" />
+  <TextData ID="12451" kor="네! 맛있게 드세요!" eng="" />
+  <TextData ID="4100" kor="어이 연봉 협상하게 의자 들고 와~ 요새 회사가 어려워~ 3% 인상이면 어떤가?" eng="" />
+  <TextData ID="4110" kor="여부가 있겠습니까 사장님." eng="" />
+  <TextData ID="4120" kor="사장님 벽돌로 맞아보셨어요? 제가 올해 프로젝트 몇 개를 성공 시켰는데요~ 더 올려주시죠^^" eng="" />
+  <TextData ID="4111" kor="그래그래~ 요새 얼마나 불경기인데. 올려주는게 어디야~ 앞으로도 잘 해보자고~" eng="" />
+  <TextData ID="4121" kor="아..아니~ 나도 사실 더 챙겨 주려고 했네. 말을 왜그렇게 섭섭하게 하는가ㅎㅎ올려줄테니 앞으로 더 열심히 하라고~" eng="" />
+  <TextData ID="4122" kor="아니! 이 양반이 지금 나 협박하는겐가? 내가 얼마나 양보를 했는데!!!! 당장 나가! 연봉 안올려줄거야!" eng="" />
+  <TextData ID="4500" kor="벽돌로 때린다" eng="" />
+  <TextData ID="4501" kor="{enemyID}는 기절했다. 아무도 보지 못했다." eng="" />
+  <TextData ID="4502" kor="{enemyID}는 기절했다. 사원들이 나를 봤다." eng="" />
+  <TextData ID="5000" kor="인턴" eng="" />
+  <TextData ID="5010" kor="신입" eng="" />
+  <TextData ID="5020" kor="대리" eng="" />
+  <TextData ID="5030" kor="과장" eng="" />
+  <TextData ID="5040" kor="부장" eng="" />
+  <TextData ID="5050" kor="이사" eng="" />
+  <TextData ID="5060" kor="사장" eng="" />
+  <TextData ID="5070" kor="냥이" eng="" />
+  <TextData ID="6001" kor="최대 체력" eng="" />
+  <TextData ID="6011" kor="업무 능력" eng="" />
+  <TextData ID="6021" kor="호감도" eng="" />
+  <TextData ID="6031" kor="스트레스" eng="" />
+  <TextData ID="6041" kor="운" eng="" />
+  <TextData ID="6051" kor="돈" eng="" />
+  <TextData ID="6061" kor="벽돌" eng="" />
+  <TextData ID="6071" kor="연봉" eng="" />
+  <TextData ID="6500" kor="진급 성공!" eng="" />
+  <TextData ID="6501" kor="화면을 터치 하세요." eng="Touch to Screen" />
+  <TextData ID="6502" kor="벽돌 구매" eng="" />
+  <TextData ID="6503" kor="월급 구매" eng="" />
+  <TextData ID="6504" kor="광고 제거" eng="" />
+  <TextData ID="6505" kor="벽돌 만들기" eng="" />
+  <TextData ID="6506" kor="월급 만들기" eng="" />
+  <TextData ID="6507" kor="운 찾기" eng="" />
+  <TextData ID="7001" kor="고양이 밥주기" eng="" />
+  <TextData ID="7011" kor="기획 회의" eng="" />
+  <TextData ID="7021" kor="프레젠테이션" eng="" />
+  <TextData ID="7031" kor="박람회 참여" eng="" />
+  <TextData ID="7041" kor="월급 루팡!" eng="" />
+  <TextData ID="7051" kor="R&amp;D" eng="" />
+  <TextData ID="7061" kor="하청 물색" eng="" />
+  <TextData ID="7071" kor="신제품 개발" eng="" />
+  <TextData ID="7081" kor="광고 제작" eng="" />
+  <TextData ID="7091" kor="최첨단 개발" eng="" />
+  <TextData ID="7500" kor="체력 가꾸기" eng="" />
+  <TextData ID="7501" kor="헬창의 길" eng="" />
+  <TextData ID="7502" kor="디스 이즈 스파르타!" eng="" />
+  <TextData ID="7503" kor="워라벨 주세요" eng="" />
+  <TextData ID="7504" kor="집좀 보내주세요" eng="" />
+  <TextData ID="7505" kor="회사가 집" eng="" />
+  <TextData ID="7506" kor="러브레터" eng="" />
+  <TextData ID="7507" kor="인기인" eng="" />
+  <TextData ID="7508" kor="마성의 매력" eng="" />
+  <TextData ID="7509" kor="김첨지" eng="" />
+  <TextData ID="7510" kor="운수 좋은날" eng="" />
+  <TextData ID="7511" kor="로또 당첨!" eng="" />
+  <TextData ID="7512" kor="편식 없는 세상" eng="" />
+  <TextData ID="7513" kor="한 우물만 파지마" eng="" />
+  <TextData ID="7514" kor="킹 갓 제너럴 리스트" eng="" />
+  <TextData ID="7515" kor="스트레스성 위염" eng="" />
+  <TextData ID="7516" kor="우울증" eng="" />
+  <TextData ID="7517" kor="공황장애" eng="" />
+  <TextData ID="7518" kor="사사사사" eng="" />
+  <TextData ID="7519" kor="럭키 세븐!" eng="" />
+  <TextData ID="7520" kor="열여덟열여덟" eng="" />
+  <TextData ID="7521" kor="회사 창립일" eng="" />
+  <TextData ID="7522" kor="콩콩콩콩" eng="" />
+  <TextData ID="7523" kor="쪼끔 부자" eng="" />
+  <TextData ID="7524" kor="쪼오끔 더 부자" eng="" />
+  <TextData ID="7525" kor="쪼오오끔 더 부자" eng="" />
+  <TextData ID="7526" kor="입에 풀칠" eng="" />
+  <TextData ID="7527" kor="니 입에도 풀칠" eng="" />
+  <TextData ID="7528" kor="우리 가족 풀칠" eng="" />
+  <TextData ID="7529" kor="홧병" eng="" />
+  <TextData ID="7530" kor="분노 조절 잘해" eng="" />
+  <TextData ID="7531" kor="분노 조절 장인" eng="" />
+  <TextData ID="7532" kor="더는 참을 수 엄쒀!" eng="" />
+  <TextData ID="7533" kor="와! 취직했다!" eng="" />
+  <TextData ID="7534" kor="와! 첫 진급!" eng="" />
+  <TextData ID="7535" kor="와! 과장 진급!" eng="" />
+  <TextData ID="7536" kor="부장을 달아부장!" eng="" />
+  <TextData ID="7537" kor="2사달지~두번달지~" eng="" />
+  <TextData ID="7538" kor="내가 느그 사장이다!" eng="" />
+  <TextData ID="7539" kor="고양이에 눈뜨다." eng="" />
+  <TextData ID="7540" kor="집사 입문" eng="" />
+  <TextData ID="7541" kor="완벽한 생명체" eng="" />
+  <TextData ID="7542" kor="열정 토론!" eng="" />
+  <TextData ID="7543" kor="시시비비" eng="" />
+  <TextData ID="7544" kor="데우스 엑스 마키나" eng="" />
+  <TextData ID="7545" kor="무에서 유를 창조!" eng="" />
+  <TextData ID="7546" kor="달변가" eng="" />
+  <TextData ID="7547" kor="찬호님…사랑합니다" eng="" />
+  <TextData ID="7548" kor="첫 박람회!" eng="" />
+  <TextData ID="7549" kor="환상의 X꼬쇼" eng="" />
+  <TextData ID="7550" kor="손님 맞을래요?" eng="" />
+  <TextData ID="7551" kor="월급이 복사!" eng="" />
+  <TextData ID="7552" kor="숨바꼭질 달인!" eng="" />
+  <TextData ID="7553" kor="다크 템플러!" eng="" />
+  <TextData ID="7554" kor="초심자의 행운" eng="" />
+  <TextData ID="7555" kor="석박사 과정" eng="" />
+  <TextData ID="7556" kor="어쩌다 여기까지" eng="" />
+  <TextData ID="7557" kor="사장님 안녕하세요!" eng="" />
+  <TextData ID="7558" kor="사장님 계약 고?" eng="" />
+  <TextData ID="7559" kor="살려는 드릴게~" eng="" />
+  <TextData ID="7560" kor="인센티브는요?" eng="" />
+  <TextData ID="7561" kor="매출 보고 준다고?" eng="" />
+  <TextData ID="7562" kor="누굴 바보로 아나" eng="" />
+  <TextData ID="7563" kor="어떤 광고를 만들까?" eng="" />
+  <TextData ID="7564" kor="잡일 마스터" eng="" />
+  <TextData ID="7565" kor="슬레이트 칠게요~" eng="" />
+  <TextData ID="7566" kor="마커주커버그" eng="" />
+  <TextData ID="7567" kor="빌게이츠" eng="" />
+  <TextData ID="7568" kor="스티브잡스" eng="" />
+  <TextData ID="7569" kor="한 단계씩 천천히" eng="" />
+  <TextData ID="7570" kor="두 계단 특진" eng="" />
+  <TextData ID="7571" kor="3개 부터는 힘들지?" eng="" />
+  <TextData ID="7572" kor="거의 다왔어!" eng="" />
+  <TextData ID="7573" kor="이세계 사장" eng="" />
+  <TextData ID="8001" kor="만년신입" eng="" />
+  <TextData ID="8011" kor="만년대리" eng="" />
+  <TextData ID="8021" kor="만년과장" eng="" />
+  <TextData ID="8031" kor="만년부장" eng="" />
+  <TextData ID="8041" kor="콩" eng="" />
+  <TextData ID="8051" kor="느그 사장 남천동 살제!?" eng="" />
+  <TextData ID="8061" kor="자진퇴사" eng="" />
+  <TextData ID="8071" kor="벽돌엔딩" eng="" />
+  <TextData ID="8501" kor="집콕" eng="" />
+  <TextData ID="8511" kor="집에서 게임하기" eng="" />
+  <TextData ID="8521" kor="요리하기" eng="" />
+  <TextData ID="8531" kor="반려견과 데이트" eng="" />
+  <TextData ID="8541" kor="운동 하기" eng="" />
+  <TextData ID="8551" kor="미술관 방문하기" eng="" />
+  <TextData ID="8561" kor="친구들과 술 한잔~!" eng="" />
+  <TextData ID="8571" kor="영화 보기!" eng="" />
+  <TextData ID="8581" kor="맛집 탐방!" eng="" />
+  <TextData ID="8591" kor="카페에서 공부하기" eng="" />
+  <TextData ID="8601" kor="근교 드라이브!" eng="" />
+  <TextData ID="8611" kor="고향 방문" eng="" />
+  <TextData ID="8502" kor="월급이 선명하게 통장을 핥고 지나갔다" eng="" />
+  <TextData ID="8512" kor="진짜 보스만 잡고 잔다…" eng="" />
+  <TextData ID="8522" kor="퇴근 후 요리는 즐거워!" eng="" />
+  <TextData ID="8532" kor="브라운~ 엄마랑 산책하자!" eng="" />
+  <TextData ID="8542" kor="오늘은 무슨날? 더듬이 하는 날!" eng="" />
+  <TextData ID="8552" kor="미술관은 오랜만인데. 뭔가 익숙한 데?" eng="" />
+  <TextData ID="8562" kor="오늘도 마셔! 부어!" eng="" />
+  <TextData ID="8572" kor="이번 신작 oo배우 기대된다!" eng="" />
+  <TextData ID="8582" kor="웨이팅이 길어도… 맛있어서 괜찮아!" eng="" />
+  <TextData ID="8592" kor="주말에는 공부 해야지!" eng="" />
+  <TextData ID="8602" kor="탴미투 뤈둰~패뤼스~ 뉴욝siri들~" eng="" />
+  <TextData ID="8612" kor="엄마 아빠 저 왔어요~" eng="" />
+  <TextData ID="9000" kor="현재 연봉" eng="" />
+  <TextData ID="9001" kor="최대 체력" eng="" />
+  <TextData ID="9002" kor="현재 공격력" eng="" />
+  <TextData ID="9003" kor="프로젝트 쿨타임 감소율" eng="" />
+  <TextData ID="9004" kor="연봉협상 추가 보너스" eng="" />
+  <TextData ID="9005" kor="재화 보너스" eng="" />
+  <TextData ID="9006" kor="벽돌 성공률" eng="" />
+  <TextData ID="9506" kor="신입 이라고 봐줬더니 기어오르네?" eng="" />
+  <TextData ID="9507" kor="회사가 만만해? 니 마음대로 할수 있는 곳이야?" eng="" />
+  <TextData ID="9508" kor="너 인사평가 내가 보는거 알지?" eng="" />
+  <TextData ID="9509" kor="대체 왜그러는거지?" eng="" />
+  <TextData ID="9510" kor="회사에 불만이 있으면 너가 나가야지?" eng="" />
+  <TextData ID="9511" kor="너 마음대로 할거면 회사를 나가! " eng="" />
+  <TextData ID="9512" kor="니가 똥싼게 한두개인줄 알아?" eng="" />
+  <TextData ID="9513" kor="너 하나 없어도 회사 잘돌아가~" eng="" />
+  <TextData ID="9514" kor="사회가 만만해보여!?" eng="" />
+  <TextData ID="9515" kor="자네. 짤리고 싶나?" eng="" />
+  <TextData ID="9516" kor="자네 하나 지우는거 일도아니야." eng="" />
+  <TextData ID="9517" kor="이 바닥 생각보다 좁다?" eng="" />
+  <TextData ID="9518" kor="가족같은 회사 몰라?" eng="" />
+  <TextData ID="9519" kor="너 나이 몇이야 이 XX야" eng="" />
+  <TextData ID="9520" kor="당장 나가!!!" eng="" />
+  <TextData ID="19950" kor="체력 스탯은 캐릭터의 Hp이며 전투시 사용된다." eng="" />
+  <TextData ID="19951" kor="업무능력 스탯은 캐릭터의 공격력과 프로젝트 쿨타임 감소 효과를 얻을 수 있다." eng="" />
+  <TextData ID="19952" kor="호감도 스탯 연봉을 제외하고 플레이 중 획득하는 모든 돈에 추가 보너스 효과를 제공한다." eng="" />
+  <TextData ID="19953" kor="운 스탯은 대화 이벤트 시 벽돌로 때린다 선택지의 성공 확률이 상승한다. " eng="" />
+  <TextData ID="19997" kor="처음부터" eng="" />
+  <TextData ID="19998" kor="이어하기" eng="" />
+  <TextData ID="19999" kor="컬렉션" eng="" />
+  <TextData ID="20000" kor="닉네임을 입력해 주세요." eng="" />
+  <TextData ID="20001" kor="시닙이" eng="" />
+  <TextData ID="20002" kor="화면을 터치하세요" eng="" />
+  <TextData ID="20003" kor="업그레이드" eng="" />
+  <TextData ID="20004" kor="전투하기" eng="" />
+  <TextData ID="20005" kor="컬렉션" eng="" />
+  <TextData ID="20006" kor="일반" eng="" />
+  <TextData ID="20007" kor="갤러리" eng="" />
+  <TextData ID="20008" kor="정말 전투를 하시겠습니까?" eng="" />
+  <TextData ID="20009" kor="벽돌의 매운맛을 보여준다." eng="" />
+  <TextData ID="20010" kor="진급 성공 !" eng="" />
+  <TextData ID="20011" kor="진급 실패" eng="" />
+  <TextData ID="20012" kor="연봉 인상" eng="" />
+  <TextData ID="20013" kor="협상 결과" eng="" />
+  <TextData ID="20014" kor="와! 즐거운 퇴근이다! 오늘은 어떤걸 해볼까??" eng="" />
+  <TextData ID="20015" kor="정말 프로젝트를 진행 하시겠습니까?" eng="" />
+  <TextData ID="20016" kor="대화 완료!" eng="" />
+  <TextData ID="20017" kor="퇴근 완료!" eng="" />
+  <TextData ID="20018" kor="프로젝트 완료!" eng="" />
+  <TextData ID="20019" kor="안녕! 내 나는 시닙이! &lt;br&gt;오늘 첫 출근을 한다!" eng="" />
+  <TextData ID="20020" kor="첫 회사. 첫 출근은 정말 &lt;br&gt;두근거리고 설레는거 같아!" eng="" />
+  <TextData ID="20021" kor="과연 어떤 좋은 사람들과 &lt;br&gt;일을 하게 될까!?" eng="" />
+  <TextData ID="20022" kor="새로운 게임을 시작 하시겠습니까?&lt;br&gt;(진행중인 게임 데이터가 삭제됩니다.)" eng="" />
+  <TextData ID="20023" kor="이어하기(AD)" eng="" />
+  <TextData ID="20024" kor="타이틀로" eng="" />
+  <TextData ID="20025" kor="광고시청" eng="" />
+  <TextData ID="20026" kor="완료!&lt;br&gt;컬렉션에서 확인해 보세요!" eng="" />
+</ArrayOfTextData>

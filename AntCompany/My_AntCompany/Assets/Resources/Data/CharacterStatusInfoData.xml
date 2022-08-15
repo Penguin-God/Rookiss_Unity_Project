@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCharacterStatusInfoData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <CharacterStatusInfoData ID="0" textID="9000" />
+  <CharacterStatusInfoData ID="1" textID="9001" />
+  <CharacterStatusInfoData ID="2" textID="9002" />
+  <CharacterStatusInfoData ID="3" textID="9003" />
+  <CharacterStatusInfoData ID="4" textID="9004" />
+  <CharacterStatusInfoData ID="5" textID="9005" />
+  <CharacterStatusInfoData ID="6" textID="9006" />
+</ArrayOfCharacterStatusInfoData>

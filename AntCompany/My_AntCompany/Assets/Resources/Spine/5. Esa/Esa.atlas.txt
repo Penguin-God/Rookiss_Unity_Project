@@ -1,0 +1,174 @@
+
+Esa.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+attack_c
+  rotate: true
+  xy: 338, 325
+  size: 52, 47
+  orig: 52, 47
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 278, 260
+  size: 63, 66
+  orig: 65, 68
+  offset: 1, 1
+  index: -1
+chair
+  rotate: false
+  xy: 110, 282
+  size: 80, 144
+  orig: 82, 146
+  offset: 1, 1
+  index: -1
+chair_2
+  rotate: false
+  xy: 2, 278
+  size: 106, 148
+  orig: 106, 148
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 2, 259
+  size: 48, 17
+  orig: 50, 19
+  offset: 1, 1
+  index: -1
+eye_e
+  rotate: true
+  xy: 346, 275
+  size: 48, 25
+  orig: 48, 25
+  offset: 0, 0
+  index: -1
+feeler_l
+  rotate: false
+  xy: 373, 271
+  size: 30, 53
+  orig: 30, 53
+  offset: 0, 0
+  index: -1
+feeler_r
+  rotate: 270
+  xy: 352, 397
+  size: 30, 50
+  orig: 30, 50
+  offset: 0, 0
+  index: -1
+foot_l
+  rotate: true
+  xy: 52, 259
+  size: 18, 49
+  orig: 18, 50
+  offset: 0, 1
+  index: -1
+foot_r
+  rotate: false
+  xy: 391, 294
+  size: 18, 49
+  orig: 18, 49
+  offset: 0, 0
+  index: -1
+hair
+  rotate: false
+  xy: 192, 272
+  size: 84, 51
+  orig: 86, 53
+  offset: 1, 1
+  index: -1
+hand_l
+  rotate: true
+  xy: 381, 345
+  size: 54, 29
+  orig: 54, 29
+  offset: 0, 0
+  index: -1
+hand_r
+  rotate: true
+  xy: 396, 380
+  size: 45, 29
+  orig: 45, 29
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 192, 325
+  size: 71, 101
+  orig: 73, 103
+  offset: 1, 1
+  index: -1
+head_e
+  rotate: false
+  xy: 265, 325
+  size: 71, 101
+  orig: 71, 101
+  offset: 0, 0
+  index: -1
+lip_e1
+  rotate: false
+  xy: 403, 281
+  size: 21, 17
+  orig: 21, 17
+  offset: 0, 0
+  index: -1
+lip_e2
+  rotate: false
+  xy: 375, 260
+  size: 12, 14
+  orig: 12, 14
+  offset: 0, 0
+  index: -1
+lip_e3
+  rotate: true
+  xy: 412, 324
+  size: 22, 12
+  orig: 22, 12
+  offset: 0, 0
+  index: -1
+lip_e4
+  rotate: true
+  xy: 408, 361
+  size: 25, 13
+  orig: 25, 13
+  offset: 0, 0
+  index: -1
+lip_e5
+  rotate: false
+  xy: 346, 259
+  size: 27, 14
+  orig: 27, 14
+  offset: 0, 0
+  index: -1
+lip_e6
+  rotate: true
+  xy: 407, 300
+  size: 22, 15
+  orig: 22, 15
+  offset: 0, 0
+  index: -1
+neck
+  rotate: false
+  xy: 338, 379
+  size: 30, 29
+  orig: 32, 31
+  offset: 1, 1
+  index: -1
+neck_c
+  rotate: true
+  xy: 110, 262
+  size: 18, 57
+  orig: 20, 59
+  offset: 1, 1
+  index: -1
+sweat
+  rotate: false
+  xy: 169, 266
+  size: 13, 14
+  orig: 15, 16
+  offset: 1, 1
+  index: -1

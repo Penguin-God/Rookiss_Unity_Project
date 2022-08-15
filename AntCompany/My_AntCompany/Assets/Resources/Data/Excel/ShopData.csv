@@ -1,0 +1,8 @@
+﻿,//이름,//현금vs광고,//현금일 경우 가격,//현금일 경우 스토어ID,//보상 타입,//보상 개수,
+ID,name,condition,price,productID,rewardType,rewardCount,icon
+1,6502,cash,1100,ant_block,block,25,Spine/Store/icon_coin5_SkeletonData
+2,6503,cash,1100,ant_money,money,10000000,Spine/Store/icon3_2_SkeletonData
+3,6504,cash,2200,ant_noads,noads,1,Spine/Store/icon_coin4_SkeletonData
+4,6505,ads,0,,block,3,Spine/Store/icon_coin5_SkeletonData
+5,6506,ads,0,,money,1000000,Spine/Store/icon3_2_SkeletonData
+6,6507,ads,0,,luck,3,Spine/Store/icon6_SkeletonData
