@@ -66,7 +66,8 @@ public class UI_PlayPopup : UI_Popup
 		Sajang,
 		HpBar,
 		Coin1,
-		StressBarFill
+		StressBarFill,
+		DengerBG,
 	}
 
 	public enum PlayTab
@@ -161,6 +162,7 @@ public class UI_PlayPopup : UI_Popup
 		ShowTab(PlayTab.Ability);
 
 		GetImage((int)Images.CollectionSuccess).gameObject.SetActive(false);
+		GetObject((int)GameObjects.DengerBG).SetActive(false);
 
 		Managers.Game.OnNewCollection = OnNewCollection;
 
@@ -224,7 +226,7 @@ public class UI_PlayPopup : UI_Popup
 			{
 				_pitch = FAST_PITCH;
 				Managers.Sound.SetPitch(Sound.Bgm, FAST_PITCH);
-				//Managers.Game.OnStressChanged = () => GetImage((int)Images.StressBarFill).GetComponent<DOTweenAnimation>().DORestartAllById("GetStress");
+				GetObject((int)GameObjects.DengerBG).SetActive(true);
 			}
 		}
 		else
@@ -233,7 +235,7 @@ public class UI_PlayPopup : UI_Popup
 			{
 				_pitch = NORMAL_PITCH;
 				Managers.Sound.SetPitch(Sound.Bgm, NORMAL_PITCH);
-				//Managers.Game.OnStressChanged = () => GetImage((int)Images.StressBarFill).GetComponent<DOTweenAnimation>().DOComplete();
+				GetObject((int)GameObjects.DengerBG).SetActive(false);
 			}
 		}
 
