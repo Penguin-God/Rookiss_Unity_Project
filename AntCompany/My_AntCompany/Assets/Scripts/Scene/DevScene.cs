@@ -10,10 +10,13 @@ public class DevScene : BaseScene
 {
     protected override bool Init()
     {
-        if (base.Init())
+        if (base.Init() == false)
             return false;
 
-        SceneType = Define.Scene.Dev;
+        SceneType = Define.Scene.Game;
+        Managers.Game.Init();
+        Managers.Game.Money = 200000000;
+        Managers.UI.ShowPopupUI<UI_PlayPopup>();
         return true;
 	}
 }

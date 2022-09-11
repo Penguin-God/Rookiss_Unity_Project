@@ -1,4 +1,3 @@
-//using DG.Tweening;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -24,12 +23,6 @@ public class UI_AbilityItem : UI_Base
 	StatType _statType;
 	StatData _statData;
 
-    //[SerializeField]
-    //DOTweenAnimation _moveAnim;
-
-    //[SerializeField]
-    //DOTweenAnimation _rotateAnim;
-
     public override bool Init()
 	{
 		if (base.Init() == false)
@@ -40,7 +33,7 @@ public class UI_AbilityItem : UI_Base
 
 		GetText((int)Texts.UpgradeText).text = Managers.GetText(Define.Upgrade);
 
-		GetButton((int)Buttons.UpgradeButton).gameObject.BindEvent(OnPressUpgradeButton, UIEvent.Pressed);
+		GetButton((int)Buttons.UpgradeButton).gameObject.BindEvent(() => new AbilityUseCase().TryStatUpgrade(_statType), UIEvent.Pressed);
 		GetButton((int)Buttons.UpgradeButton).gameObject.BindEvent(OnPointerUp, UIEvent.PointerUp);
 
 		RefreshUI();
@@ -55,7 +48,7 @@ public class UI_AbilityItem : UI_Base
 		//_rotateAnim.delay = rotateDelay;
 
 		int id = GetStatUpgradeId(_statType);
-		if (Managers.Data.Stats.TryGetValue((int)id, out _statData) == false)
+		if (Managers.Data.Stats.TryGetValue(id, out _statData) == false)
 		{
 			Debug.Log($"UI_AbilityItem SetInfo Failed : {statType}");
 			return;
@@ -136,24 +129,23 @@ public class UI_AbilityItem : UI_Base
 					case StatType.MaxHp:
 						Managers.Game.MaxHp += value; 
 						Managers.Game.Hp = Math.Min(Managers.Game.Hp + value, Managers.Game.MaxHp);
-						Managers.Sound.Play(Sound.Effect, "Sound_UpgradeDone");
 						break;
 					case StatType.WorkAbility:
 						Managers.Game.WorkAbility += value;
-						Managers.Sound.Play(Sound.Effect, "Sound_UpgradeDone");
 						break;
 					case StatType.Likeability:
 						Managers.Game.Likeability += value;
-						Managers.Sound.Play(Sound.Effect, "Sound_UpgradeDone");
 						break;
 					case StatType.Luck:
 						Managers.Game.Luck += value;
 						break;
 					case StatType.Stress:
 						Managers.Game.Stress += value;
-						Managers.Sound.Play(Sound.Effect, "Sound_UpgradeDone");
 						break;
 				} 
+
+				if(_statType != StatType.Luck)
+					Managers.Sound.Play(Sound.Effect, "Sound_UpgradeDone");
 
 				RefreshUI();
 
@@ -161,12 +153,8 @@ public class UI_AbilityItem : UI_Base
 				Managers.UI.FindPopup<UI_PlayPopup>()?.RefreshStat();
 				Managers.UI.FindPopup<UI_PlayPopup>()?.RefreshMoney();
 			}
-			//else
-   //         {
-			//	Managers.Sound.Play(Sound.Effect, "Sound_CharacterTouch");
-			//}
 
-			_coolTime = StartCoroutine(CoStartUpgradeCoolTime(0.1f));
+            _coolTime = StartCoroutine(CoStartUpgradeCoolTime(0.1f));
 		}
 	}
 
@@ -196,5 +184,76 @@ public class UI_AbilityItem : UI_Base
 	{
 		yield return new WaitForSeconds(seconds);
 		_coolTime = null;
+	}
+}
+
+class AbilityUseCase
+{
+	public void TryStatUpgrade(StatType statType)
+	{
+		Debug.Log("Try Upgrade Stat");
+		if (Managers.Data.Stats.TryGetValue(GetStatUpgradeId(statType), out StatData statData) == false)
+			return;
+
+		if (CanUpgrade(statType, statData))
+		{
+			Managers.Game.Money -= statData.price;
+			int value = statData.increaseStat;
+
+			switch (statType)
+			{
+				case StatType.MaxHp:
+					Managers.Game.MaxHp += value;
+					Managers.Game.Hp = Math.Min(Managers.Game.Hp + value, Managers.Game.MaxHp);
+					break;
+				case StatType.WorkAbility:
+					Managers.Game.WorkAbility += value;
+					break;
+				case StatType.Likeability:
+					Managers.Game.Likeability += value;
+					break;
+				case StatType.Luck:
+					Managers.Game.Luck += value;
+					break;
+				case StatType.Stress:
+					Managers.Game.Stress += value;
+					break;
+			}
+
+			if (statType != StatType.Luck)
+				Managers.Sound.Play(Sound.Effect, "Sound_UpgradeDone");
+
+			Managers.UI.FindPopup<UI_PlayPopup>()?.RefreshAbilityItems();
+			Managers.UI.FindPopup<UI_PlayPopup>()?.RefreshHpBar();
+			Managers.UI.FindPopup<UI_PlayPopup>()?.RefreshStat();
+			Managers.UI.FindPopup<UI_PlayPopup>()?.RefreshMoney();
+		}
+	}
+
+	bool CanUpgrade(StatType statType, StatData statData)
+	{
+		switch (statType)
+		{
+			case StatType.Luck:
+				return false;
+			case StatType.Stress:
+				return Managers.Game.Stress > 0 && Managers.Game.Money >= statData.price;
+		}
+
+		return Managers.Game.Money >= statData.price;
+	}
+
+	int GetStatUpgradeId(StatType type)
+	{
+		switch (type)
+		{
+			case StatType.MaxHp: return 1;
+			case StatType.WorkAbility: return 2;
+			case StatType.Likeability: return 3;
+			case StatType.Stress: return 4;
+			case StatType.Luck: return 5;
+		}
+
+		return 0;
 	}
 }

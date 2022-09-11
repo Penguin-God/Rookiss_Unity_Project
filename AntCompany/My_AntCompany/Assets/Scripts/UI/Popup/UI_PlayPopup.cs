@@ -88,6 +88,7 @@ public class UI_PlayPopup : UI_Popup
 		UI_AbilityItem_Luck,
 	}
 
+	List<UI_AbilityItem> abliityItems = new List<UI_AbilityItem>();
 	List<UI_ProjectItem> _projectItems = new List<UI_ProjectItem>();
 	List<UI_BattleItem> _battleItems = new List<UI_BattleItem>();
 	List<UI_ShopItem> _shopItems = new List<UI_ShopItem>();
@@ -126,6 +127,12 @@ public class UI_PlayPopup : UI_Popup
 		Get<UI_AbilityItem>((int)AbilityItems.UI_AbilityItem_Work).SetInfo(StatType.WorkAbility, 0.2f, 0.1f);
 		Get<UI_AbilityItem>((int)AbilityItems.UI_AbilityItem_Likeable).SetInfo(StatType.Likeability, 0.4f, 0.1f);		
 		Get<UI_AbilityItem>((int)AbilityItems.UI_AbilityItem_Luck).SetInfo(StatType.Luck, 0.8f, 0.1f);
+
+		abliityItems.Add(Get<UI_AbilityItem>((int)AbilityItems.UI_AbilityItem_Stress));
+		abliityItems.Add(Get<UI_AbilityItem>((int)AbilityItems.UI_AbilityItem_HP));
+		abliityItems.Add(Get<UI_AbilityItem>((int)AbilityItems.UI_AbilityItem_Work));
+		abliityItems.Add(Get<UI_AbilityItem>((int)AbilityItems.UI_AbilityItem_Likeable));
+		abliityItems.Add(Get<UI_AbilityItem>((int)AbilityItems.UI_AbilityItem_Luck));
 
 		foreach (JobTitleType type in Enum.GetValues(typeof(JobTitleType)))
 		{
@@ -338,6 +345,8 @@ public class UI_PlayPopup : UI_Popup
 		RefreshMoney();
 		RefreshTime();
 	}
+
+	public void RefreshAbilityItems() => abliityItems.ForEach(x => x.RefreshUI());
 
 	public void RefreshStat()
 	{
