@@ -33,7 +33,7 @@ public class UI_AbilityItem : UI_Base
 
 		GetText((int)Texts.UpgradeText).text = Managers.GetText(Define.Upgrade);
 
-		GetButton((int)Buttons.UpgradeButton).gameObject.BindEvent(() => new AbilityUseCase().TryStatUpgrade(_statType), UIEvent.Pressed);
+		GetButton((int)Buttons.UpgradeButton).gameObject.BindEvent(OnPressUpgradeButton, UIEvent.Pressed);
 		GetButton((int)Buttons.UpgradeButton).gameObject.BindEvent(OnPointerUp, UIEvent.PointerUp);
 
 		RefreshUI();
@@ -47,7 +47,7 @@ public class UI_AbilityItem : UI_Base
 		//_moveAnim.delay = moveDelay;
 		//_rotateAnim.delay = rotateDelay;
 
-		int id = GetStatUpgradeId(_statType);
+		int id = new AbilityUseCase().GetStatUpgradeId(_statType);
 		if (Managers.Data.Stats.TryGetValue(id, out _statData) == false)
 		{
 			Debug.Log($"UI_AbilityItem SetInfo Failed : {statType}");
@@ -71,7 +71,7 @@ public class UI_AbilityItem : UI_Base
 		if (_statType == StatType.Luck)
 			GetText((int)Texts.ChangeText).text = $"{Managers.Game.Luck}";
 
-		if (CanUpgrade())
+		if (new AbilityUseCase().CanUpgrade(_statType))
 			GetButton((int)Buttons.UpgradeButton).interactable = true;
 		else
 			GetButton((int)Buttons.UpgradeButton).interactable = false;
@@ -92,83 +92,15 @@ public class UI_AbilityItem : UI_Base
 		return value + _statData.increaseStat;
 	}
 
-	int GetStatUpgradeId(StatType type)
-	{
-		switch (type)
-		{
-			case StatType.MaxHp:
-				return 1;
-			case StatType.WorkAbility:
-				return 2;
-			case StatType.Likeability:
-				return 3;
-			case StatType.Stress:
-				return 4;
-			case StatType.Luck:
-				return 5;
-		}
-
-		return 0;
-	}
-
 	Coroutine _coolTime;
 
 	void OnPressUpgradeButton()
 	{	
 		if (_coolTime == null)
 		{
-			Debug.Log("OnPressUpgradeButton");
-
-			if (CanUpgrade())
-			{
-				Managers.Game.Money -= _statData.price;
-				int value = _statData.increaseStat;
-
-				switch (_statType)
-				{
-					case StatType.MaxHp:
-						Managers.Game.MaxHp += value; 
-						Managers.Game.Hp = Math.Min(Managers.Game.Hp + value, Managers.Game.MaxHp);
-						break;
-					case StatType.WorkAbility:
-						Managers.Game.WorkAbility += value;
-						break;
-					case StatType.Likeability:
-						Managers.Game.Likeability += value;
-						break;
-					case StatType.Luck:
-						Managers.Game.Luck += value;
-						break;
-					case StatType.Stress:
-						Managers.Game.Stress += value;
-						break;
-				} 
-
-				if(_statType != StatType.Luck)
-					Managers.Sound.Play(Sound.Effect, "Sound_UpgradeDone");
-
-				RefreshUI();
-
-				Managers.UI.FindPopup<UI_PlayPopup>()?.RefreshHpBar();
-				Managers.UI.FindPopup<UI_PlayPopup>()?.RefreshStat();
-				Managers.UI.FindPopup<UI_PlayPopup>()?.RefreshMoney();
-			}
-
+			new AbilityUseCase().TryStatUpgrade(_statType);
             _coolTime = StartCoroutine(CoStartUpgradeCoolTime(0.1f));
 		}
-	}
-
-	bool CanUpgrade()
-	{
-		switch (_statType)
-		{
-			case StatType.Luck:
-				return false;
-			case StatType.Stress:
-				return Managers.Game.Stress > 0 && Managers.Game.Money >= _statData.price;
-		}
-
-		return Managers.Game.Money >= _statData.price;
 	}
 
 	void OnPointerUp()
@@ -189,13 +121,13 @@ public class UI_AbilityItem : UI_Base
 
 class AbilityUseCase
 {
-	public void TryStatUpgrade(StatType statType)
+	public bool TryStatUpgrade(StatType statType)
 	{
 		Debug.Log("Try Upgrade Stat");
 		if (Managers.Data.Stats.TryGetValue(GetStatUpgradeId(statType), out StatData statData) == false)
-			return;
+			return false;
 
-		if (CanUpgrade(statType, statData))
+		if (CanUpgrade(statType))
 		{
 			Managers.Game.Money -= statData.price;
 			int value = statData.increaseStat;
@@ -227,11 +159,16 @@ class AbilityUseCase
 			Managers.UI.FindPopup<UI_PlayPopup>()?.RefreshHpBar();
 			Managers.UI.FindPopup<UI_PlayPopup>()?.RefreshStat();
 			Managers.UI.FindPopup<UI_PlayPopup>()?.RefreshMoney();
+			return true;
 		}
+		return false;
 	}
 
-	bool CanUpgrade(StatType statType, StatData statData)
+	public bool CanUpgrade(StatType statType)
 	{
+		if (Managers.Data.Stats.TryGetValue(GetStatUpgradeId(statType), out StatData statData) == false)
+			return false;
+
 		switch (statType)
 		{
 			case StatType.Luck:
@@ -243,7 +180,7 @@ class AbilityUseCase
 		return Managers.Game.Money >= statData.price;
 	}
 
-	int GetStatUpgradeId(StatType type)
+	public int GetStatUpgradeId(StatType type)
 	{
 		switch (type)
 		{
