@@ -81,6 +81,7 @@ public class UIManager
 		GameObject go = Managers.Resource.Instantiate($"UI/Popup/{name}");
 		T popup = Utils.GetOrAddComponent<T>(go);
 		_popupStack.Push(popup);
+		Debug.Log($"show : {_popupStack.Count}");
 
 		if (parent != null)
 			go.transform.SetParent(parent);
@@ -120,6 +121,7 @@ public class UIManager
 		}
 
 		ClosePopupUI();
+		Debug.Log($"close : {_popupStack.Count}");
 	}
 
 	public void ClosePopupUI()

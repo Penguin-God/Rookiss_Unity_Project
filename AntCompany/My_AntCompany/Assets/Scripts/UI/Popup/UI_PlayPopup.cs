@@ -125,7 +125,7 @@ public class UI_PlayPopup : UI_Popup
 		Get<UI_AbilityItem>((int)AbilityItems.UI_AbilityItem_Stress).SetInfo(StatType.Stress, 0.0f, 0.1f); 
 		Get<UI_AbilityItem>((int)AbilityItems.UI_AbilityItem_HP).SetInfo(StatType.MaxHp, 0.1f, 0.1f);
 		Get<UI_AbilityItem>((int)AbilityItems.UI_AbilityItem_Work).SetInfo(StatType.WorkAbility, 0.2f, 0.1f);
-		Get<UI_AbilityItem>((int)AbilityItems.UI_AbilityItem_Likeable).SetInfo(StatType.Likeability, 0.4f, 0.1f);		
+		Get<UI_AbilityItem>((int)AbilityItems.UI_AbilityItem_Likeable).SetInfo(StatType.Likeability, 0.4f, 0.1f);
 		Get<UI_AbilityItem>((int)AbilityItems.UI_AbilityItem_Luck).SetInfo(StatType.Luck, 0.8f, 0.1f);
 
 		abliityItems.Add(Get<UI_AbilityItem>((int)AbilityItems.UI_AbilityItem_Stress));
