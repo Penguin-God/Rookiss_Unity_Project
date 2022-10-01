@@ -205,7 +205,7 @@ public class UI_DialoguePopup : UI_Popup
 	
 	void OnClickNegotiationButton(int index)
 	{
-		Debug.Log("OnClickButton");
+		Debug.Log("OnClickNegotiationButton");
 
 		if (_salaryNegotation == false)
 			return;
@@ -255,14 +255,13 @@ public class UI_DialoguePopup : UI_Popup
 
 	void OnClickSpeechButton(int index)
 	{
-		Debug.Log("OnClickButton");
+		Debug.Log("OnClickSpeechButton");
 
 		if (_salaryNegotation || _data == null)
 			return;
-
-		if (index == _data.answers.Count)
+		print(_data.answers.Count);
+		if (index == _data.answers.Count) // 벽돌 때리기 선택
 		{
-			// 벽돌 때리기 선택
 			if (Managers.Data.BlockEvents.TryGetValue((int)BlockEventId, out BlockEventData blockEventData))
 			{
 				HideAllButtons();
