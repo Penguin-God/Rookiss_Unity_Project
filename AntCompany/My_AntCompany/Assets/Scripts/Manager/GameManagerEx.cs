@@ -64,7 +64,7 @@ public class GameData
 public class GameManagerEx
 {
 	GameData _gameData = new GameData();
-	public GameData SaveData { get { return _gameData; } set { _gameData = value; } }
+	GameData SaveData { get { return _gameData; } set { _gameData = value; } }
 
 	#region 스탯
 	public string Name
