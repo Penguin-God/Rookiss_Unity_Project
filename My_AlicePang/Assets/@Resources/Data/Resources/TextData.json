@@ -1,0 +1,19 @@
+{
+  "texts": [
+    {
+      "TextID": "Bird",
+      "Kor": "새",
+      "Eng": ""
+    },
+    {
+      "TextID": "Cat",
+      "Kor": "고양이",
+      "Eng": ""
+    },
+    {
+      "TextID": "Paper",
+      "Kor": "종이",
+      "Eng": ""
+    }
+  ]
+}

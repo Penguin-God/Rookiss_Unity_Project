@@ -1,0 +1,22 @@
+map4_ani.png
+size:355,287
+filter:Linear,Linear
+pma:true
+Group 7
+bounds:2,126,160,159
+offsets:2,1,163,162
+Group 8
+bounds:283,88,70,71
+offsets:6,6,82,83
+Group 8 copy
+bounds:191,12,47,47
+offsets:4,4,55,56
+Layer 274
+bounds:164,161,189,124
+offsets:1,1,191,126
+Layer 275
+bounds:191,61,90,98
+offsets:2,1,93,100
+shadow copy
+bounds:2,2,187,122
+offsets:1,1,189,124

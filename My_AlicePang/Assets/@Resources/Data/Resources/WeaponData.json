@@ -1,0 +1,3488 @@
+{
+  "weapons": [
+    {
+      "TemplateID": 1,
+      "RangeType": 1,
+      "NameID": "Radar1",
+      "Sprite": "weapon_01",
+      "RadarID": "radar1",
+      "TableID": 1,
+      "KnockbackDirection": 1,
+      "GachaRate": 1.0,
+      "AttackType": 0,
+      "ObjectID": "None",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 3,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 4,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 5,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 6,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 7,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 9,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 11,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 13,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 15,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 18,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 21,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 24,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 27,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 31,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 35,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 39,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 43,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 48,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 53,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 58,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 2,
+      "RangeType": 1,
+      "NameID": "Radar2",
+      "Sprite": "weapon_02",
+      "RadarID": "radar2",
+      "TableID": 1,
+      "KnockbackDirection": 1,
+      "GachaRate": 1.0,
+      "AttackType": 0,
+      "ObjectID": "None",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 3,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 4,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 5,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 6,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 7,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 9,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 11,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 13,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 15,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 18,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 21,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 24,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 27,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 31,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 35,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 39,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 43,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 48,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 53,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 58,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 3,
+      "RangeType": 1,
+      "NameID": "Radar3",
+      "Sprite": "weapon_03",
+      "RadarID": "radar3",
+      "TableID": 3,
+      "KnockbackDirection": 1,
+      "GachaRate": 1.0,
+      "AttackType": 0,
+      "ObjectID": "None",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 5,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 6,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 8,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 10,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 12,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 15,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 18,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 21,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 24,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 29,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 34,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 39,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 44,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 50,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 56,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 62,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 68,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 75,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 82,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 90,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 4,
+      "RangeType": 1,
+      "NameID": "Radar4",
+      "Sprite": "weapon_04",
+      "RadarID": "radar4",
+      "TableID": 2,
+      "KnockbackDirection": 1,
+      "GachaRate": 1.0,
+      "AttackType": 0,
+      "ObjectID": "None",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 4,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 5,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 6,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 8,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 10,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 12,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 14,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 17,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 20,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 23,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 26,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 30,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 34,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 38,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 42,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 47,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 52,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 57,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 62,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 68,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 5,
+      "RangeType": 1,
+      "NameID": "Radar5",
+      "Sprite": "weapon_05",
+      "RadarID": "radar5",
+      "TableID": 2,
+      "KnockbackDirection": 1,
+      "GachaRate": 1.0,
+      "AttackType": 0,
+      "ObjectID": "None",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 4,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 5,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 6,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 8,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 10,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 12,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 14,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 17,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 20,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 23,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 26,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 30,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 34,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 38,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 42,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 47,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 52,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 57,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 62,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 68,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 6,
+      "RangeType": 3,
+      "NameID": "Radar6",
+      "Sprite": "weapon_06",
+      "RadarID": "radar6",
+      "TableID": 1,
+      "KnockbackDirection": 0,
+      "GachaRate": 1.0,
+      "AttackType": 0,
+      "ObjectID": "None",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 3,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 4,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 5,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 6,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 7,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 9,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 11,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 13,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 15,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 18,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 21,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 24,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 27,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 31,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 35,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 39,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 43,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 48,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 53,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 58,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 7,
+      "RangeType": 3,
+      "NameID": "Radar7",
+      "Sprite": "weapon_07",
+      "RadarID": "radar7",
+      "TableID": 1,
+      "KnockbackDirection": 0,
+      "GachaRate": 1.0,
+      "AttackType": 0,
+      "ObjectID": "None",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 3,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 4,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 5,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 6,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 7,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 9,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 11,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 13,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 15,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 18,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 21,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 24,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 27,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 31,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 35,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 39,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 43,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 48,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 53,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 58,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 8,
+      "RangeType": 2,
+      "NameID": "Radar8",
+      "Sprite": "weapon_08",
+      "RadarID": "radar8",
+      "TableID": 1,
+      "KnockbackDirection": 2,
+      "GachaRate": 1.0,
+      "AttackType": 0,
+      "ObjectID": "None",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 3,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 4,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 5,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 6,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 7,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 9,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 11,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 13,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 15,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 18,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 21,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 24,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 27,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 31,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 35,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 39,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 43,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 48,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 53,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 58,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 9,
+      "RangeType": 2,
+      "NameID": "Radar9",
+      "Sprite": "weapon_09",
+      "RadarID": "radar9",
+      "TableID": 1,
+      "KnockbackDirection": 2,
+      "GachaRate": 1.0,
+      "AttackType": 0,
+      "ObjectID": "None",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 3,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 4,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 5,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 6,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 7,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 9,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 11,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 13,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 15,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 18,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 21,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 24,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 27,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 31,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 35,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 39,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 43,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 48,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 53,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 58,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 10,
+      "RangeType": 1,
+      "NameID": "Radar10",
+      "Sprite": "weapon_10",
+      "RadarID": "radar10",
+      "TableID": 2,
+      "KnockbackDirection": 1,
+      "GachaRate": 1.0,
+      "AttackType": 0,
+      "ObjectID": "None",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 4,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 5,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 6,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 8,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 10,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 12,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 14,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 17,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 20,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 23,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 26,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 30,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 34,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 38,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 42,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 47,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 52,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 57,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 62,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 68,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 11,
+      "RangeType": 3,
+      "NameID": "Radar11",
+      "Sprite": "weapon_11",
+      "RadarID": "radar11",
+      "TableID": 2,
+      "KnockbackDirection": 0,
+      "GachaRate": 1.0,
+      "AttackType": 1,
+      "ObjectID": "projectile_11",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 4,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 5,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 6,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 8,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 10,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 12,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 14,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 17,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 20,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 23,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 26,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 30,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 34,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 38,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 42,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 47,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 52,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 57,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 62,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 68,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 12,
+      "RangeType": 3,
+      "NameID": "Radar12",
+      "Sprite": "weapon_12",
+      "RadarID": "radar12",
+      "TableID": 2,
+      "KnockbackDirection": 0,
+      "GachaRate": 1.0,
+      "AttackType": 1,
+      "ObjectID": "projectile_12",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 4,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 5,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 6,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 8,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 10,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 12,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 14,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 17,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 20,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 23,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 26,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 30,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 34,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 38,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 42,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 47,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 52,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 57,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 62,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 68,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 13,
+      "RangeType": 3,
+      "NameID": "Radar13",
+      "Sprite": "weapon_13",
+      "RadarID": "radar13",
+      "TableID": 1,
+      "KnockbackDirection": 0,
+      "GachaRate": 1.0,
+      "AttackType": 1,
+      "ObjectID": "projectile_13",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 3,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 4,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 5,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 6,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 7,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 9,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 11,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 13,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 15,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 18,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 21,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 24,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 27,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 31,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 35,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 39,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 43,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 48,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 53,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 58,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 14,
+      "RangeType": 3,
+      "NameID": "Radar15",
+      "Sprite": "weapon_14",
+      "RadarID": "radar14",
+      "TableID": 1,
+      "KnockbackDirection": 0,
+      "GachaRate": 1.0,
+      "AttackType": 1,
+      "ObjectID": "projectile_14",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 3,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 4,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 5,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 6,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 7,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 9,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 11,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 13,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 15,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 18,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 21,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 24,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 27,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 31,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 35,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 39,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 43,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 48,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 53,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 58,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 15,
+      "RangeType": 2,
+      "NameID": "Radar17",
+      "Sprite": "weapon_15",
+      "RadarID": "radar15",
+      "TableID": 3,
+      "KnockbackDirection": 2,
+      "GachaRate": 1.0,
+      "AttackType": 0,
+      "ObjectID": "None",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 5,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 6,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 8,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 10,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 12,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 15,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 18,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 21,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 24,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 29,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 34,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 39,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 44,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 50,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 56,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 62,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 68,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 75,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 82,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 90,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 16,
+      "RangeType": 2,
+      "NameID": "Radar18",
+      "Sprite": "weapon_16",
+      "RadarID": "radar16",
+      "TableID": 2,
+      "KnockbackDirection": 2,
+      "GachaRate": 1.0,
+      "AttackType": 0,
+      "ObjectID": "None",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 4,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 5,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 6,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 8,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 10,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 12,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 14,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 17,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 20,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 23,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 26,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 30,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 34,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 38,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 42,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 47,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 52,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 57,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 62,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 68,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 17,
+      "RangeType": 2,
+      "NameID": "Radar19",
+      "Sprite": "weapon_17",
+      "RadarID": "radar17",
+      "TableID": 2,
+      "KnockbackDirection": 2,
+      "GachaRate": 1.0,
+      "AttackType": 0,
+      "ObjectID": "None",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 4,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 5,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 6,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 8,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 10,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 12,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 14,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 17,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 20,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 23,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 26,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 30,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 34,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 38,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 42,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 47,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 52,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 57,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 62,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 68,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 18,
+      "RangeType": 3,
+      "NameID": "Radar20",
+      "Sprite": "weapon_18",
+      "RadarID": "radar18",
+      "TableID": 3,
+      "KnockbackDirection": 0,
+      "GachaRate": 1.0,
+      "AttackType": 1,
+      "ObjectID": "projectile_18",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 5,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 6,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 8,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 10,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 12,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 15,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 18,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 21,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 24,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 29,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 34,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 39,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 44,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 50,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 56,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 62,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 68,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 75,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 82,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 90,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 19,
+      "RangeType": 3,
+      "NameID": "Radar21",
+      "Sprite": "weapon_19",
+      "RadarID": "radar19",
+      "TableID": 2,
+      "KnockbackDirection": 0,
+      "GachaRate": 1.0,
+      "AttackType": 1,
+      "ObjectID": "projectile_19",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 4,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 5,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 6,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 8,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 10,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 12,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 14,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 17,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 20,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 23,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 26,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 30,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 34,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 38,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 42,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 47,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 52,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 57,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 62,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 68,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 20,
+      "RangeType": 3,
+      "NameID": "Radar22",
+      "Sprite": "weapon_20",
+      "RadarID": "radar20",
+      "TableID": 3,
+      "KnockbackDirection": 0,
+      "GachaRate": 1.0,
+      "AttackType": 1,
+      "ObjectID": "projectile_20",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 5,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 6,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 8,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 10,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 12,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 15,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 18,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 21,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 24,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 29,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 34,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 39,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 44,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 50,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 56,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 62,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 68,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 75,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 82,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 90,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 21,
+      "RangeType": 1,
+      "NameID": "Radar23",
+      "Sprite": "weapon_21",
+      "RadarID": "radar21",
+      "TableID": 3,
+      "KnockbackDirection": 1,
+      "GachaRate": 1.0,
+      "AttackType": 0,
+      "ObjectID": "None",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 5,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 6,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 8,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 10,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 12,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 15,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 18,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 21,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 24,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 29,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 34,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 39,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 44,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 50,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 56,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 62,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 68,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 75,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 82,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 90,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 22,
+      "RangeType": 1,
+      "NameID": "Radar24",
+      "Sprite": "weapon_22",
+      "RadarID": "radar22",
+      "TableID": 2,
+      "KnockbackDirection": 1,
+      "GachaRate": 1.0,
+      "AttackType": 0,
+      "ObjectID": "None",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 4,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 5,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 6,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 8,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 10,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 12,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 14,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 17,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 20,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 23,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 26,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 30,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 34,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 38,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 42,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 47,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 52,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 57,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 62,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 68,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 23,
+      "RangeType": 2,
+      "NameID": "Radar25",
+      "Sprite": "weapon_23",
+      "RadarID": "radar23",
+      "TableID": 3,
+      "KnockbackDirection": 2,
+      "GachaRate": 1.0,
+      "AttackType": 0,
+      "ObjectID": "None",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 5,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 6,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 8,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 10,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 12,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 15,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 18,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 21,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 24,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 29,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 34,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 39,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 44,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 50,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 56,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 62,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 68,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 75,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 82,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 90,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 24,
+      "RangeType": 2,
+      "NameID": "Radar26",
+      "Sprite": "weapon_24",
+      "RadarID": "radar24",
+      "TableID": 1,
+      "KnockbackDirection": 2,
+      "GachaRate": 1.0,
+      "AttackType": 0,
+      "ObjectID": "None",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 3,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 4,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 5,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 6,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 7,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 9,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 11,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 13,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 15,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 18,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 21,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 24,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 27,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 31,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 35,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 39,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 43,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 48,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 53,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 58,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 25,
+      "RangeType": 1,
+      "NameID": "Radar27",
+      "Sprite": "weapon_25",
+      "RadarID": "radar25",
+      "TableID": 2,
+      "KnockbackDirection": 1,
+      "GachaRate": 1.0,
+      "AttackType": 0,
+      "ObjectID": "None",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 4,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 5,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 6,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 8,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 10,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 12,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 14,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 17,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 20,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 23,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 26,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 30,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 34,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 38,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 42,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 47,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 52,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 57,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 62,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 68,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    },
+    {
+      "TemplateID": 26,
+      "RangeType": 2,
+      "NameID": "Radar28",
+      "Sprite": "weapon_26",
+      "RadarID": "radar26",
+      "TableID": 2,
+      "KnockbackDirection": 2,
+      "GachaRate": 1.0,
+      "AttackType": 0,
+      "ObjectID": "None",
+      "weaponLevelData": [
+        {
+          "Level": 1,
+          "Damage": 4,
+          "Exp": 2,
+          "Cost": 20
+        },
+        {
+          "Level": 2,
+          "Damage": 5,
+          "Exp": 4,
+          "Cost": 40
+        },
+        {
+          "Level": 3,
+          "Damage": 6,
+          "Exp": 6,
+          "Cost": 80
+        },
+        {
+          "Level": 4,
+          "Damage": 8,
+          "Exp": 8,
+          "Cost": 120
+        },
+        {
+          "Level": 5,
+          "Damage": 10,
+          "Exp": 10,
+          "Cost": 200
+        },
+        {
+          "Level": 6,
+          "Damage": 12,
+          "Exp": 12,
+          "Cost": 400
+        },
+        {
+          "Level": 7,
+          "Damage": 14,
+          "Exp": 15,
+          "Cost": 600
+        },
+        {
+          "Level": 8,
+          "Damage": 17,
+          "Exp": 20,
+          "Cost": 800
+        },
+        {
+          "Level": 9,
+          "Damage": 20,
+          "Exp": 25,
+          "Cost": 1000
+        },
+        {
+          "Level": 10,
+          "Damage": 23,
+          "Exp": 30,
+          "Cost": 1500
+        },
+        {
+          "Level": 11,
+          "Damage": 26,
+          "Exp": 35,
+          "Cost": 2000
+        },
+        {
+          "Level": 12,
+          "Damage": 30,
+          "Exp": 40,
+          "Cost": 2500
+        },
+        {
+          "Level": 13,
+          "Damage": 34,
+          "Exp": 45,
+          "Cost": 3000
+        },
+        {
+          "Level": 14,
+          "Damage": 38,
+          "Exp": 50,
+          "Cost": 3500
+        },
+        {
+          "Level": 15,
+          "Damage": 42,
+          "Exp": 55,
+          "Cost": 4000
+        },
+        {
+          "Level": 16,
+          "Damage": 47,
+          "Exp": 60,
+          "Cost": 5000
+        },
+        {
+          "Level": 17,
+          "Damage": 52,
+          "Exp": 65,
+          "Cost": 6000
+        },
+        {
+          "Level": 18,
+          "Damage": 57,
+          "Exp": 70,
+          "Cost": 7000
+        },
+        {
+          "Level": 19,
+          "Damage": 62,
+          "Exp": 75,
+          "Cost": 8000
+        },
+        {
+          "Level": 20,
+          "Damage": 68,
+          "Exp": 80,
+          "Cost": 10000
+        }
+      ]
+    }
+  ]
+}

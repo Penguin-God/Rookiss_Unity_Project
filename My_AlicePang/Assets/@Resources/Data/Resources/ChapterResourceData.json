@@ -1,0 +1,82 @@
+{
+  "chapters": [
+    {
+      "TemplateID": 1,
+      "MapTop": "map1_2",
+      "MapBottom": "map1_1",
+      "MapCenter": "map1_3",
+      "Object1": "map1_object1",
+      "Object2": "map1_object2",
+      "Object3": "map1_object3",
+      "Dot": "map1_dot",
+      "StageBlock": "map1_block3",
+      "StageTileSpine": "map1_ani_SkeletonData",
+      "Shadow": "map1_shadow"
+    },
+    {
+      "TemplateID": 2,
+      "MapTop": "map2_2",
+      "MapBottom": "map2_1",
+      "MapCenter": "map2_3",
+      "Object1": "map2_object1",
+      "Object2": "map2_object2",
+      "Object3": "map2_object3",
+      "Dot": "map2_dot",
+      "StageBlock": "map2_block3",
+      "StageTileSpine": "map2_ani_SkeletonData",
+      "Shadow": "map2_shadow"
+    },
+    {
+      "TemplateID": 3,
+      "MapTop": "map3_2",
+      "MapBottom": "map3_1",
+      "MapCenter": "map3_3",
+      "Object1": "map3_object1",
+      "Object2": "map3_object2",
+      "Object3": "map3_object3",
+      "Dot": "map3_dot",
+      "StageBlock": "map3_block3",
+      "StageTileSpine": "map3_ani_SkeletonData",
+      "Shadow": "map3_shadow"
+    },
+    {
+      "TemplateID": 4,
+      "MapTop": "map4_2",
+      "MapBottom": "map4_1",
+      "MapCenter": "map4_3",
+      "Object1": "map4_object1",
+      "Object2": "map4_object2",
+      "Object3": "map4_object3",
+      "Dot": "map4_dot",
+      "StageBlock": "map4_block3",
+      "StageTileSpine": "map4_ani_SkeletonData",
+      "Shadow": "map4_shadow"
+    },
+    {
+      "TemplateID": 5,
+      "MapTop": "map5_2",
+      "MapBottom": "map5_1",
+      "MapCenter": "map5_3",
+      "Object1": "map5_object1",
+      "Object2": "map5_object2",
+      "Object3": "map5_object3",
+      "Dot": "map5_dot",
+      "StageBlock": "map5_block3",
+      "StageTileSpine": "map5_ani_SkeletonData",
+      "Shadow": "map5_shadow"
+    },
+    {
+      "TemplateID": 6,
+      "MapTop": "map6_2",
+      "MapBottom": "map6_1",
+      "MapCenter": "map6_3",
+      "Object1": "map6_object1",
+      "Object2": "map6_object2",
+      "Object3": "map6_object3",
+      "Dot": "map6_dot",
+      "StageBlock": "map6_block3",
+      "StageTileSpine": "map6_ani_SkeletonData",
+      "Shadow": "map6_shadow"
+    }
+  ]
+}

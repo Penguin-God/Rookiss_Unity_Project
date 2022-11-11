@@ -1,0 +1,682 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 50c6aeb926b32724d8498f5bf806a36d
+  m_SerializeEntries:
+  - m_GUID: 904dc3e8bb90fb4419733e7c8b1d2065
+    m_Address: UI_GameScene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6663efade9c1225489fb16d1f0430461
+    m_Address: Bird
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 04df27e72d2215e448954af89d303cf6
+    m_Address: Cat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4463d04946e077445b11867cf998cb33
+    m_Address: Paper
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 128cd4e973053c748bc99ff35b3cccb0
+    m_Address: Player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 70def462ccb6a3641a499d3e2732b9fc
+    m_Address: DamageText
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fd06942a2a93ed34da0fcde8e1ab9267
+    m_Address: radar18
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a5484020b2f56464b96acf92086f91da
+    m_Address: radar17
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 64359a56405039441b6cc069be4e950a
+    m_Address: UI_GameOverPopup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8c6f3dfa2a27ab742b9d5871749c75a9
+    m_Address: radar8
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bcd051429e5516d4dbf19eef026a5c3b
+    m_Address: UI_StartStagePopup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 480a1b0ce6b5f5947a181dbcd2532c17
+    m_Address: UI_MissionMonsterItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 10e5097255ccf9b4b8b8ccb05ad78145
+    m_Address: Coin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 374372b1cec702f4da828a36be7a0507
+    m_Address: BossBird
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b505693fad3d1ed4592d620c2ff37e65
+    m_Address: BossCat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 88d2058fff300fc46a6faa17af829cac
+    m_Address: BossPaper
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9035342bcc6a1e34c9cc110f35313170
+    m_Address: Flower_WhiteTulip
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d85318029de957f4aa98543331e681a5
+    m_Address: UI_WeaponItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 028804b857828f94090a47e505432e1a
+    m_Address: UI_SelectStageScene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 14db447f756cc7e41841dc85373d4e70
+    m_Address: weapon_01
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b1b88194c6b9750458463f666edc4330
+    m_Address: weapon_17
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bc658b3c2edfad0459357fe320b1aadc
+    m_Address: weapon_16
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ab72f4c83dbd8f543acc3930d6be22ec
+    m_Address: weapon_15
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0117c15108c45c546a0c436d525c4cbb
+    m_Address: weapon_14
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e56fe7ed816b2e84fb2d5e3b15804d43
+    m_Address: weapon_13
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0d3c96e94722f5e42be6738c566cfc1b
+    m_Address: weapon_12
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 334805171e87e61409d8eea354d4cc73
+    m_Address: weapon_11
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5860431829a434c43bded1ee19a6c510
+    m_Address: weapon_10
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9bd28602023f62b45b8db995a8450bd1
+    m_Address: weapon_09
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e58193869eddc034c8daaa10afd6c912
+    m_Address: weapon_08
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 97eb9b311fbb52747804b3b9474d912b
+    m_Address: weapon_07
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 74286689a1cc9d242ada9c856e9e621a
+    m_Address: weapon_06
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0e953d664a2688f4da980aa793b59dcb
+    m_Address: weapon_05
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f813494d6b6e41f47b7486b50e88d565
+    m_Address: weapon_04
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 90983cccb55b7014386eb5bb9c2d4be2
+    m_Address: weapon_03
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: afbf2f3f6bb29a94e8bc1a2c79dde773
+    m_Address: weapon_02
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9200c085f3a24ce4ba50e69b04f0f459
+    m_Address: UI_WeaponInfoPopup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d1646bccb661a374088c4e740c0a1cbd
+    m_Address: UI_TitleScene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: eec7b5a74f90f284a8be4db41e22a697
+    m_Address: UI_InventoryPopup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fe5b2ba3ea0187743b2052c8c451a064
+    m_Address: radar11
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7b86876f1e3137640a49847d0762c7c5
+    m_Address: radar25
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 880825635a6cd7842aba9671ffc02c0a
+    m_Address: radar21
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f6b83e70819a1c847972947069a4bd73
+    m_Address: radar1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 41d717a2ce068eb47ba6309f696fd7a7
+    m_Address: radar2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4530eaec7fe79404c83d5e3b5bb8dc4f
+    m_Address: radar19
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c9a742338c0555a408339f4607487406
+    m_Address: radar9
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 96d5c22719e0b204995a8cefb1e32b28
+    m_Address: radar15
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c40057525c7d8294dbda96374806d509
+    m_Address: radar24
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 66e3fd796ade25245911888ed390e9c0
+    m_Address: radar23
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 72bbf8693d35a764ea63015de8cfbb14
+    m_Address: radar12
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: db4f3148b8b03384bae4f3aa2c2959ca
+    m_Address: radar10
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a2594e4a6ee459a46b45a0f00ba174f2
+    m_Address: Monster
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d957efce0cb06ec48be2a562b13b7fd7
+    m_Address: UI_GameClearPopup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5bdff63490c1f1049959cf3e7a74a4d6
+    m_Address: UI_GamePausePopup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c1c975e3f6f408d4ea358cbbfb7991fb
+    m_Address: UI_WeaponInventoryItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 4f78b3be3374dc4439b109691a058910
+    m_Address: Boss1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 343e9f30117713e4cbb40ea59be94c54
+    m_Address: Boss2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1ef40a90e1c52044da1015cc59d27acd
+    m_Address: Boss3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: be510c81e326242c0b52553d4bb841eb
+    m_Address: Sound_Battle1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: df4f5a0c6ac3c42d6be0541a9f03b41a
+    m_Address: Sound_ButtonMain
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 15c0eee370c9344f6acaf59186e22360
+    m_Address: Sound_ButtonSelected
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 47b63a04897fc42aa8263364e150ec44
+    m_Address: Sound_OnStage
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 63a8c3c379ee74658851cd680e708b53
+    m_Address: Sound_Opening
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9717dc17b42dd45fabd232481d2594ab
+    m_Address: Sound_StageClear
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 77710820484f5004ba5d65e7ace2cd6c
+    m_Address: BG1_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d1041eb8050fe8d4caaf8d97cdd2318f
+    m_Address: BG3_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3bb6befa792983441a2f8f9f80e78739
+    m_Address: BG2_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0631f6ff33b3b5c4db90b5bacb0e6153
+    m_Address: BG2_2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 992f8d4fe0fa3d1438454162ccb1c955
+    m_Address: BG4_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a231676887bdf4e418610aaca252d978
+    m_Address: BG5_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: daed86cac24c9e9458d01864ca90c4cf
+    m_Address: BG6_1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fbd166cdc25c24291b703035886b35ba
+    m_Address: Sound_MonsterPop
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6b6eceaffc04d4aa49589f387d9a622f
+    m_Address: Sound_Combo1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: aec71eaa3c4324f3b923f3b94b040d0a
+    m_Address: Sound_MonsterTurn
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a2eca119496d547b9bee9ff1fe84318e
+    m_Address: Sound_ClockBoss
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 10930741b645044deac3f3cba799e4cb
+    m_Address: Sound_EquipButton
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a37800a0eda91410fa67d218c2278293
+    m_Address: Sound_GameOver
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fcaa0ddaf994949abb18c5d6775096a0
+    m_Address: Sound_GameOverFirst
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0d38ea03313c94114bca818aae83ce38
+    m_Address: Sound_HomeButton
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 265c88a4a1a834c3683972dd16db29d9
+    m_Address: Sound_Inventory
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9631897cd3ee24554a8087598fd7f5d0
+    m_Address: Sound_MonsterAttack
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a686da7fdeb79469dbb0294f329497aa
+    m_Address: Sound_CollectCoin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 093db39a4b98f457a9f438397f5d7230
+    m_Address: Sound_RadarFast
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f891c4a520bd249008fc78218d9e1882
+    m_Address: Sound_RadarSlow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dc860f0f6114ad7479d7b51a7aca5da7
+    m_Address: UI_ShopPopup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 77c43a06bbcd54c44888d6786a2e63be
+    m_Address: UI_Option
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1166b26f778f748a488a2ae132534bf7
+    m_Address: Sound_UpgradeWeapon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 93b376a45747f4c89b2e916156ec0e89
+    m_Address: Sound_Combo2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 738606e7a042347009c42644c6c197b2
+    m_Address: Sound_Combo3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: db6db316140094319be675bd1a45d5c0
+    m_Address: Sound_Combo5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b08471b13706e44acb4cd94549572bda
+    m_Address: Sound_Combo4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9576a04ff4feed94dbf05726f318fa7a
+    m_Address: Coin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 170c6624f8005bb49a2b97cd696f0025
+    m_Address: Dia
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2b553273022dd1641bf098a5a0a05869
+    m_Address: UI_QuestItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c84fec7a6f0fc1245bd819d7cd7b3bd0
+    m_Address: UI_QuestPopup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d3983532385ad46d5a1e8e7109d4f391
+    m_Address: Sound_Battle2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1d7c80b0cbf9043fd9c69beb37a5f22d
+    m_Address: Sound_Battle3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cb3c4028a97c44a0a93dfb061f5a767b
+    m_Address: Sound_Battle4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7db40863784834cc8b9117962c40b328
+    m_Address: Sound_Battle5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8c4e77d7c28d54399b5e1ebee288e783
+    m_Address: Sound_Battle6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c5270d69e0b81bc4f8ace4d4acf607ea
+    m_Address: Boss6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9c86b47c96a0b084095d9725c8d49b7d
+    m_Address: Boss6_UseSkill
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6847446d8b9c7b940a0e2deba26b0b15
+    m_Address: Boss6_Damaged
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0bad033403fa52f439bf335c85a058b6
+    m_Address: Boss6_Idle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 0932d98efeb582b42bef8afcb18faf2d
+    m_Address: Boss4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 75e2741a7becf2449aab583676653376
+    m_Address: Boss5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e5df30c7fbfe86f4cb7857f36754ea78
+    m_Address: UI_GachaItem
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c658512418bdaa840bdcb592fb857bfe
+    m_Address: UI_StoryPopup0
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6106a9716ab34b8499c93ac525ce2977
+    m_Address: UI_StoryPopup1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a059be79f40561a428341d5fd2320d21
+    m_Address: UI_StoryPopup2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 033f8c0764da8184cb946322e6487797
+    m_Address: UI_StoryPopup3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 78ba472b6ecf11349bdb42dfca2310eb
+    m_Address: UI_StoryPopup4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d3d09d954c612894da153d898c0afb73
+    m_Address: UI_StoryPopup5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b3f71eee01e0f38468538fa69c085c9a
+    m_Address: UI_StoryPopup6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 7a052588ad1717b4dae756c7d21f1145
+    m_Address: radar5
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5168bc8ac076acb408320cb4f9da39d1
+    m_Address: radar6
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b7999d86c5612c04f8ea59f5dfd43ed9
+    m_Address: radar7
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 111754cb8ac8af94c8428fce4542ec41
+    m_Address: radar3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1a5bb78ee18d2544fa54b08827b2ce18
+    m_Address: UI_WeaponGachaPopup
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e592ae16b133ffa40b5975dc76d603b1
+    m_Address: radar16
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ad6a8b67c454c2e4eb4240e7c30930d3
+    m_Address: radar20
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 83981d7b93c931f458aad6c126d16ab4
+    m_Address: radar26
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: e4c2f6ce0aee78842ae2b746bd6d1a0d
+    m_Address: radar22
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: baec719c5820c804c8fb051185607107
+    m_Address: radar14
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3f23f909fa16e9b4b945b2ea778fca4d
+    m_Address: radar4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d6b927ea7a0bb6e4aa7061ad88c2ffb9
+    m_Address: weapon_18
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1ad8d50d51d573342a57e156479efcaa
+    m_Address: weapon_19
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3a76096e404c6ea41a0d44dee0ce5861
+    m_Address: weapon_20
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 45a6c1cdc4f57ab44b78a56f184ad231
+    m_Address: weapon_21
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: df056b5a23bedaf4488d73061bcea9b9
+    m_Address: weapon_22
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 26758ab020d98484486fa19c2299d7bf
+    m_Address: weapon_23
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: a72c4e63a36d17d4286900c21da5ede1
+    m_Address: weapon_24
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1cb7cbbee9c84bc488d5afbc61b32ee5
+    m_Address: weapon_25
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1b4de7229175fa142b5ef5244845a45b
+    m_Address: weapon_26
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 780223dc8f9aa0844a053d3f7d8bbfe6
+    m_Address: projectile_13
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f6448a3e321c0b642a136c94b135f449
+    m_Address: projectile_14
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9a37b562f38ff7a4091ab0628a9df146
+    m_Address: projectile_11
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 2b233ae44b9a1834aabf1d5f5152da27
+    m_Address: projectile_12
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5395281e0c34ee24e96354091f8eaacf
+    m_Address: projectile_18
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c89ca995181d8e34296669018ad42d32
+    m_Address: projectile_19
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6e40d644239269e478197d9f5bb62937
+    m_Address: projectile_20
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ccdbfb5c95023744f9425fb1bdc68660
+    m_Address: radar13
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 448e82868bd2b294cb5a8a543b617637
+    m_Address: 58_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: cc41b57545968354ba3ebc802ce826e9
+    m_Address: 58_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ac3fa2b08031ea045bab0671fb7f1076
+    m_Address: 58_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 08d5644d011683a4b8e7f133daa9aaf1
+    m_Address: 58
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c850ef735dfe89a4ea87ee57a0a95071
+    m_Address: 61
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 61ceb08c9eb93094ebfc925809946ba7
+    m_Address: 61_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9cf0c84e51c988949a38f9a234e6fee3
+    m_Address: 61_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 3718c794f49ec81428240830e3e80803
+    m_Address: 62
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d009d47c30a39eb4582ce0ad38631e4b
+    m_Address: 62_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: fbd9dcfab8f291541a80ceeea584ff81
+    m_Address: 62_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: dde9046c74a607846a0a2a2d3cd7f855
+    m_Address: 63
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5b00b5cc22dcdf64da2375726fb6d9e7
+    m_Address: 63_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: d8efd711ad0ed3240a5513c695f1fec3
+    m_Address: 63_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 5754e153e0a6dc74fa4b53ff648cc216
+    m_Address: 64
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f6e270ab0f8bf054899452a0fa53f672
+    m_Address: 64_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 9a8147f4ff129f943a63dcf08c0e240b
+    m_Address: 64_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 009ebb47bd9d4ff479f0deb77ac6f1da
+    m_Address: 65
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 797b321560ee590418f7de2a3f2e806f
+    m_Address: 65_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 6800f12c6fa5a6c4e8b75f888a1c3c5f
+    m_Address: 65_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 1f43ca9e3b7382f42a6e128a3f5593f7
+    m_Address: 66
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: cac14bf816451ab4681f26b014eaf671
+    m_Address: 66_3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: ac31bae6f5ea42048a875b2eff7cc428
+    m_Address: 66_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 3d25fa4c52a3a1b4aba4f9b4dccbba57, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: f843f746017e64140863af8ef9280b78, type: 2}
+    - {fileID: 11400000, guid: d1077ce370d4f29478d0b5d4ea9c039b, type: 2}

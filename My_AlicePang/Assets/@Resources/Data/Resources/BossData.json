@@ -1,0 +1,76 @@
+{
+  "bosses": [
+    {
+      "TemplateID": 1,
+      "NameID": "Rabbit",
+      "Prefab": "Boss1",
+      "SpriteID": "2",
+      "Hp": 100,
+      "Damage": 10,
+      "MoveTurn": 1,
+      "MoveSpeed": 1,
+      "AttackRange": 1,
+      "DropCoin": 1,
+      "UseSkillAnimationDuration": 3.1,
+      "PositionY": 3.5,
+      "bossSkillData": [
+        {
+          "BossID": 0,
+          "SkillID": 0,
+          "Cooltime": 1,
+          "MonsterCount": 0,
+          "Value": 0,
+          "Turn": 0
+        }
+      ]
+    },
+    {
+      "TemplateID": 2,
+      "NameID": "Door",
+      "Prefab": "Boss2",
+      "SpriteID": "3",
+      "Hp": 100,
+      "Damage": 20,
+      "MoveTurn": 2,
+      "MoveSpeed": 1,
+      "AttackRange": 1,
+      "DropCoin": 1,
+      "UseSkillAnimationDuration": 2.0,
+      "PositionY": 6.271,
+      "bossSkillData": [
+        {
+          "BossID": 0,
+          "SkillID": 1,
+          "Cooltime": 1,
+          "MonsterCount": 5,
+          "Value": 5,
+          "Turn": 5
+        }
+      ]
+    },
+    {
+      "TemplateID": 3,
+      "NameID": "Spider",
+      "Prefab": "Boss3",
+      "SpriteID": "1",
+      "Hp": 100,
+      "Damage": 30,
+      "MoveTurn": 3,
+      "MoveSpeed": 1,
+      "AttackRange": 1,
+      "DropCoin": 1,
+      "UseSkillAnimationDuration": 2.0,
+      "PositionY": 7.0,
+      "bossSkillData": [
+        {
+          "BossID": 0,
+          "SkillID": 1,
+          "Cooltime": 1,
+          "MonsterCount": 5,
+          "Value": 5,
+          "Turn": 5
+        }
+      ]
+    }
+  ]
+}

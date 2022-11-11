@@ -1,0 +1,16 @@
+Boss6_spine_idle2.png
+size:638,534
+filter:Linear,Linear
+pma:true
+body1
+bounds:2,2,530,584
+offsets:1,1,532,586
+rotate:90
+face1
+bounds:588,421,111,48
+offsets:1,1,113,50
+rotate:90
+face2
+bounds:588,308,111,48
+offsets:1,1,113,50
+rotate:90

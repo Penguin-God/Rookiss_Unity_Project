@@ -1,0 +1,27 @@
+map5_ani.png
+size:323,513
+filter:Linear,Linear
+pma:true
+effect
+bounds:193,164,50,48
+offsets:1,1,52,50
+flower1
+bounds:2,347,189,164
+offsets:1,1,191,166
+flower2
+bounds:2,181,189,164
+offsets:1,1,191,166
+leaf
+bounds:193,214,126,108
+offsets:1,1,128,110
+paint
+bounds:177,2,144,160
+offsets:1,1,146,162
+paint2
+bounds:2,22,157,173
+offsets:1,1,159,176
+rotate:90
+shadow copy
+bounds:193,324,187,122
+offsets:1,1,189,124
+rotate:90
