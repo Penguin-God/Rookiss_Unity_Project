@@ -1,0 +1,7 @@
+﻿TemplateID,MapTop,MapBottom,MapCenter,Object1,Object2,Object3,Dot,StageBlock,StageTileSpine,Shadow
+1,map1_2,map1_1,map1_3,map1_object1,map1_object2,map1_object3,map1_dot,map1_block3,map1_ani_SkeletonData,map1_shadow
+2,map2_2,map2_1,map2_3,map2_object1,map2_object2,map2_object3,map2_dot,map2_block3,map2_ani_SkeletonData,map2_shadow
+3,map3_2,map3_1,map3_3,map3_object1,map3_object2,map3_object3,map3_dot,map3_block3,map3_ani_SkeletonData,map3_shadow
+4,map4_2,map4_1,map4_3,map4_object1,map4_object2,map4_object3,map4_dot,map4_block3,map4_ani_SkeletonData,map4_shadow
+5,map5_2,map5_1,map5_3,map5_object1,map5_object2,map5_object3,map5_dot,map5_block3,map5_ani_SkeletonData,map5_shadow
+6,map6_2,map6_1,map6_3,map6_object1,map6_object2,map6_object3,map6_dot,map6_block3,map6_ani_SkeletonData,map6_shadow

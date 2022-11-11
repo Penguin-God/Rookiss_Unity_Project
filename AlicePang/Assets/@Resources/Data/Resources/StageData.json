@@ -1,0 +1,2287 @@
+{
+  "stages": [
+    {
+      "TemplateID": 1,
+      "ChapterID": 1,
+      "StageID": 1,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG1_1",
+      "respawnData": [
+        {
+          "MonsterID": 1,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 1
+        },
+        {
+          "MonsterID": 2,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 1
+        }
+      ]
+    },
+    {
+      "TemplateID": 2,
+      "ChapterID": 1,
+      "StageID": 2,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG1_1",
+      "respawnData": [
+        {
+          "MonsterID": 3,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 4,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 5,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 1
+        }
+      ]
+    },
+    {
+      "TemplateID": 3,
+      "ChapterID": 1,
+      "StageID": 3,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG1_1",
+      "respawnData": [
+        {
+          "MonsterID": 6,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 4
+        },
+        {
+          "MonsterID": 7,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 8,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 2
+        }
+      ]
+    },
+    {
+      "TemplateID": 4,
+      "ChapterID": 1,
+      "StageID": 4,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG1_1",
+      "respawnData": [
+        {
+          "MonsterID": 9,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 4
+        },
+        {
+          "MonsterID": 10,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 11,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 2
+        }
+      ]
+    },
+    {
+      "TemplateID": 5,
+      "ChapterID": 1,
+      "StageID": 5,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG1_1",
+      "respawnData": [
+        {
+          "MonsterID": 12,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 0
+        },
+        {
+          "MonsterID": 13,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 14,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 15,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 1
+        }
+      ]
+    },
+    {
+      "TemplateID": 6,
+      "ChapterID": 1,
+      "StageID": 6,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG1_1",
+      "respawnData": [
+        {
+          "MonsterID": 16,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 5
+        },
+        {
+          "MonsterID": 17,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 0
+        },
+        {
+          "MonsterID": 18,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 19,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 2
+        }
+      ]
+    },
+    {
+      "TemplateID": 7,
+      "ChapterID": 1,
+      "StageID": 7,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG1_1",
+      "respawnData": [
+        {
+          "MonsterID": 20,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 5
+        },
+        {
+          "MonsterID": 21,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 22,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 0
+        },
+        {
+          "MonsterID": 23,
+          "SummonPoint": 4,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 2
+        }
+      ]
+    },
+    {
+      "TemplateID": 8,
+      "ChapterID": 1,
+      "StageID": 8,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG1_1",
+      "respawnData": [
+        {
+          "MonsterID": 24,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 0
+        },
+        {
+          "MonsterID": 25,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 26,
+          "SummonPoint": 4,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 27,
+          "SummonPoint": 4,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 2
+        }
+      ]
+    },
+    {
+      "TemplateID": 9,
+      "ChapterID": 1,
+      "StageID": 9,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG1_1",
+      "respawnData": [
+        {
+          "MonsterID": 28,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 8
+        },
+        {
+          "MonsterID": 29,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 30,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 5,
+          "ClearCount": 4
+        },
+        {
+          "MonsterID": 31,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 5,
+          "ClearCount": 4
+        }
+      ]
+    },
+    {
+      "TemplateID": 10,
+      "ChapterID": 1,
+      "StageID": 10,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG1_1",
+      "respawnData": [
+        {
+          "MonsterID": 32,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 8
+        },
+        {
+          "MonsterID": 33,
+          "SummonPoint": 4,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 34,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 5,
+          "ClearCount": 4
+        },
+        {
+          "MonsterID": 35,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 5,
+          "ClearCount": 4
+        }
+      ]
+    },
+    {
+      "TemplateID": 11,
+      "ChapterID": 1,
+      "StageID": 11,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG1_1",
+      "respawnData": [
+        {
+          "MonsterID": 36,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 12
+        },
+        {
+          "MonsterID": 37,
+          "SummonPoint": 5,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 0
+        },
+        {
+          "MonsterID": 38,
+          "SummonPoint": 5,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 0
+        },
+        {
+          "MonsterID": 39,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 0
+        }
+      ]
+    },
+    {
+      "TemplateID": 12,
+      "ChapterID": 1,
+      "StageID": 12,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG1_1",
+      "respawnData": [
+        {
+          "MonsterID": 40,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 12
+        },
+        {
+          "MonsterID": 41,
+          "SummonPoint": 5,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 42,
+          "SummonPoint": 5,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 43,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 0
+        }
+      ]
+    },
+    {
+      "TemplateID": 13,
+      "ChapterID": 1,
+      "StageID": 13,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG1_1",
+      "respawnData": [
+        {
+          "MonsterID": 44,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 6
+        },
+        {
+          "MonsterID": 45,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 46,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 47,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 4
+        }
+      ]
+    },
+    {
+      "TemplateID": 14,
+      "ChapterID": 1,
+      "StageID": 14,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG1_1",
+      "respawnData": [
+        {
+          "MonsterID": 48,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 8
+        },
+        {
+          "MonsterID": 49,
+          "SummonPoint": 4,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 50,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 51,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 4
+        }
+      ]
+    },
+    {
+      "TemplateID": 15,
+      "ChapterID": 1,
+      "StageID": 15,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG1_1",
+      "respawnData": [
+        {
+          "MonsterID": 52,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 0
+        },
+        {
+          "MonsterID": 53,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 6
+        },
+        {
+          "MonsterID": 54,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 5,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 55,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 5,
+          "ClearCount": 2
+        }
+      ]
+    },
+    {
+      "TemplateID": 16,
+      "ChapterID": 1,
+      "StageID": 16,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG1_1",
+      "respawnData": [
+        {
+          "MonsterID": 56,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 12
+        },
+        {
+          "MonsterID": 57,
+          "SummonPoint": 5,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 0
+        },
+        {
+          "MonsterID": 58,
+          "SummonPoint": 5,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 0
+        },
+        {
+          "MonsterID": 59,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 0
+        }
+      ]
+    },
+    {
+      "TemplateID": 17,
+      "ChapterID": 1,
+      "StageID": 17,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG1_1",
+      "respawnData": [
+        {
+          "MonsterID": 60,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 12
+        },
+        {
+          "MonsterID": 61,
+          "SummonPoint": 5,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 62,
+          "SummonPoint": 5,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 63,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 0
+        }
+      ]
+    },
+    {
+      "TemplateID": 18,
+      "ChapterID": 1,
+      "StageID": 18,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG1_1",
+      "respawnData": [
+        {
+          "MonsterID": 64,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 6
+        },
+        {
+          "MonsterID": 65,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 66,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 67,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 4
+        }
+      ]
+    },
+    {
+      "TemplateID": 19,
+      "ChapterID": 1,
+      "StageID": 19,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG1_1",
+      "respawnData": [
+        {
+          "MonsterID": 68,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 8
+        },
+        {
+          "MonsterID": 69,
+          "SummonPoint": 4,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 70,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 71,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 4
+        }
+      ]
+    },
+    {
+      "TemplateID": 20,
+      "ChapterID": 1,
+      "StageID": 20,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 1,
+      "Turn": 15,
+      "MapName": "BG1_1",
+      "respawnData": [
+        {
+          "MonsterID": 72,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 0
+        },
+        {
+          "MonsterID": 73,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 6
+        },
+        {
+          "MonsterID": 74,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 5,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 75,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 5,
+          "ClearCount": 2
+        }
+      ]
+    },
+    {
+      "TemplateID": 21,
+      "ChapterID": 2,
+      "StageID": 1,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG2_1",
+      "respawnData": [
+        {
+          "MonsterID": 76,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 1
+        },
+        {
+          "MonsterID": 77,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 1
+        }
+      ]
+    },
+    {
+      "TemplateID": 22,
+      "ChapterID": 2,
+      "StageID": 2,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG2_1",
+      "respawnData": [
+        {
+          "MonsterID": 78,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 79,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 80,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 1
+        }
+      ]
+    },
+    {
+      "TemplateID": 23,
+      "ChapterID": 2,
+      "StageID": 3,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG2_1",
+      "respawnData": [
+        {
+          "MonsterID": 81,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 4
+        },
+        {
+          "MonsterID": 82,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 83,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 10,
+          "ClearCount": 3
+        }
+      ]
+    },
+    {
+      "TemplateID": 24,
+      "ChapterID": 2,
+      "StageID": 4,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG2_1",
+      "respawnData": [
+        {
+          "MonsterID": 84,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 4
+        },
+        {
+          "MonsterID": 85,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 86,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 10,
+          "ClearCount": 3
+        }
+      ]
+    },
+    {
+      "TemplateID": 25,
+      "ChapterID": 2,
+      "StageID": 5,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG2_1",
+      "respawnData": [
+        {
+          "MonsterID": 87,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 0
+        },
+        {
+          "MonsterID": 88,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 89,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 3
+        }
+      ]
+    },
+    {
+      "TemplateID": 26,
+      "ChapterID": 2,
+      "StageID": 6,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG2_1",
+      "respawnData": [
+        {
+          "MonsterID": 90,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 5
+        },
+        {
+          "MonsterID": 91,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 0
+        },
+        {
+          "MonsterID": 92,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 5
+        },
+        {
+          "MonsterID": 93,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 2
+        }
+      ]
+    },
+    {
+      "TemplateID": 27,
+      "ChapterID": 2,
+      "StageID": 7,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG2_1",
+      "respawnData": [
+        {
+          "MonsterID": 94,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 5
+        },
+        {
+          "MonsterID": 95,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 5
+        },
+        {
+          "MonsterID": 96,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 0
+        },
+        {
+          "MonsterID": 97,
+          "SummonPoint": 4,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 2
+        }
+      ]
+    },
+    {
+      "TemplateID": 28,
+      "ChapterID": 2,
+      "StageID": 8,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG2_1",
+      "respawnData": [
+        {
+          "MonsterID": 98,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 0
+        },
+        {
+          "MonsterID": 99,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 5
+        },
+        {
+          "MonsterID": 100,
+          "SummonPoint": 4,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 101,
+          "SummonPoint": 4,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 2
+        }
+      ]
+    },
+    {
+      "TemplateID": 29,
+      "ChapterID": 2,
+      "StageID": 9,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG2_1",
+      "respawnData": [
+        {
+          "MonsterID": 102,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 8
+        },
+        {
+          "MonsterID": 103,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 104,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 4
+        },
+        {
+          "MonsterID": 105,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 4
+        }
+      ]
+    },
+    {
+      "TemplateID": 30,
+      "ChapterID": 2,
+      "StageID": 10,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG2_1",
+      "respawnData": [
+        {
+          "MonsterID": 106,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 8
+        },
+        {
+          "MonsterID": 107,
+          "SummonPoint": 4,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 108,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 4
+        },
+        {
+          "MonsterID": 109,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 4
+        }
+      ]
+    },
+    {
+      "TemplateID": 31,
+      "ChapterID": 2,
+      "StageID": 11,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG2_1",
+      "respawnData": [
+        {
+          "MonsterID": 110,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 12
+        },
+        {
+          "MonsterID": 111,
+          "SummonPoint": 5,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 0
+        },
+        {
+          "MonsterID": 112,
+          "SummonPoint": 5,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 0
+        },
+        {
+          "MonsterID": 113,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 0
+        }
+      ]
+    },
+    {
+      "TemplateID": 32,
+      "ChapterID": 2,
+      "StageID": 12,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG2_1",
+      "respawnData": [
+        {
+          "MonsterID": 114,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 12
+        },
+        {
+          "MonsterID": 115,
+          "SummonPoint": 5,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 116,
+          "SummonPoint": 5,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 117,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 0
+        }
+      ]
+    },
+    {
+      "TemplateID": 33,
+      "ChapterID": 2,
+      "StageID": 13,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG2_1",
+      "respawnData": [
+        {
+          "MonsterID": 118,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 6
+        },
+        {
+          "MonsterID": 119,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 120,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 121,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 4
+        }
+      ]
+    },
+    {
+      "TemplateID": 34,
+      "ChapterID": 2,
+      "StageID": 14,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG2_1",
+      "respawnData": [
+        {
+          "MonsterID": 122,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 8
+        },
+        {
+          "MonsterID": 123,
+          "SummonPoint": 4,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 124,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 125,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 4
+        }
+      ]
+    },
+    {
+      "TemplateID": 35,
+      "ChapterID": 2,
+      "StageID": 15,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG2_1",
+      "respawnData": [
+        {
+          "MonsterID": 126,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 0
+        },
+        {
+          "MonsterID": 127,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 6
+        },
+        {
+          "MonsterID": 128,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 129,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 2
+        }
+      ]
+    },
+    {
+      "TemplateID": 36,
+      "ChapterID": 2,
+      "StageID": 16,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG2_1",
+      "respawnData": [
+        {
+          "MonsterID": 130,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 12
+        },
+        {
+          "MonsterID": 131,
+          "SummonPoint": 5,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 0
+        },
+        {
+          "MonsterID": 132,
+          "SummonPoint": 5,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 0
+        },
+        {
+          "MonsterID": 133,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 0
+        }
+      ]
+    },
+    {
+      "TemplateID": 37,
+      "ChapterID": 2,
+      "StageID": 17,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG2_1",
+      "respawnData": [
+        {
+          "MonsterID": 134,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 12
+        },
+        {
+          "MonsterID": 135,
+          "SummonPoint": 5,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 136,
+          "SummonPoint": 5,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 137,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 0
+        }
+      ]
+    },
+    {
+      "TemplateID": 38,
+      "ChapterID": 2,
+      "StageID": 18,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG2_1",
+      "respawnData": [
+        {
+          "MonsterID": 138,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 6
+        },
+        {
+          "MonsterID": 139,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 140,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 141,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 4
+        }
+      ]
+    },
+    {
+      "TemplateID": 39,
+      "ChapterID": 2,
+      "StageID": 19,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG2_1",
+      "respawnData": [
+        {
+          "MonsterID": 142,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 8
+        },
+        {
+          "MonsterID": 143,
+          "SummonPoint": 4,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 2
+        },
+        {
+          "MonsterID": 144,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 145,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 4
+        }
+      ]
+    },
+    {
+      "TemplateID": 40,
+      "ChapterID": 2,
+      "StageID": 20,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 2,
+      "Turn": 15,
+      "MapName": "BG2_2",
+      "respawnData": [
+        {
+          "MonsterID": 146,
+          "SummonPoint": 0,
+          "MinPoint": 0,
+          "MaxPoint": 0,
+          "ClearCount": 0
+        },
+        {
+          "MonsterID": 147,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 8,
+          "ClearCount": 6
+        },
+        {
+          "MonsterID": 148,
+          "SummonPoint": 3,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 3
+        },
+        {
+          "MonsterID": 149,
+          "SummonPoint": 2,
+          "MinPoint": 2,
+          "MaxPoint": 6,
+          "ClearCount": 2
+        }
+      ]
+    },
+    {
+      "TemplateID": 41,
+      "ChapterID": 3,
+      "StageID": 1,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG3_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 42,
+      "ChapterID": 3,
+      "StageID": 2,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG3_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 43,
+      "ChapterID": 3,
+      "StageID": 3,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG3_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 44,
+      "ChapterID": 3,
+      "StageID": 4,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG3_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 45,
+      "ChapterID": 3,
+      "StageID": 5,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG3_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 46,
+      "ChapterID": 3,
+      "StageID": 6,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG3_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 47,
+      "ChapterID": 3,
+      "StageID": 7,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG3_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 48,
+      "ChapterID": 3,
+      "StageID": 8,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG3_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 49,
+      "ChapterID": 3,
+      "StageID": 9,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG3_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 50,
+      "ChapterID": 3,
+      "StageID": 10,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG3_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 51,
+      "ChapterID": 3,
+      "StageID": 11,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG3_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 52,
+      "ChapterID": 3,
+      "StageID": 12,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG3_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 53,
+      "ChapterID": 3,
+      "StageID": 13,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG3_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 54,
+      "ChapterID": 3,
+      "StageID": 14,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG3_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 55,
+      "ChapterID": 3,
+      "StageID": 15,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG3_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 56,
+      "ChapterID": 3,
+      "StageID": 16,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG3_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 57,
+      "ChapterID": 3,
+      "StageID": 17,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG3_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 58,
+      "ChapterID": 3,
+      "StageID": 18,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG3_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 59,
+      "ChapterID": 3,
+      "StageID": 19,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG3_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 60,
+      "ChapterID": 3,
+      "StageID": 20,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 3,
+      "Turn": 15,
+      "MapName": "BG3_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 61,
+      "ChapterID": 4,
+      "StageID": 1,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG4_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 62,
+      "ChapterID": 4,
+      "StageID": 2,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG4_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 63,
+      "ChapterID": 4,
+      "StageID": 3,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG4_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 64,
+      "ChapterID": 4,
+      "StageID": 4,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG4_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 65,
+      "ChapterID": 4,
+      "StageID": 5,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG4_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 66,
+      "ChapterID": 4,
+      "StageID": 6,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG4_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 67,
+      "ChapterID": 4,
+      "StageID": 7,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG4_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 68,
+      "ChapterID": 4,
+      "StageID": 8,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG4_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 69,
+      "ChapterID": 4,
+      "StageID": 9,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG4_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 70,
+      "ChapterID": 4,
+      "StageID": 10,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG4_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 71,
+      "ChapterID": 4,
+      "StageID": 11,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG4_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 72,
+      "ChapterID": 4,
+      "StageID": 12,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG4_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 73,
+      "ChapterID": 4,
+      "StageID": 13,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG4_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 74,
+      "ChapterID": 4,
+      "StageID": 14,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG4_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 75,
+      "ChapterID": 4,
+      "StageID": 15,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG4_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 76,
+      "ChapterID": 4,
+      "StageID": 16,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG4_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 77,
+      "ChapterID": 4,
+      "StageID": 17,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG4_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 78,
+      "ChapterID": 4,
+      "StageID": 18,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG4_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 79,
+      "ChapterID": 4,
+      "StageID": 19,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG4_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 80,
+      "ChapterID": 4,
+      "StageID": 20,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 4,
+      "Turn": 15,
+      "MapName": "BG4_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 81,
+      "ChapterID": 5,
+      "StageID": 1,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG5_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 82,
+      "ChapterID": 5,
+      "StageID": 2,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG5_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 83,
+      "ChapterID": 5,
+      "StageID": 3,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG5_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 84,
+      "ChapterID": 5,
+      "StageID": 4,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG5_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 85,
+      "ChapterID": 5,
+      "StageID": 5,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG5_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 86,
+      "ChapterID": 5,
+      "StageID": 6,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG5_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 87,
+      "ChapterID": 5,
+      "StageID": 7,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG5_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 88,
+      "ChapterID": 5,
+      "StageID": 8,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG5_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 89,
+      "ChapterID": 5,
+      "StageID": 9,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG5_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 90,
+      "ChapterID": 5,
+      "StageID": 10,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG5_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 91,
+      "ChapterID": 5,
+      "StageID": 11,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG5_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 92,
+      "ChapterID": 5,
+      "StageID": 12,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG5_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 93,
+      "ChapterID": 5,
+      "StageID": 13,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG5_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 94,
+      "ChapterID": 5,
+      "StageID": 14,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG5_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 95,
+      "ChapterID": 5,
+      "StageID": 15,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG5_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 96,
+      "ChapterID": 5,
+      "StageID": 16,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG5_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 97,
+      "ChapterID": 5,
+      "StageID": 17,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG5_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 98,
+      "ChapterID": 5,
+      "StageID": 18,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG5_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 99,
+      "ChapterID": 5,
+      "StageID": 19,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG5_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 100,
+      "ChapterID": 5,
+      "StageID": 20,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 5,
+      "Turn": 15,
+      "MapName": "BG5_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 101,
+      "ChapterID": 6,
+      "StageID": 1,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG6_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 102,
+      "ChapterID": 6,
+      "StageID": 2,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG6_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 103,
+      "ChapterID": 6,
+      "StageID": 3,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG6_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 104,
+      "ChapterID": 6,
+      "StageID": 4,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG6_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 105,
+      "ChapterID": 6,
+      "StageID": 5,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG6_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 106,
+      "ChapterID": 6,
+      "StageID": 6,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG6_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 107,
+      "ChapterID": 6,
+      "StageID": 7,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG6_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 108,
+      "ChapterID": 6,
+      "StageID": 8,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG6_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 109,
+      "ChapterID": 6,
+      "StageID": 9,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG6_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 110,
+      "ChapterID": 6,
+      "StageID": 10,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG6_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 111,
+      "ChapterID": 6,
+      "StageID": 11,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG6_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 112,
+      "ChapterID": 6,
+      "StageID": 12,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG6_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 113,
+      "ChapterID": 6,
+      "StageID": 13,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG6_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 114,
+      "ChapterID": 6,
+      "StageID": 14,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG6_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 115,
+      "ChapterID": 6,
+      "StageID": 15,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG6_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 116,
+      "ChapterID": 6,
+      "StageID": 16,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG6_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 117,
+      "ChapterID": 6,
+      "StageID": 17,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG6_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 118,
+      "ChapterID": 6,
+      "StageID": 18,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG6_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 119,
+      "ChapterID": 6,
+      "StageID": 19,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 0,
+      "Turn": 15,
+      "MapName": "BG6_1",
+      "respawnData": []
+    },
+    {
+      "TemplateID": 120,
+      "ChapterID": 6,
+      "StageID": 20,
+      "ClearGoldReward": 100,
+      "BossTemplateID": 6,
+      "Turn": 15,
+      "MapName": "BG6_1",
+      "respawnData": []
+    }
+  ]
+}

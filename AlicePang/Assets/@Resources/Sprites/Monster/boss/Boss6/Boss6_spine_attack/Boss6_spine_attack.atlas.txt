@@ -1,0 +1,7 @@
+Boss6_spine_attack.png
+size:599,582
+filter:Linear,Linear
+pma:true
+레이어 1
+bounds:2,2,595,578
+offsets:1,1,597,580

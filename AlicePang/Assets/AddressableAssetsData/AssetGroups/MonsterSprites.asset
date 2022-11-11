@@ -1,0 +1,1184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: MonsterSprites
+  m_EditorClassIdentifier: 
+  m_GroupName: MonsterSprites
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d7fc942ff37a0b84298ba6a95f781eb4
+  m_SerializeEntries:
+  - m_GUID: 31862bde4536ccc45a14ec80cef5459b
+    m_Address: 01
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 9099abfc7227a254a8deefb0daeead28
+    m_Address: 01_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 6cb4610f9d348e7438b7f043fedecb8e
+    m_Address: 01_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: e7f14db4d7b1b0046a7fbae95df58164
+    m_Address: 01_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: cb246f7c365754346a08ba3f8275891f
+    m_Address: 02
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 1e44f2fc3468ce64898360483db0321d
+    m_Address: 02_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 4e25aada963b97a4da3921d7a78490ae
+    m_Address: 02_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 0b9e69fc9ebe81e46a11d3238d59a12f
+    m_Address: 02_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 6a8cd5d50386a054397b5237849c9e16
+    m_Address: 03
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 118c37cdf0e9dde488fb60be5515889b
+    m_Address: 03_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 6efe2d05b0a38084b85ee1f7b55bae6a
+    m_Address: 03_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: fcc95e7dc0be95443bfedc702b3a7cb8
+    m_Address: 03_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 21a586aeb49f9f040bc359261f507575
+    m_Address: 04
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: fffef9553b567de488b3372083a96dff
+    m_Address: 04_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 5dfeb316ddca8dd4f8711b0c916e36f2
+    m_Address: 04_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 8532bb73a94749f47a7c74ad3edd355e
+    m_Address: 04_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 262d1e454987684479303b28a56ab6e0
+    m_Address: 05
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: da23fad8607803f469f4c80655ee12e5
+    m_Address: 05_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 1f1826718ed2a0b478f7179deb2ce6a9
+    m_Address: 05_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 2ae4a8c245d393e4993fc932a97fa85e
+    m_Address: 05_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 964e67f5b48b6d643849df9395506b68
+    m_Address: 06
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 5079380c3575e5743a70939b84d38b61
+    m_Address: 06_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: e6a5bdd567edd514a9b78d7cf1aaaeed
+    m_Address: 06_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 349ca34a54efb7d498e0976bdaeeaf0d
+    m_Address: 06_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 619d576719ea19542a411b0bdb1c3780
+    m_Address: 07
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 9cd2cd901ddce2f40aa362a5f407aacd
+    m_Address: 07_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 1c62dc0b45754a74c90b7288a26e88de
+    m_Address: 07_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 58a81459d1e85064eac80ce6c74fa170
+    m_Address: 07_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 10261351d3d2d8242a99eb7bb6546da0
+    m_Address: 08
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: faeb0a268674bae4482fd7ab6a48fb01
+    m_Address: 08_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: e28c53d9a1c9dac4bb44b168ba158587
+    m_Address: 08_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 346de7a0a5ee6154681c2323d938a800
+    m_Address: 08_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 270c7f75a3539dc4896252750ad5a570
+    m_Address: 09
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 2cbea992fdb50ec4a9bb6cdd4c169ae3
+    m_Address: 09_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 1a25bca6cbece824685e760e9a6fef1b
+    m_Address: 09_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 92a59e0b4c115d54b9ffed5e691c6329
+    m_Address: 09_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 459e60b4d40d92b4d82d96f00b1bba23
+    m_Address: 10
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 85459150f79c7ae48b9d18b1cdd8c45f
+    m_Address: 10_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: d22706bd67b348f43b2551bc206e0e1e
+    m_Address: 10_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 3b85d79164718d249999ddfded3e2309
+    m_Address: 10_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 66fb003a14ef2504fb64465a603f821b
+    m_Address: 11
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 5ea9e036f9ab51d498fdab143e995628
+    m_Address: 11_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: befe662185075994db0c488bb3f530ca
+    m_Address: 11_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 6ddcc2e7a289abd49a0306e9b2dcef3f
+    m_Address: 11_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 86d084de57f56e8488d8d3fcea099901
+    m_Address: 12
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 38e21824fc0919b4ab59689b3f2cbeb3
+    m_Address: 12_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 0a37a76084e546e44bf6a8bc399d6d71
+    m_Address: 12_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 1194e71c8eea4ab4fb7dfea1340aa6f5
+    m_Address: 12_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: c24aa843befa309478aeafc12b67e387
+    m_Address: 13
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: cd3b38603c3bc884292f677b1b1b146b
+    m_Address: 13_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 4a3b0e08481c6f941ba5ec3f2e33b511
+    m_Address: 13_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: e59908a964eca4f4d9f74810e131b765
+    m_Address: 13_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: b7ba26e28e85397468082d9996831b7a
+    m_Address: 14
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 955d81c7f40292a40becc349f9d5784f
+    m_Address: 14_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: ca2fbe10f7ba513469a14d36cf8c1bd8
+    m_Address: 14_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 2642b6a72a676a2418c05760ed8d7f77
+    m_Address: 14_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: afc16d2455a57e847a4b0497b7de59a3
+    m_Address: 15
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: d9aa6c23225c1384d8b413c479669a7f
+    m_Address: 15_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 2abab5720c847a945b8122de56937727
+    m_Address: 15_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: d64f135a0a0f0f846b62355c4c7d1060
+    m_Address: 15_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 893a75fc2e2ac264aad7e6a42b3ab282
+    m_Address: 16
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 8098409fa4b76514286c63e17f305785
+    m_Address: 16_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: fc1bf8e945d6af040844d064487a292f
+    m_Address: 16_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: abfeb959ece844f4a8dcfffb0942ec98
+    m_Address: 16_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: e528b16d00ed6834fab695aae8bfb0e9
+    m_Address: 17
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: d75e740548009fe4793b5e5bb7999e67
+    m_Address: 17_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 31647f9215c755c40a60a7ea6b0ba05f
+    m_Address: 17_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: df9b0df77c5aed94c928b610284b2a4c
+    m_Address: 17_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 3bbb4e8793990854b90b7b3c1967b1a8
+    m_Address: 18
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: fe654c4dbcccca94885df02554a5f43c
+    m_Address: 18_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 40909dd04580fe641abac06e5ef96aba
+    m_Address: 18_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 73cee0f2aff442843a28952aea51865b
+    m_Address: 18_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 6ba61491a926bd943929ccf76a4f1d2f
+    m_Address: 19
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 84fbdd4b9c2528b44bc2010e3343565f
+    m_Address: 19_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 6a315bd2b2fabe44c9df1c7ec1bd4076
+    m_Address: 19_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 49bc07ada9ce94e4bb20131afd53d1ef
+    m_Address: 19_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 966bac665b1013d40a5f76ad6ec63835
+    m_Address: 20
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 08beaea8af2f1484bbb02f9b92f79606
+    m_Address: 20_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: edffd955c9d423446864e74428b31e66
+    m_Address: 20_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 90abab1238e6a0d4ea5e4ee64ced2458
+    m_Address: 20_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 562c4ac4639e5834fad9a1efaf5e21d5
+    m_Address: 21
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 56f2a3648df4a774b8d6a5a820cf157f
+    m_Address: 21_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 4236c260dd6f62942a9f5343921c4e83
+    m_Address: 21_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: fac13a4044a05904491b90504bbc9a3b
+    m_Address: 21_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 0adf7fdf69b7d284da719123634874e5
+    m_Address: 22
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 2a41c446f0fa280448f8742849a3783c
+    m_Address: 22_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 144d57a471362224c9e14658463f69ac
+    m_Address: 22_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 044993feb32526142a54095fa647ab37
+    m_Address: 22_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 165f06faed70ccb4c81343a5777745ac
+    m_Address: 23
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: bbbbd6f50caca7f4d8c3ba1abc72c50d
+    m_Address: 23_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: c6afcca6d0886a348972dadb230a9b0b
+    m_Address: 23_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 8a58e1746118f814287379a3675635e4
+    m_Address: 23_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: b5b68fa51b4f52c499ee6f66d519ac86
+    m_Address: 24
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 448a0b385aee89047966709559aef31e
+    m_Address: 24_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: fe902de06cd9e824bae02b26f3b5c630
+    m_Address: 24_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: d10423c2fcfde8946b7fecdd97a280a8
+    m_Address: 24_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 7d554413f2569444eb24dc91e1007c8f
+    m_Address: 25
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 87e660d8d81eba44f9c603e5a574da90
+    m_Address: 25_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 39f74e8bd90ec1840a94b10eaa896c84
+    m_Address: 25_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 31225ade867a71b4f8c84102be062210
+    m_Address: 25_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 3e604c00d9811e340a33282c1c01fb59
+    m_Address: 26
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 37d924d7ed4a790439099f98787ffd8f
+    m_Address: 26_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 9c8da40ef2f56d8478823cd435e74d3f
+    m_Address: 26_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 052ad5738c053c74cb97e6ccb61d2394
+    m_Address: 26_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 6ac94b5cfd08eb44cab454873f95d19c
+    m_Address: 27
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 02a4063f24cabea4c9de017142ef2a49
+    m_Address: 27_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 1c52f6d904c410c48a52adf8cc5d0ce5
+    m_Address: 27_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 3abfacbc677e523449a3240ab78b0b6f
+    m_Address: 27_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 8c5609695c2972a4cbea3bbf9e8e9ca5
+    m_Address: 28
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: d76b3b49700d2e5459b04e446ec0f710
+    m_Address: 28_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: a09e2a8c88e5eb540b8184718e11e664
+    m_Address: 28_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: b991a1cee5a8fe74fae11baca7135e42
+    m_Address: 28_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: ef90e69e6392ae4409611e95c846f4e8
+    m_Address: 29
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: cd60b96746264d64299d07b142192a15
+    m_Address: 29_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 5347eca3aea52f04e86e8e15b684a4c6
+    m_Address: 29_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: e3d3ce1bdd476ba4d9384a3ecc0995e9
+    m_Address: 29_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 8d73dcf22541940419f8ced0635d75c5
+    m_Address: 30
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 1d7611f567d8f144390a0518f0218cf2
+    m_Address: 30_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: b8d4fc69f68840545b2bc3915cab5789
+    m_Address: 30_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: fb26657adca487d48a8b29ddcc52c8bd
+    m_Address: 30_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 67e9910116c532242b25858c5eae33c7
+    m_Address: 31
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 4a9d167e05e4bbb40a636ae1d236b1cb
+    m_Address: 31_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 4af7560a5cf414f4db452b21ba067008
+    m_Address: 31_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 77c78a8ff2a832c4382b563120f8c433
+    m_Address: 31_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: af4e8a6eaf4ebf945bb037916a26bb70
+    m_Address: 33
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: e450f9de8c42da14fadcfd431cca4714
+    m_Address: 33_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 01874664cf0a0b3408ce5955318ad131
+    m_Address: 33_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: a56fe7af9375f4946bb2b6787f6d9ed4
+    m_Address: 33_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: c785073028d341c4d8ebcff8e089e5f8
+    m_Address: 34
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 6523f380d7430a94db80ccf7d533001a
+    m_Address: 34_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: a165ae88aa63e6f45bcfa1079d97f592
+    m_Address: 34_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 1ee62deca79e28f45a5c809bc491c206
+    m_Address: 34_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: c4c97f9766bd4b946a978b5b4c7a3cf8
+    m_Address: 35
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 97912f67911f2cf45a76a0551b501d0d
+    m_Address: 35_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 876eed6b67197d648a7d06890fc7de0f
+    m_Address: 35_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 2a7606ceb40b12c43aa1ce238a3a9e48
+    m_Address: 35_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 4910662dbc51c6e4f98e49553193279e
+    m_Address: 36
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 825b128c9dbd54142871791d7a2f2830
+    m_Address: 36_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: c4722c8590e4cf040ae4716386ea71b7
+    m_Address: 36_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 2f27beebbad546f49a806c577a5f3a76
+    m_Address: 36_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 342adfbf4f451d54b8cd3648dec1e84c
+    m_Address: 37
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 6ae401d6113189747ad599cbb6b625d3
+    m_Address: 37_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 94fabee997c937e4f9e84087ab015c29
+    m_Address: 37_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 9ae7a4a38d41ad5488b9eb9e88b008bc
+    m_Address: 37_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 10edc9b2724a34f0ab65cd5633094c9e
+    m_Address: 38
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: d5850127dbae7433d9e4cc17c27fd9ba
+    m_Address: 38_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 00166873c852a6d43a2f9916c84f27eb
+    m_Address: 38_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 55a436e0fee9edc40a07fcaf8696f441
+    m_Address: 38_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: e156d383b0ce94bf894b0a2c1f719e34
+    m_Address: 39
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 59632fc430ed4409ba60a573fdc50490
+    m_Address: 39_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 2d8fd5939cd47264b8a539f4b303ef2b
+    m_Address: 39_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 2bd317b72ff5221468c101a032ca68bc
+    m_Address: 39_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 3a9213de32df64f9093ce20a00866aa0
+    m_Address: 40
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 18dc5891d240b4741aec80a4b5b11cb6
+    m_Address: 40_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 729b4eb1b02a6304e824a1f3e55235ae
+    m_Address: 40_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 237a4a6b929258d498f669e614e495f6
+    m_Address: 40_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: ca9449b291f29433ca78881447b325e9
+    m_Address: 41
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 3c79e1a7422e44891be440502b9698f0
+    m_Address: 41_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 033e40bab338d824689aba9a6bbb8d69
+    m_Address: 41_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 46e2fc4eb2d8fc44c91b0a2fa916091f
+    m_Address: 41_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 76bd81781ff0f4c83900a316f772d8e5
+    m_Address: 42
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: cf88ed249e6b14e9eb8a24ca50091c86
+    m_Address: 42_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: e4837d7837bd9414db6a9d5cf456766a
+    m_Address: 42_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: ff9b74a5147bd5247b695356d6360c14
+    m_Address: 42_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: afc0c192014584807ba0145c456b84a1
+    m_Address: 43
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: cbf33f4d149a74c80a30fa531daa187c
+    m_Address: 43_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: bcc02bac4a35db64fbbc1c07a4187b6a
+    m_Address: 43_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: d4e9f3eee413b3149a8790b39bee1c0a
+    m_Address: 43_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 378e8b312a80f4b2bacdd288f7282604
+    m_Address: 44
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: acd7e53702bf44972a912fac0af584c1
+    m_Address: 44_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 2fa4c7ca89a54724bbd8429d8cf292fd
+    m_Address: 44_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: d0fd237be1abea54792942bc26d95e3a
+    m_Address: 44_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 6a731d2433a4f43ccada15f236a93390
+    m_Address: 45
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 979d7eb86073b47c797c4dc93606ef42
+    m_Address: 45_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 5fa6632e5ba1fbc4d976fba41580e02d
+    m_Address: 45_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: d00bec1c7af07e0429cf377cb4c6aa35
+    m_Address: 45_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 1f4f4e7f987af4237a70cb5342cee5a6
+    m_Address: 46
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 6f9e97f3af3d943cdb2da80979081348
+    m_Address: 46_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: f0571cb7ff8a8f3419210f00fd0f5815
+    m_Address: 46_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: f035c7f92912beb449b0e3e8e595921a
+    m_Address: 46_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 00a3fef3e18da4a44917907f192889af
+    m_Address: 47
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: b4f128de2f4c6ab46afa6be6ae7cc5fa
+    m_Address: 47_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 232f596d760aba0449b3655507403fe0
+    m_Address: 47_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 4b72f4b5fd2a9494593885236e86abdf
+    m_Address: 47_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: f60a166eaed817c4c8b506da023a8b67
+    m_Address: 48
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 670a0e242556a104da99c6a76d05c5d3
+    m_Address: 48_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 757c5e908b7553d43b01ddd13d3d8706
+    m_Address: 48_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: f6545f777a9a1ef44822db7a0a94f309
+    m_Address: 48_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: dac9c183ed2d6e94cb7bcaaf3e7d50c8
+    m_Address: 49
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 3a23784596744924aa912280ac065aa3
+    m_Address: 49_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: a0056a1d0c642334cb0d7b02cbd271ad
+    m_Address: 49_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 5169fe4b2b18bf947ace75aba72a5bf0
+    m_Address: 49_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 52780d8fd87da80408bef2ca90318da2
+    m_Address: 50
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 97e007af6f39a004fbb80dd7d3800e90
+    m_Address: 50_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 2d3d4bff0875f60488c35647322fe328
+    m_Address: 50_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 9057cc6f812c3d04c975bccb5650f007
+    m_Address: 50_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 587834f65286c2645bff4b44e4c25d2a
+    m_Address: 51
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 0fec5aa6836d1ca46b024e00a17d8ec8
+    m_Address: 51_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 7236cca680bd682459af5c4d1a5c5c71
+    m_Address: 51_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 7b60c6c85cf14284d980acd4a433ad00
+    m_Address: 51_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 2a78821d457f8d3459b6da7bacdfc73e
+    m_Address: 52
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 10dbe8c3ab212294fa53ea9fae96624e
+    m_Address: 52_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 24c4b7676b41e6c4696eae2ca96118e3
+    m_Address: 52_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 410ec65ccee1558418e0a61cb015a8a4
+    m_Address: 52_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 6a143dbd13d7c664b994f050865525a4
+    m_Address: 53
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 5302556298930d04a805c1fde342b69a
+    m_Address: 53_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 0d1101d93728c6b4ebccd001431d9895
+    m_Address: 53_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 1961fbe0393904a4f868fe9c8c9d3a66
+    m_Address: 53_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 7bf91a4ef837ddb44ba2ff81e6480353
+    m_Address: 54
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 2dfc1e13a701f6c4cbdc6a5f5e7f12e7
+    m_Address: 54_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: fc11f8d295071ef4a849d47e8fd4f66b
+    m_Address: 54_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: d0ec14b98207fab4f96e2fc4b8636377
+    m_Address: 54_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 7b4a46dd6f51ab24b841c831eb704889
+    m_Address: 55
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: f4ae9199f8f52e347897228771274661
+    m_Address: 55_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 8b384d076cad2fb47b13b553f61a5516
+    m_Address: 55_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 52cffd0315112b24b86a47cdef1a3347
+    m_Address: 55_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 7643222028fd4014ab0c43ae5643c35a
+    m_Address: 56
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 29955c0f5b931b640b52bdae1e2c804b
+    m_Address: 56_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 4c9b24ab5eeb1fc4cb138f1cf361ed2d
+    m_Address: 56_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 0340fa319431aec4aa5ef8d59f8308c9
+    m_Address: 56_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 618b45bfb884aa0448ee1e2d946c1a42
+    m_Address: 57
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 2b35e17aeeb2c3c4e99fe14e0a917499
+    m_Address: 57_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 3cb209307220dfa4dba6bbe5ea918914
+    m_Address: 57_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: cea3b6cb739817e43a5eb8c2c45fab7b
+    m_Address: 57_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: ba5dfb024f2404a4eb73d42501753e6f
+    m_Address: 59
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 8a5d8f8274eb43f4eb8dc3132dd0d822
+    m_Address: 59_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: c21aa4de7b4f45146bf9a75c0f1a6817
+    m_Address: 59_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 64cf97570aa6cf14c9ec587c168d2f05
+    m_Address: 59_4
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: bc05c755b1d929f4d9a4e4898a782530
+    m_Address: 60
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: eca28af6156f3cf4dbba302fa1f05ca9
+    m_Address: 60_2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: e59fb1fcfd0390c4296c4440b273702c
+    m_Address: 60_3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  - m_GUID: 3d22d46bdca84694d8f501c62b5d35c6
+    m_Address: 60_4
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - MonsterSprite
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 3d25fa4c52a3a1b4aba4f9b4dccbba57, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: e80bf6c7e7cf8fd4baf7f61ab8c7e8b6, type: 2}
+    - {fileID: 11400000, guid: ff5c27efcd0d1bc42b031a88281a6c74, type: 2}
