@@ -24,6 +24,7 @@ public class SelectStageScene : BaseScene
         Managers.Sound.Clear();
         Managers.Sound.Play(Sound.Bgm, "Sound_OnStage");
 
+        new GameObject("My_Utils").AddComponent<MyUtils>();
 
         return true;
     }

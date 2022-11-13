@@ -122,6 +122,7 @@ public class UI_WeaponGachaPopup : UI_Popup
                         GetCount = count, 
                     };
                     _gachaWeapons.Add(a);
+                    // EXP UP
                     Managers.Game.WeaponExp[j - 1] += count;
                     if (Managers.Game.WeaponLevel[j - 1] < 1)
                         Managers.Game.WeaponLevel[j - 1] = 1;

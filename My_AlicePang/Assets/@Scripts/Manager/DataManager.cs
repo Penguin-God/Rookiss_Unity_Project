@@ -2,8 +2,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
-using System.Xml;
-using System.Xml.Serialization;
 using TMPro;
 using UnityEngine;
 using System.Linq;
@@ -70,30 +68,6 @@ public class DataManager
 			//Loader loader = JsonConvert.DeserializeObject<Loader>(textAsset.text);
 			Loader loader = JsonUtility.FromJson<Loader>(textAsset.text);
 			callback?.Invoke(loader);
-		});
-	}
-
-	void LoadSingleXml<Item>(string key, Action<Item> callback)
-	{
-		Managers.Resource.LoadAsync<TextAsset>(key, (textAsset) =>
-		{
-			XmlSerializer xs = new XmlSerializer(typeof(Item));
-			using (MemoryStream stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(textAsset.text)))
-			{
-				callback?.Invoke((Item)xs.Deserialize(stream));
-			}
-		});
-	}
-
-	void LoadXml<Loader, Key, Item>(string key, Action<Loader> callback) where Loader : ILoader<Key, Item>, new()
-	{
-		Managers.Resource.LoadAsync<TextAsset>(key, (textAsset) =>
-		{
-			XmlSerializer xs = new XmlSerializer(typeof(Loader));
-			using (MemoryStream stream = new MemoryStream(System.Text.Encoding.UTF8.GetBytes(textAsset.text)))
-			{
-				callback?.Invoke((Loader)xs.Deserialize(stream));
-			}
 		});
 	}
 }
