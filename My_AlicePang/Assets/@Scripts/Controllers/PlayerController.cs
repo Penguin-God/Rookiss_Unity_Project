@@ -338,7 +338,7 @@ public class PlayerController : BaseController
 	{
 		State = CreatureState.Dead;
 		//게임 오버
-		(Managers.Scene.CurrentScene as GameScene).GameOver();
+		(Managers.Scene.CurrentScene as GameScene)?.GameOver();
 	}
 
 	public void RevivePlayer()
